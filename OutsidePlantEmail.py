@@ -31,7 +31,7 @@ def timeToWater(dateS):
     # Define SMTP email server details
     smtp_server = 'smtp-mail.outlook.com'
     smtp_user='mark_perrin@hotmail.com'
-    smtp_pass='Tuk3uTuk4u'
+    smtp_pass='Tuk1uTuk2u'
 
     msgStr='Time to water the garden as of '+dateS
     print(msgStr)
@@ -89,7 +89,7 @@ while True:
             # gr.off();
             # red.on()
             if not emailSent :
-                timeToWater(dateS)
+                #timeToWater(dateS)
                 emailSent=True
 
         therow=(dateS,float(temp),float(humid))

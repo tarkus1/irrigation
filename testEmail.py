@@ -15,7 +15,7 @@ addr_from = 'mark_perrin@hotmail.com'
 # Define SMTP email server details
 smtp_server = 'smtp-mail.outlook.com'
 smtp_user='mark_perrin@hotmail.com'
-smtp_pass='Tuk3uTuk4u'
+smtp_pass='Tuk1uTuk2u'
 
 msg = MIMEText('test')
 msg['To'] = addr_to
