@@ -1,0 +1,9300 @@
+python3: can't open file 'Test\ Stuff.py': [Errno 2] No such file or directory
+26.76249D010000
+bus.0
+Time:  20190529 07:35:19
+Temp:  7.09375
+Moisture:  25.2077
+Time:  20190529 07:36:21
+Temp:  7.1875
+Moisture:  25.1144
+Time:  20190529 07:37:21
+Temp:  7.1875
+Moisture:  25.4666
+Traceback (most recent call last):
+  File "./Test Stuff.py", line 98, in <module>
+    sleep(60)
+KeyboardInterrupt
+26.76249D010000
+bus.0
+Time:  20190529 07:36:28
+Temp:  7.1875
+Moisture:  25.1144
+Time:  20190529 07:37:29
+Temp:  7.1875
+Moisture:  25.4666
+Traceback (most recent call last):
+  File "/home/pi/irrigation/Test Stuff.py", line 98, in <module>
+    sleep(60)
+KeyboardInterrupt
+26.76249D010000
+bus.0
+Time:  20190529 07:38:46
+Temp:  7.3125
+Moisture:  25.8269
+Time:  20190529 07:39:46
+Temp:  7.34375
+Moisture:  25.5748
+Time:  20190529 07:40:47
+Temp:  7.4375
+Moisture:  25.1765
+Time:  20190529 07:41:48
+Temp:  7.5625
+Moisture:  25.4865
+Time:  20190529 07:42:49
+Temp:  7.59375
+Moisture:  25.4881
+Time:  20190529 07:43:50
+Temp:  7.65625
+Moisture:  25.1389
+Time:  20190529 07:44:51
+Temp:  7.75
+Moisture:  25.4467
+Time:  20190529 07:45:51
+Temp:  7.6875
+Moisture:  25.4931
+Time:  20190529 07:46:52
+Temp:  7.84375
+Moisture:  25.5014
+Time:  20190529 07:47:53
+Temp:  8.0
+Moisture:  25.8639
+Time:  20190529 07:48:54
+Temp:  8.0
+Moisture:  25.4599
+Time:  20190529 07:49:55
+Temp:  8.09375
+Moisture:  25.2109
+Time:  20190529 07:50:56
+Temp:  8.0625
+Moisture:  25.2093
+Time:  20190529 07:51:57
+Temp:  8.0
+Moisture:  25.5596
+Time:  20190529 07:52:58
+Temp:  8.0625
+Moisture:  25.2093
+Time:  20190529 07:53:59
+Temp:  8.3125
+Moisture:  25.5263
+Time:  20190529 07:54:59
+Temp:  8.3125
+Moisture:  25.5762
+Time:  20190529 07:56:00
+Temp:  8.46875
+Moisture:  25.5346
+Time:  20190529 07:57:01
+Temp:  8.5
+Moisture:  25.1831
+Time:  20190529 07:58:02
+Temp:  8.46875
+Moisture:  25.5346
+Time:  20190529 07:59:03
+Temp:  8.5625
+Moisture:  25.5396
+Time:  20190529 08:00:04
+Temp:  8.59375
+Moisture:  25.6414
+Time:  20190529 08:01:04
+Temp:  8.71875
+Moisture:  25.5479
+Time:  20190529 08:02:05
+Temp:  8.71875
+Moisture:  25.5479
+Time:  20190529 08:03:06
+Temp:  8.875
+Moisture:  25.5064
+Time:  20190529 08:04:07
+Temp:  8.8125
+Moisture:  25.6029
+Time:  20190529 08:05:08
+Temp:  8.9375
+Moisture:  25.5097
+Time:  20190529 08:06:09
+Temp:  9.0625
+Moisture:  25.8202
+Time:  20190529 08:07:10
+Temp:  9.09375
+Moisture:  25.5181
+Time:  20190529 08:08:10
+Temp:  9.21875
+Moisture:  25.5247
+Time:  20190529 08:09:11
+Temp:  9.1875
+Moisture:  25.8269
+Time:  20190529 08:10:12
+Temp:  9.25
+Moisture:  25.5762
+Time:  20190529 08:11:13
+Temp:  9.25
+Moisture:  25.8807
+Time:  20190529 08:12:14
+Temp:  9.3125
+Moisture:  25.5796
+Time:  20190529 08:13:15
+Temp:  9.40625
+Moisture:  25.6347
+Time:  20190529 08:14:16
+Temp:  9.46875
+Moisture:  25.5879
+Time:  20190529 08:15:17
+Temp:  9.53125
+Moisture:  25.2866
+Time:  20190529 08:16:17
+Temp:  9.625
+Moisture:  25.5464
+Time:  20190529 08:17:18
+Temp:  9.625
+Moisture:  25.6464
+Time:  20190529 08:18:19
+Temp:  9.59375
+Moisture:  25.8993
+Time:  20190529 08:19:20
+Temp:  9.71875
+Moisture:  25.9061
+Time:  20190529 08:20:21
+Temp:  9.84375
+Moisture:  25.3031
+Time:  20190529 08:21:22
+Temp:  9.875
+Moisture:  25.9653
+Time:  20190529 08:22:23
+Temp:  9.9375
+Moisture:  25.9179
+Time:  20190529 08:23:24
+Temp:  10.0
+Moisture:  25.6164
+Time:  20190529 08:24:24
+Temp:  10.0625
+Moisture:  25.6698
+Time:  20190529 08:25:25
+Temp:  10.1562
+Moisture:  25.3197
+Time:  20190529 08:26:26
+Temp:  10.2188
+Moisture:  25.6281
+Time:  20190529 08:27:27
+Temp:  10.2812
+Moisture:  25.3263
+Time:  20190529 08:28:28
+Temp:  10.4688
+Moisture:  25.5915
+Time:  20190529 08:29:29
+Temp:  10.4375
+Moisture:  25.6398
+Time:  20190529 08:30:30
+Temp:  10.5
+Moisture:  25.6432
+Time:  20190529 08:31:30
+Temp:  10.5938
+Moisture:  25.2935
+Time:  20190529 08:32:31
+Temp:  10.625
+Moisture:  25.6499
+Time:  20190529 08:33:32
+Temp:  10.6562
+Moisture:  26.0077
+Time:  20190529 08:34:33
+Temp:  10.7188
+Moisture:  25.6549
+Time:  20190529 08:35:34
+Temp:  10.9062
+Moisture:  25.615
+Time:  20190529 08:36:35
+Temp:  10.9688
+Moisture:  25.6683
+Time:  20190529 08:37:35
+Temp:  11.125
+Moisture:  25.6768
+Time:  20190529 08:38:36
+Temp:  11.125
+Moisture:  25.6768
+Time:  20190529 08:39:37
+Temp:  11.1875
+Moisture:  25.9858
+Time:  20190529 08:40:38
+Temp:  11.4062
+Moisture:  25.9978
+Time:  20190529 08:41:39
+Temp:  11.4375
+Moisture:  25.9995
+Time:  20190529 08:42:40
+Temp:  11.5938
+Moisture:  25.702
+Time:  20190529 08:43:41
+Temp:  11.6562
+Moisture:  25.9607
+Time:  20190529 08:44:41
+Temp:  11.9062
+Moisture:  25.7189
+Time:  20190529 08:45:42
+Temp:  12.0
+Moisture:  26.0302
+Time:  20190529 08:46:43
+Temp:  12.1875
+Moisture:  26.0404
+Time:  20190529 08:47:44
+Temp:  12.3438
+Moisture:  25.7425
+Time:  20190529 08:48:45
+Temp:  12.4688
+Moisture:  26.005
+Time:  20190529 08:49:46
+Temp:  12.5
+Moisture:  26.1085
+Time:  20190529 08:50:46
+Temp:  12.5
+Moisture:  26.0067
+Time:  20190529 08:51:47
+Temp:  12.625
+Moisture:  26.1154
+Time:  20190529 08:52:48
+Temp:  12.5938
+Moisture:  26.0627
+Time:  20190529 08:53:49
+Temp:  12.625
+Moisture:  25.8587
+Time:  20190529 08:54:50
+Temp:  12.6562
+Moisture:  25.7594
+Time:  20190529 08:55:51
+Temp:  12.6562
+Moisture:  26.0661
+Time:  20190529 08:56:51
+Temp:  12.75
+Moisture:  25.7645
+Time:  20190529 08:57:52
+Temp:  12.7188
+Moisture:  26.1205
+Time:  20190529 08:58:53
+Temp:  12.875
+Moisture:  26.0781
+Time:  20190529 08:59:54
+Temp:  12.9062
+Moisture:  26.0798
+Time:  20190529 09:00:55
+Temp:  13.0
+Moisture:  26.0849
+Time:  20190529 09:01:56
+Temp:  13.0312
+Moisture:  26.0867
+Time:  20190529 09:02:56
+Temp:  13.125
+Moisture:  26.1429
+Time:  20190529 09:03:57
+Temp:  13.3125
+Moisture:  25.795
+Time:  20190529 09:04:58
+Temp:  13.4375
+Moisture:  26.0581
+Time:  20190529 09:05:59
+Temp:  13.5938
+Moisture:  26.1687
+Time:  20190529 09:07:00
+Temp:  13.6562
+Moisture:  26.121
+Time:  20190529 09:08:01
+Temp:  13.7188
+Moisture:  25.8171
+Time:  20190529 09:09:02
+Temp:  14.0
+Moisture:  26.1399
+Time:  20190529 09:10:02
+Temp:  13.9375
+Moisture:  25.7787
+Time:  20190529 09:11:03
+Temp:  14.125
+Moisture:  26.1468
+Time:  20190529 09:12:04
+Temp:  14.5625
+Moisture:  26.171
+Time:  20190529 09:13:05
+Temp:  14.8438
+Moisture:  26.1355
+Time:  20190529 09:14:06
+Temp:  15.2812
+Moisture:  26.2108
+Time:  20190529 09:15:07
+Temp:  15.6562
+Moisture:  26.2829
+Time:  20190529 09:16:08
+Temp:  16.0
+Moisture:  26.2507
+Time:  20190529 09:17:09
+Temp:  16.25
+Moisture:  26.2646
+Time:  20190529 09:18:09
+Temp:  16.4688
+Moisture:  26.2767
+Time:  20190529 09:19:10
+Temp:  16.7188
+Moisture:  26.3421
+Time:  20190529 09:20:11
+Temp:  17.125
+Moisture:  26.3648
+Time:  20190529 09:21:12
+Temp:  17.6875
+Moisture:  26.3448
+Time:  20190529 09:22:13
+Temp:  18.7812
+Moisture:  26.4062
+Time:  20190529 09:23:14
+Temp:  19.8438
+Moisture:  26.4661
+Time:  20190529 09:24:15
+Temp:  20.7812
+Moisture:  26.5191
+Time:  20190529 09:25:15
+Temp:  21.125
+Moisture:  26.5387
+Time:  20190529 09:26:16
+Temp:  21.4062
+Moisture:  26.5029
+Time:  20190529 09:27:17
+Temp:  21.7812
+Moisture:  26.576
+Time:  20190529 09:28:18
+Temp:  21.9062
+Moisture:  26.3218
+Time:  20190529 09:29:19
+Temp:  22.0625
+Moisture:  26.592
+Time:  20190529 09:30:20
+Temp:  22.2188
+Moisture:  26.6009
+Time:  20190529 09:31:20
+Temp:  22.2188
+Moisture:  26.6009
+Time:  20190529 09:32:21
+Temp:  21.75
+Moisture:  26.5742
+Time:  20190529 09:33:22
+Temp:  21.4062
+Moisture:  26.5547
+Time:  20190529 09:34:23
+Temp:  21.0625
+Moisture:  26.5351
+Time:  20190529 09:35:24
+Temp:  20.5
+Moisture:  26.5032
+Time:  20190529 09:36:25
+Temp:  20.3125
+Moisture:  26.4926
+Time:  20190529 09:37:26
+Temp:  20.0
+Moisture:  26.4749
+Time:  20190529 09:38:26
+Temp:  19.7188
+Moisture:  26.459
+Time:  20190529 09:39:27
+Temp:  19.5
+Moisture:  26.4467
+Time:  20190529 09:40:28
+Temp:  19.5625
+Moisture:  26.5019
+Time:  20190529 09:41:29
+Temp:  19.75
+Moisture:  26.4608
+Time:  20190529 09:42:30
+Temp:  19.9375
+Moisture:  26.4714
+Time:  20190529 09:43:31
+Temp:  20.4688
+Moisture:  26.5533
+Time:  20190529 09:44:32
+Temp:  20.7812
+Moisture:  26.4675
+Time:  20190529 09:45:32
+Temp:  21.0938
+Moisture:  26.4852
+Time:  20190529 09:46:33
+Temp:  21.25
+Moisture:  26.494
+Time:  20190529 09:47:34
+Temp:  21.5625
+Moisture:  26.6155
+Time:  20190529 09:48:35
+Temp:  21.8438
+Moisture:  26.8398
+Time:  20190529 09:49:36
+Temp:  22.2188
+Moisture:  26.5491
+Time:  20190529 09:50:36
+Temp:  22.375
+Moisture:  26.6099
+Time:  20190529 09:51:37
+Temp:  22.5625
+Moisture:  26.6206
+Time:  20190529 09:52:38
+Temp:  22.375
+Moisture:  26.6099
+Time:  20190529 09:53:39
+Temp:  22.3438
+Moisture:  25.982
+Time:  20190529 09:54:40
+Temp:  22.4062
+Moisture:  26.6117
+Time:  20190529 09:55:41
+Temp:  22.25
+Moisture:  26.6027
+Time:  20190529 09:56:42
+Temp:  22.1562
+Moisture:  26.5974
+Time:  20190529 09:57:43
+Temp:  21.875
+Moisture:  26.5295
+Time:  20190529 09:58:43
+Temp:  21.7812
+Moisture:  26.576
+Time:  20190529 09:59:44
+Temp:  21.75
+Moisture:  26.9395
+Time:  20190529 10:00:45
+Temp:  22.0938
+Moisture:  26.5938
+Time:  20190529 10:01:46
+Temp:  22.375
+Moisture:  26.6099
+Time:  20190529 10:02:47
+Temp:  22.7812
+Moisture:  26.5812
+Time:  20190529 10:03:48
+Temp:  22.9375
+Moisture:  26.642
+Time:  20190529 10:04:49
+Temp:  22.9688
+Moisture:  26.6438
+Time:  20190529 10:05:50
+Temp:  22.8125
+Moisture:  26.7393
+Time:  20190529 10:06:50
+Temp:  22.7188
+Moisture:  26.6295
+Time:  20190529 10:07:51
+Temp:  22.5
+Moisture:  26.617
+Time:  20190529 10:08:52
+Temp:  22.5312
+Moisture:  26.932
+Time:  20190529 10:09:53
+Temp:  22.8125
+Moisture:  26.8957
+Time:  20190529 10:10:54
+Temp:  23.1562
+Moisture:  26.6546
+Time:  20190529 10:11:55
+Temp:  23.4375
+Moisture:  26.9845
+Time:  20190529 10:12:55
+Temp:  23.7188
+Moisture:  27.0008
+Time:  20190529 10:13:56
+Temp:  23.5625
+Moisture:  26.6779
+Time:  20190529 10:14:57
+Temp:  23.3125
+Moisture:  26.6635
+Time:  20190529 10:15:58
+Temp:  23.1875
+Moisture:  26.6044
+Time:  20190529 10:16:59
+Temp:  22.8438
+Moisture:  26.5847
+Time:  20190529 10:18:00
+Temp:  22.7188
+Moisture:  26.9428
+Time:  20190529 10:19:01
+Temp:  22.25
+Moisture:  26.6027
+Time:  20190529 10:20:02
+Temp:  21.9688
+Moisture:  26.8995
+Time:  20190529 10:21:02
+Temp:  21.7188
+Moisture:  26.5724
+Time:  20190529 10:22:03
+Temp:  21.625
+Moisture:  26.8797
+Time:  20190529 10:23:04
+Temp:  21.4375
+Moisture:  27.1813
+Time:  20190529 10:24:05
+Temp:  21.375
+Moisture:  26.8129
+Time:  20190529 10:25:06
+Temp:  21.3125
+Moisture:  26.9142
+Time:  20190529 10:26:07
+Temp:  21.4062
+Moisture:  26.5547
+Time:  20190529 10:27:07
+Temp:  21.375
+Moisture:  26.5529
+Time:  20190529 10:28:08
+Temp:  21.25
+Moisture:  26.494
+Time:  20190529 10:29:09
+Temp:  21.4062
+Moisture:  26.9196
+Time:  20190529 10:30:10
+Temp:  21.3438
+Moisture:  26.5511
+Time:  20190529 10:31:11
+Temp:  21.375
+Moisture:  26.8653
+Time:  20190529 10:32:12
+Temp:  21.2812
+Moisture:  26.4958
+Time:  20190529 10:33:13
+Temp:  21.2812
+Moisture:  26.5995
+Time:  20190529 10:34:13
+Temp:  21.25
+Moisture:  26.8057
+Time:  20190529 10:35:14
+Temp:  21.1562
+Moisture:  26.4887
+Time:  20190529 10:36:15
+Temp:  21.3438
+Moisture:  26.5511
+Time:  20190529 10:37:16
+Temp:  21.25
+Moisture:  26.9106
+Time:  20190529 10:38:17
+Temp:  21.4375
+Moisture:  26.6084
+Time:  20190529 10:39:18
+Temp:  21.5
+Moisture:  26.56
+Time:  20190529 10:40:18
+Temp:  21.5625
+Moisture:  26.5635
+Time:  20190529 10:41:19
+Temp:  21.6562
+Moisture:  26.8815
+Time:  20190529 10:42:20
+Temp:  21.875
+Moisture:  26.8941
+Time:  20190529 10:43:21
+Temp:  22.1875
+Moisture:  26.9121
+Time:  20190529 10:44:22
+Temp:  22.9375
+Moisture:  26.642
+Time:  20190529 10:45:23
+Temp:  23.5938
+Moisture:  26.7319
+Time:  20190529 10:46:24
+Temp:  24.3125
+Moisture:  27.2964
+Time:  20190529 10:47:25
+Temp:  25.0938
+Moisture:  26.7661
+Time:  20190529 10:48:25
+Temp:  25.6875
+Moisture:  27.3776
+Time:  20190529 10:49:26
+Temp:  26.1875
+Moisture:  27.1451
+Time:  20190529 10:50:27
+Temp:  26.7188
+Moisture:  27.1233
+Time:  20190529 10:51:28
+Temp:  27.3125
+Moisture:  27.2113
+Time:  20190529 10:52:29
+Temp:  27.8438
+Moisture:  27.2427
+Time:  20190529 10:53:30
+Temp:  28.3438
+Moisture:  27.5895
+Time:  20190529 10:54:31
+Temp:  29.0625
+Moisture:  27.5788
+Time:  20190529 10:55:31
+Temp:  30.4688
+Moisture:  27.6635
+Time:  20190529 10:56:32
+Temp:  31.875
+Moisture:  27.8029
+Time:  20190529 10:57:33
+Temp:  33.125
+Moisture:  27.9339
+Time:  20190529 10:58:34
+Temp:  34.125
+Moisture:  27.9407
+Time:  20190529 10:59:35
+Temp:  35.4375
+Moisture:  27.9671
+Time:  20190529 11:00:36
+Temp:  36.4375
+Moisture:  28.0837
+Time:  20190529 11:01:36
+Temp:  37.0625
+Moisture:  28.1776
+Time:  20190529 11:02:37
+Temp:  37.375
+Moisture:  28.0872
+Time:  20190529 11:03:38
+Temp:  37.75
+Moisture:  28.1655
+Time:  20190529 11:04:39
+Temp:  38.5
+Moisture:  28.5368
+Time:  20190529 11:05:40
+Temp:  39.4688
+Moisture:  28.2734
+Time:  20190529 11:06:41
+Temp:  40.5625
+Moisture:  28.6683
+Time:  20190529 11:07:42
+Temp:  41.3438
+Moisture:  28.7184
+Time:  20190529 11:08:43
+Temp:  42.0938
+Moisture:  28.7106
+Time:  20190529 11:09:44
+Temp:  43.0
+Moisture:  28.769
+Time:  20190529 11:10:44
+Temp:  43.75
+Moisture:  28.8176
+Time:  20190529 11:11:45
+Temp:  44.3438
+Moisture:  28.8561
+Time:  20190529 11:12:46
+Temp:  45.0
+Moisture:  29.2843
+Time:  20190529 11:13:47
+Temp:  45.4062
+Moisture:  28.6525
+Time:  20190529 11:14:48
+Temp:  45.7188
+Moisture:  29.3893
+Time:  20190529 11:15:49
+Temp:  45.9062
+Moisture:  29.3443
+Time:  20190529 11:16:50
+Temp:  46.1875
+Moisture:  29.0331
+Time:  20190529 11:17:50
+Temp:  46.5625
+Moisture:  29.3879
+Time:  20190529 11:18:51
+Temp:  46.8125
+Moisture:  29.4045
+Time:  20190529 11:19:52
+Temp:  46.8125
+Moisture:  29.4045
+Time:  20190529 11:20:53
+Temp:  46.7188
+Moisture:  29.3983
+Time:  20190529 11:21:54
+Temp:  46.8438
+Moisture:  29.0762
+Time:  20190529 11:22:55
+Temp:  47.3125
+Moisture:  29.5533
+Time:  20190529 11:23:56
+Temp:  47.3438
+Moisture:  29.44
+Time:  20190529 11:24:56
+Temp:  47.5312
+Moisture:  29.1216
+Time:  20190529 11:25:57
+Temp:  47.4688
+Moisture:  29.3909
+Time:  20190529 11:26:58
+Temp:  47.625
+Moisture:  29.1278
+Time:  20190529 11:27:59
+Temp:  47.5938
+Moisture:  29.3993
+Time:  20190529 11:29:00
+Temp:  47.6562
+Moisture:  29.4609
+Time:  20190529 11:30:01
+Temp:  47.5625
+Moisture:  29.4546
+Time:  20190529 11:31:02
+Temp:  47.5
+Moisture:  29.508
+Time:  20190529 11:32:02
+Temp:  47.625
+Moisture:  29.4588
+Time:  20190529 11:33:03
+Temp:  47.6875
+Moisture:  29.4629
+Time:  20190529 11:34:04
+Temp:  47.8438
+Moisture:  29.4734
+Time:  20190529 11:35:05
+Temp:  48.0625
+Moisture:  29.488
+Time:  20190529 11:36:06
+Temp:  48.1875
+Moisture:  29.4964
+Time:  20190529 11:37:07
+Temp:  48.25
+Moisture:  29.5006
+Time:  20190529 11:38:08
+Temp:  48.2812
+Moisture:  29.5027
+Time:  20190529 11:39:08
+Temp:  48.375
+Moisture:  29.5667
+Time:  20190529 11:40:09
+Temp:  48.5625
+Moisture:  29.5216
+Time:  20190529 11:41:10
+Temp:  48.4062
+Moisture:  29.5111
+Time:  20190529 11:42:11
+Temp:  48.6875
+Moisture:  29.53
+Time:  20190529 11:43:12
+Temp:  48.9062
+Moisture:  29.4871
+Time:  20190529 11:44:13
+Temp:  49.125
+Moisture:  29.5018
+Time:  20190529 11:45:14
+Temp:  49.4062
+Moisture:  29.5783
+Time:  20190529 11:46:14
+Temp:  49.6875
+Moisture:  29.5973
+Time:  20190529 11:47:15
+Temp:  49.5312
+Moisture:  29.5868
+Time:  20190529 11:48:16
+Temp:  49.6875
+Moisture:  29.6552
+Time:  20190529 11:49:17
+Temp:  49.8125
+Moisture:  29.6058
+Time:  20190529 11:50:18
+Temp:  50.0312
+Moisture:  29.6205
+Time:  20190529 11:51:19
+Temp:  50.1562
+Moisture:  29.687
+Time:  20190529 11:52:19
+Temp:  50.3125
+Moisture:  29.5818
+Time:  20190529 11:53:20
+Temp:  50.75
+Moisture:  29.6692
+Time:  20190529 11:54:21
+Temp:  51.0938
+Moisture:  29.6346
+Time:  20190529 11:55:22
+Temp:  51.4375
+Moisture:  29.382
+Time:  20190529 11:56:23
+Temp:  51.5625
+Moisture:  29.7244
+Time:  20190529 11:57:24
+Temp:  51.6875
+Moisture:  29.7329
+Time:  20190529 11:58:25
+Temp:  51.6562
+Moisture:  29.7308
+Time:  20190529 11:59:25
+Temp:  51.3438
+Moisture:  29.7095
+Time:  20190529 12:00:26
+Temp:  51.0312
+Moisture:  29.6883
+Time:  20190529 12:01:27
+Temp:  50.5938
+Moisture:  29.6008
+Time:  20190529 12:02:28
+Temp:  50.5312
+Moisture:  29.6544
+Time:  20190529 12:03:29
+Temp:  50.875
+Moisture:  29.6198
+Time:  20190529 12:04:30
+Temp:  50.75
+Moisture:  29.7273
+Time:  20190529 12:05:30
+Temp:  50.5625
+Moisture:  30.0484
+Time:  20190529 12:06:31
+Temp:  50.5
+Moisture:  29.7103
+Time:  20190529 12:07:32
+Temp:  50.5625
+Moisture:  29.6565
+Time:  20190529 12:08:33
+Temp:  50.8125
+Moisture:  30.0068
+Time:  20190529 12:09:34
+Temp:  51.4375
+Moisture:  29.658
+Time:  20190529 12:10:34
+Temp:  51.625
+Moisture:  29.7287
+Time:  20190529 12:11:35
+Temp:  51.8438
+Moisture:  29.7436
+Time:  20190529 12:12:36
+Temp:  51.9688
+Moisture:  29.7521
+Time:  20190529 12:13:37
+Temp:  52.0938
+Moisture:  29.7606
+Time:  20190529 12:14:38
+Temp:  52.2812
+Moisture:  29.7734
+Time:  20190529 12:15:39
+Temp:  52.5625
+Moisture:  29.7345
+Time:  20190529 12:16:40
+Temp:  52.4688
+Moisture:  29.7862
+Time:  20190529 12:17:41
+Temp:  52.625
+Moisture:  29.7969
+Time:  20190529 12:18:41
+Temp:  52.5938
+Moisture:  29.7948
+Time:  20190529 12:19:42
+Temp:  52.7812
+Moisture:  30.1425
+Time:  20190529 12:20:43
+Temp:  53.0625
+Moisture:  29.8852
+Time:  20190529 12:21:44
+Temp:  52.8125
+Moisture:  29.8097
+Time:  20190529 12:22:44
+Temp:  52.75
+Moisture:  30.4752
+Time:  20190529 12:23:45
+Temp:  52.5
+Moisture:  29.7883
+Time:  20190529 12:24:46
+Temp:  52.4062
+Moisture:  29.8402
+Time:  20190529 12:25:47
+Temp:  51.875
+Moisture:  29.7457
+Time:  20190529 12:26:48
+Temp:  51.9688
+Moisture:  30.0864
+Time:  20190529 12:27:49
+Temp:  52.2188
+Moisture:  29.7691
+Time:  20190529 12:28:50
+Temp:  52.625
+Moisture:  29.8552
+Time:  20190529 12:29:50
+Temp:  52.9062
+Moisture:  29.758
+Time:  20190529 12:30:51
+Temp:  52.7812
+Moisture:  29.8076
+Time:  20190529 12:31:52
+Temp:  52.5625
+Moisture:  29.7926
+Time:  20190529 12:32:53
+Temp:  52.3438
+Moisture:  29.8359
+Time:  20190529 12:33:54
+Temp:  51.9375
+Moisture:  29.7499
+Time:  20190529 12:34:55
+Temp:  51.5312
+Moisture:  29.7223
+Time:  20190529 12:35:56
+Temp:  50.75
+Moisture:  30.0613
+Time:  20190529 12:36:56
+Temp:  50.2188
+Moisture:  29.7494
+Time:  20190529 12:37:57
+Temp:  49.7188
+Moisture:  29.9906
+Time:  20190529 12:38:58
+Temp:  49.75
+Moisture:  29.6015
+Time:  20190529 12:39:59
+Temp:  50.2188
+Moisture:  29.6912
+Time:  20190529 12:40:59
+Temp:  51.1562
+Moisture:  30.0892
+Time:  20190529 12:42:00
+Temp:  51.7812
+Moisture:  30.0734
+Time:  20190529 12:43:01
+Temp:  52.5938
+Moisture:  29.7948
+Time:  20190529 12:44:02
+Temp:  53.125
+Moisture:  29.8311
+Time:  20190529 12:45:03
+Temp:  53.0625
+Moisture:  29.8269
+Time:  20190529 12:46:04
+Temp:  53.0312
+Moisture:  29.8831
+Time:  20190529 12:47:05
+Temp:  53.5625
+Moisture:  30.5322
+Time:  20190529 12:48:06
+Temp:  54.0312
+Moisture:  30.625
+Time:  20190529 12:49:06
+Temp:  54.4375
+Moisture:  30.2576
+Time:  20190529 12:50:07
+Temp:  54.6875
+Moisture:  29.9386
+Time:  20190529 12:51:08
+Temp:  54.9062
+Moisture:  30.2903
+Time:  20190529 12:52:09
+Temp:  54.75
+Moisture:  29.943
+Time:  20190529 12:53:10
+Temp:  54.1562
+Moisture:  29.9605
+Time:  20190529 12:54:11
+Temp:  53.5938
+Moisture:  29.8633
+Time:  20190529 12:55:12
+Temp:  53.6875
+Moisture:  30.2054
+Time:  20190529 12:56:12
+Temp:  53.7812
+Moisture:  30.153
+Time:  20190529 12:57:13
+Temp:  53.75
+Moisture:  29.9325
+Time:  20190529 12:58:14
+Temp:  53.7812
+Moisture:  30.153
+Time:  20190529 12:59:15
+Temp:  54.0938
+Moisture:  29.8394
+Time:  20190529 13:00:16
+Temp:  54.3438
+Moisture:  29.9149
+Time:  20190529 13:01:17
+Temp:  54.5938
+Moisture:  30.3277
+Time:  20190529 13:02:18
+Temp:  54.9375
+Moisture:  30.2925
+Time:  20190529 13:03:18
+Temp:  54.9688
+Moisture:  30.2947
+Time:  20190529 13:04:19
+Temp:  54.6562
+Moisture:  29.9365
+Time:  20190529 13:05:20
+Temp:  53.5625
+Moisture:  30.1967
+Time:  20190529 13:06:21
+Temp:  52.8125
+Moisture:  30.1447
+Time:  20190529 13:07:22
+Temp:  53.0312
+Moisture:  30.1598
+Time:  20190529 13:08:23
+Temp:  53.125
+Moisture:  30.1075
+Time:  20190529 13:09:24
+Temp:  53.1875
+Moisture:  30.1707
+Time:  20190529 13:10:25
+Temp:  53.375
+Moisture:  30.1837
+Time:  20190529 13:11:25
+Temp:  53.125
+Moisture:  30.1663
+Time:  20190529 13:12:26
+Temp:  53.0
+Moisture:  29.8809
+Time:  20190529 13:13:27
+Temp:  53.0
+Moisture:  30.4927
+Time:  20190529 13:14:28
+Temp:  52.75
+Moisture:  30.1403
+Time:  20190529 13:15:29
+Temp:  52.5938
+Moisture:  30.1295
+Time:  20190529 13:16:30
+Temp:  52.9375
+Moisture:  30.0945
+Time:  20190529 13:17:31
+Temp:  53.4375
+Moisture:  30.5234
+Time:  20190529 13:18:31
+Temp:  53.7188
+Moisture:  30.2075
+Time:  20190529 13:19:32
+Temp:  53.5938
+Moisture:  30.14
+Time:  20190529 13:20:33
+Temp:  53.1875
+Moisture:  30.1707
+Time:  20190529 13:21:34
+Temp:  52.5625
+Moisture:  30.1274
+Time:  20190529 13:22:35
+Temp:  52.3438
+Moisture:  30.1123
+Time:  20190529 13:23:35
+Temp:  51.9375
+Moisture:  30.4185
+Time:  20190529 13:24:36
+Temp:  51.7188
+Moisture:  30.0691
+Time:  20190529 13:25:37
+Temp:  52.1875
+Moisture:  30.4359
+Time:  20190529 13:26:38
+Temp:  53.0
+Moisture:  30.1577
+Time:  20190529 13:27:39
+Temp:  53.6875
+Moisture:  30.2054
+Time:  20190529 13:28:40
+Temp:  53.9375
+Moisture:  30.2228
+Time:  20190529 13:29:41
+Temp:  53.8438
+Moisture:  30.2162
+Time:  20190529 13:30:41
+Temp:  54.2188
+Moisture:  30.2423
+Time:  20190529 13:31:42
+Temp:  54.5312
+Moisture:  30.2641
+Time:  20190529 13:32:43
+Temp:  54.7812
+Moisture:  30.2816
+Time:  20190529 13:33:44
+Temp:  55.0625
+Moisture:  30.3605
+Time:  20190529 13:34:45
+Temp:  55.0938
+Moisture:  30.3034
+Time:  20190529 13:35:45
+Temp:  54.8125
+Moisture:  30.2838
+Time:  20190529 13:36:46
+Temp:  54.75
+Moisture:  30.6158
+Time:  20190529 13:37:47
+Temp:  54.9375
+Moisture:  30.2925
+Time:  20190529 13:38:48
+Temp:  54.7812
+Moisture:  30.3408
+Time:  20190529 13:39:49
+Temp:  54.8125
+Moisture:  30.2838
+Time:  20190529 13:40:50
+Temp:  54.9375
+Moisture:  30.2925
+Time:  20190529 13:41:51
+Temp:  55.2812
+Moisture:  30.3166
+Time:  20190529 13:42:52
+Temp:  55.5
+Moisture:  30.7289
+Time:  20190529 13:43:52
+Temp:  55.75
+Moisture:  30.3494
+Time:  20190529 13:44:53
+Temp:  55.5625
+Moisture:  30.3363
+Time:  20190529 13:45:54
+Temp:  55.3438
+Moisture:  30.3209
+Time:  20190529 13:46:55
+Temp:  55.4062
+Moisture:  30.106
+Time:  20190529 13:47:56
+Temp:  55.125
+Moisture:  30.3056
+Time:  20190529 13:48:57
+Temp:  54.9062
+Moisture:  30.2903
+Time:  20190529 13:49:58
+Temp:  54.9375
+Moisture:  29.8975
+Time:  20190529 13:50:58
+Temp:  54.125
+Moisture:  30.2358
+Time:  20190529 13:51:59
+Temp:  52.9688
+Moisture:  29.7623
+Time:  20190529 13:53:00
+Temp:  52.75
+Moisture:  30.1403
+Time:  20190529 13:54:01
+Temp:  52.75
+Moisture:  30.1403
+Time:  20190529 13:55:02
+Temp:  52.9375
+Moisture:  30.2123
+Time:  20190529 13:56:03
+Temp:  53.25
+Moisture:  30.175
+Time:  20190529 13:57:04
+Temp:  53.8438
+Moisture:  30.3943
+Time:  20190529 13:58:05
+Temp:  54.4062
+Moisture:  29.9778
+Time:  20190529 13:59:05
+Temp:  54.5938
+Moisture:  30.6048
+Time:  20190529 14:00:06
+Temp:  54.5
+Moisture:  29.9257
+Time:  20190529 14:01:07
+Temp:  54.625
+Moisture:  29.9343
+Time:  20190529 14:02:08
+Temp:  54.75
+Moisture:  30.2204
+Time:  20190529 14:03:09
+Temp:  55.1562
+Moisture:  30.3671
+Time:  20190529 14:04:10
+Temp:  55.6562
+Moisture:  30.68
+Time:  20190529 14:05:10
+Temp:  55.2812
+Moisture:  29.9797
+Time:  20190529 14:06:11
+Temp:  54.6562
+Moisture:  30.6092
+Time:  20190529 14:07:12
+Temp:  54.5938
+Moisture:  30.6647
+Time:  20190529 14:08:13
+Temp:  54.8438
+Moisture:  30.5628
+Time:  20190529 14:09:14
+Temp:  55.1562
+Moisture:  30.6446
+Time:  20190529 14:10:15
+Temp:  55.4688
+Moisture:  30.6667
+Time:  20190529 14:11:16
+Temp:  55.6875
+Moisture:  30.345
+Time:  20190529 14:12:17
+Temp:  55.8125
+Moisture:  30.6911
+Time:  20190529 14:13:17
+Temp:  55.2188
+Moisture:  30.649
+Time:  20190529 14:14:18
+Temp:  54.875
+Moisture:  30.2881
+Time:  20190529 14:15:19
+Temp:  54.9375
+Moisture:  30.6291
+Time:  20190529 14:16:20
+Temp:  54.7812
+Moisture:  30.618
+Time:  20190529 14:17:21
+Temp:  54.5938
+Moisture:  30.6048
+Time:  20190529 14:18:22
+Temp:  54.625
+Moisture:  30.607
+Time:  20190529 14:19:23
+Temp:  54.6875
+Moisture:  30.6114
+Time:  20190529 14:20:24
+Temp:  54.6875
+Moisture:  30.6114
+Time:  20190529 14:21:24
+Temp:  54.5625
+Moisture:  30.2663
+Time:  20190529 14:22:25
+Temp:  54.8125
+Moisture:  30.6203
+Time:  20190529 14:23:26
+Temp:  54.75
+Moisture:  30.6158
+Time:  20190529 14:24:27
+Temp:  54.5312
+Moisture:  30.6004
+Time:  20190529 14:25:28
+Temp:  54.4688
+Moisture:  30.2598
+Time:  20190529 14:26:29
+Temp:  54.8438
+Moisture:  30.6824
+Time:  20190529 14:27:29
+Temp:  54.6875
+Moisture:  30.6713
+Time:  20190529 14:28:30
+Temp:  54.7188
+Moisture:  30.6136
+Time:  20190529 14:29:31
+Temp:  54.4062
+Moisture:  30.5916
+Time:  20190529 14:30:32
+Temp:  54.0
+Moisture:  30.563
+Time:  20190529 14:31:33
+Temp:  53.5938
+Moisture:  30.5344
+Time:  20190529 14:32:34
+Temp:  53.0
+Moisture:  30.5524
+Time:  20190529 14:33:35
+Temp:  52.625
+Moisture:  30.1317
+Time:  20190529 14:34:35
+Temp:  52.375
+Moisture:  30.449
+Time:  20190529 14:35:36
+Temp:  52.0312
+Moisture:  30.0907
+Time:  20190529 14:36:37
+Temp:  52.0625
+Moisture:  30.5465
+Time:  20190529 14:37:38
+Temp:  52.0
+Moisture:  30.0885
+Time:  20190529 14:38:39
+Temp:  51.6562
+Moisture:  30.0648
+Time:  20190529 14:39:40
+Temp:  51.1562
+Moisture:  30.0892
+Time:  20190529 14:40:41
+Temp:  50.9688
+Moisture:  30.3511
+Time:  20190529 14:41:41
+Temp:  50.8438
+Moisture:  30.009
+Time:  20190529 14:42:42
+Temp:  51.1562
+Moisture:  30.0304
+Time:  20190529 14:43:43
+Temp:  51.5625
+Moisture:  30.1763
+Time:  20190529 14:44:44
+Temp:  51.8438
+Moisture:  30.0778
+Time:  20190529 14:45:45
+Temp:  52.0312
+Moisture:  30.032
+Time:  20190529 14:46:46
+Temp:  52.3438
+Moisture:  30.1123
+Time:  20190529 14:47:46
+Temp:  52.4062
+Moisture:  30.1755
+Time:  20190529 14:48:47
+Temp:  52.4062
+Moisture:  30.1755
+Time:  20190529 14:49:48
+Temp:  52.25
+Moisture:  30.1058
+Time:  20190529 14:50:49
+Temp:  52.3125
+Moisture:  30.1101
+Time:  20190529 14:51:50
+Temp:  52.0312
+Moisture:  30.425
+Time:  20190529 14:52:51
+Temp:  51.75
+Moisture:  30.5247
+Time:  20190529 14:53:51
+Temp:  51.5312
+Moisture:  30.3309
+Time:  20190529 14:54:52
+Temp:  51.6562
+Moisture:  30.0648
+Time:  20190529 14:55:53
+Temp:  51.6562
+Moisture:  30.0648
+Time:  20190529 14:56:54
+Temp:  51.75
+Moisture:  30.4649
+Time:  20190529 14:57:55
+Temp:  51.625
+Moisture:  30.0627
+Time:  20190529 14:58:56
+Temp:  51.4375
+Moisture:  30.3837
+Time:  20190529 14:59:56
+Temp:  51.0938
+Moisture:  29.9676
+Time:  20190529 15:00:57
+Temp:  50.875
+Moisture:  30.0111
+Time:  20190529 15:01:58
+Temp:  50.5312
+Moisture:  29.9876
+Time:  20190529 15:02:59
+Temp:  50.3125
+Moisture:  29.5818
+Time:  20190529 15:04:00
+Temp:  49.875
+Moisture:  29.9427
+Time:  20190529 15:05:01
+Temp:  49.0938
+Moisture:  29.8894
+Time:  20190529 15:06:02
+Temp:  48.4375
+Moisture:  29.9032
+Time:  20190529 15:07:02
+Temp:  47.875
+Moisture:  29.8067
+Time:  20190529 15:08:03
+Temp:  47.4062
+Moisture:  29.775
+Time:  20190529 15:09:04
+Temp:  46.6562
+Moisture:  29.7826
+Time:  20190529 15:10:05
+Temp:  45.6875
+Moisture:  29.6593
+Time:  20190529 15:11:06
+Temp:  44.6875
+Moisture:  29.5925
+Time:  20190529 15:12:07
+Temp:  43.8438
+Moisture:  29.4787
+Time:  20190529 15:13:07
+Temp:  43.0938
+Moisture:  29.5442
+Time:  20190529 15:14:08
+Temp:  42.4688
+Moisture:  29.4452
+Time:  20190529 15:15:09
+Temp:  41.7812
+Moisture:  29.3998
+Time:  20190529 15:16:10
+Temp:  41.3125
+Moisture:  29.6953
+Time:  20190529 15:17:11
+Temp:  41.25
+Moisture:  29.3649
+Time:  20190529 15:18:12
+Temp:  41.4688
+Moisture:  29.3793
+Time:  20190529 15:19:13
+Temp:  41.9688
+Moisture:  29.3549
+Time:  20190529 15:20:13
+Temp:  42.4688
+Moisture:  29.4452
+Time:  20190529 15:21:14
+Temp:  43.1875
+Moisture:  29.4927
+Time:  20190529 15:22:15
+Temp:  43.5938
+Moisture:  29.5197
+Time:  20190529 15:23:16
+Temp:  43.7188
+Moisture:  29.8561
+Time:  20190529 15:24:17
+Temp:  43.4688
+Moisture:  29.8393
+Time:  20190529 15:25:18
+Temp:  43.2812
+Moisture:  29.499
+Time:  20190529 15:26:19
+Temp:  42.9062
+Moisture:  29.8599
+Time:  20190529 15:27:19
+Temp:  42.75
+Moisture:  29.4638
+Time:  20190529 15:28:20
+Temp:  42.5938
+Moisture:  29.4534
+Time:  20190529 15:29:21
+Temp:  42.2812
+Moisture:  29.7598
+Time:  20190529 15:30:22
+Temp:  41.8438
+Moisture:  29.1342
+Time:  20190529 15:31:23
+Temp:  41.4062
+Moisture:  29.3752
+Time:  20190529 15:32:24
+Temp:  40.8125
+Moisture:  28.9537
+Time:  20190529 15:33:25
+Temp:  39.9688
+Moisture:  28.8992
+Time:  20190529 15:34:26
+Temp:  39.2188
+Moisture:  29.2893
+Time:  20190529 15:35:26
+Temp:  38.625
+Moisture:  29.5178
+Time:  20190529 15:36:27
+Temp:  38.0
+Moisture:  29.1529
+Time:  20190529 15:37:28
+Temp:  37.25
+Moisture:  29.1045
+Time:  20190529 15:38:29
+Temp:  36.5625
+Moisture:  29.117
+Time:  20190529 15:39:30
+Temp:  35.7188
+Moisture:  29.2711
+Time:  20190529 15:40:31
+Temp:  35.0
+Moisture:  29.2247
+Time:  20190529 15:41:32
+Temp:  34.375
+Moisture:  29.2414
+Time:  20190529 15:42:33
+Temp:  33.6875
+Moisture:  29.1972
+Time:  20190529 15:43:33
+Temp:  32.9375
+Moisture:  28.8288
+Time:  20190529 15:44:34
+Temp:  32.3125
+Moisture:  28.7893
+Time:  20190529 15:45:35
+Temp:  32.0312
+Moisture:  29.0912
+Time:  20190529 15:46:36
+Temp:  31.5
+Moisture:  28.9074
+Time:  20190529 15:47:37
+Temp:  31.0625
+Moisture:  28.6546
+Time:  20190529 15:48:38
+Temp:  30.8438
+Moisture:  28.378
+Time:  20190529 15:49:38
+Temp:  30.625
+Moisture:  28.6831
+Time:  20190529 15:50:39
+Temp:  30.375
+Moisture:  28.3489
+Time:  20190529 15:51:40
+Temp:  30.25
+Moisture:  28.2859
+Time:  20190529 15:52:41
+Temp:  30.3438
+Moisture:  28.2917
+Time:  20190529 15:53:42
+Temp:  30.1875
+Moisture:  28.3373
+Time:  20190529 15:54:43
+Temp:  30.0625
+Moisture:  28.6479
+Time:  20190529 15:55:44
+Temp:  30.0
+Moisture:  28.3257
+Time:  20190529 15:56:44
+Temp:  29.8438
+Moisture:  28.3161
+Time:  20190529 15:57:45
+Temp:  29.7812
+Moisture:  28.3122
+Time:  20190529 15:58:46
+Temp:  29.5625
+Moisture:  28.6727
+Time:  20190529 15:59:47
+Temp:  29.4375
+Moisture:  28.291
+Time:  20190529 16:00:48
+Temp:  29.1875
+Moisture:  28.2756
+Time:  20190529 16:01:49
+Temp:  29.0312
+Moisture:  28.2109
+Time:  20190529 16:02:50
+Temp:  28.9688
+Moisture:  28.2621
+Time:  20190529 16:03:50
+Temp:  28.7812
+Moisture:  28.2506
+Time:  20190529 16:04:51
+Temp:  28.6875
+Moisture:  28.2448
+Time:  20190529 16:05:52
+Temp:  28.5
+Moisture:  28.2333
+Time:  20190529 16:06:53
+Temp:  28.5625
+Moisture:  28.2371
+Time:  20190529 16:07:54
+Temp:  28.5
+Moisture:  27.9161
+Time:  20190529 16:08:55
+Temp:  28.3438
+Moisture:  27.9066
+Time:  20190529 16:09:56
+Temp:  28.3438
+Moisture:  27.9066
+Time:  20190529 16:10:56
+Temp:  28.2812
+Moisture:  28.2751
+Time:  20190529 16:11:57
+Temp:  28.25
+Moisture:  28.1629
+Time:  20190529 16:12:58
+Temp:  28.0625
+Moisture:  28.2065
+Time:  20190529 16:13:59
+Temp:  28.0312
+Moisture:  28.2045
+Time:  20190529 16:15:00
+Temp:  27.9062
+Moisture:  27.5632
+Time:  20190529 16:16:01
+Temp:  27.8438
+Moisture:  27.8763
+Time:  20190529 16:17:02
+Temp:  27.7812
+Moisture:  27.5558
+Time:  20190529 16:18:02
+Temp:  27.7812
+Moisture:  26.9223
+Time:  20190529 16:19:03
+Temp:  27.8438
+Moisture:  27.8219
+Time:  20190529 16:20:04
+Temp:  27.75
+Moisture:  27.8706
+Time:  20190529 16:21:05
+Temp:  27.75
+Moisture:  26.9205
+Time:  20190529 16:22:06
+Temp:  27.7812
+Moisture:  27.8725
+Time:  20190529 16:23:07
+Temp:  27.6875
+Moisture:  27.8668
+Time:  20190529 16:24:08
+Temp:  27.5938
+Moisture:  26.6468
+Time:  20190529 16:25:09
+Temp:  27.5938
+Moisture:  27.5445
+Time:  20190529 16:26:09
+Temp:  27.5
+Moisture:  27.8555
+Time:  20190529 16:27:10
+Temp:  27.5
+Moisture:  27.8555
+Time:  20190529 16:28:11
+Temp:  27.5312
+Moisture:  27.6488
+Time:  20190529 16:29:12
+Temp:  27.6562
+Moisture:  27.5483
+Time:  20190529 16:30:13
+Temp:  27.5312
+Moisture:  27.5408
+Time:  20190529 16:31:14
+Temp:  27.5312
+Moisture:  27.5408
+Time:  20190529 16:32:15
+Temp:  27.4688
+Moisture:  27.8536
+Time:  20190529 16:33:15
+Temp:  27.4375
+Moisture:  27.5352
+Time:  20190529 16:34:16
+Temp:  27.4375
+Moisture:  27.5352
+Time:  20190529 16:35:17
+Temp:  27.3438
+Moisture:  27.5296
+Time:  20190529 16:36:18
+Temp:  27.3125
+Moisture:  27.4741
+Time:  20190529 16:37:19
+Temp:  27.25
+Moisture:  27.524
+Time:  20190529 16:38:20
+Temp:  27.1562
+Moisture:  27.8347
+Time:  20190529 16:39:21
+Temp:  27.1562
+Moisture:  27.5184
+Time:  20190529 16:40:22
+Temp:  27.0938
+Moisture:  27.5685
+Time:  20190529 16:41:22
+Temp:  27.0938
+Moisture:  27.5147
+Time:  20190529 16:42:23
+Temp:  26.9688
+Moisture:  27.5072
+Time:  20190529 16:43:24
+Temp:  26.9688
+Moisture:  27.8234
+Time:  20190529 16:44:25
+Temp:  26.9375
+Moisture:  27.5592
+Time:  20190529 16:45:26
+Temp:  26.9375
+Moisture:  27.4517
+Time:  20190529 16:46:27
+Temp:  26.8438
+Moisture:  27.4998
+Time:  20190529 16:47:28
+Temp:  26.8125
+Moisture:  27.4443
+Time:  20190529 16:48:29
+Temp:  26.6875
+Moisture:  27.5443
+Time:  20190529 16:49:30
+Temp:  26.625
+Moisture:  27.4867
+Time:  20190529 16:50:30
+Temp:  26.6562
+Moisture:  27.4886
+Time:  20190529 16:51:31
+Temp:  26.5
+Moisture:  27.4793
+Time:  20190529 16:52:32
+Temp:  26.5625
+Moisture:  27.6994
+Time:  20190529 16:53:33
+Temp:  26.5312
+Moisture:  27.4812
+Time:  20190529 16:54:34
+Temp:  26.4688
+Moisture:  27.4774
+Time:  20190529 16:55:35
+Temp:  26.4062
+Moisture:  27.4737
+Time:  20190529 16:56:35
+Temp:  26.4688
+Moisture:  27.2148
+Time:  20190529 16:57:36
+Temp:  26.4688
+Moisture:  27.4774
+Time:  20190529 16:58:37
+Temp:  26.4062
+Moisture:  27.4737
+Time:  20190529 16:59:38
+Temp:  26.375
+Moisture:  27.4719
+Time:  20190529 17:00:39
+Temp:  26.4062
+Moisture:  27.5275
+Time:  20190529 17:01:40
+Temp:  26.4375
+Moisture:  27.4756
+Time:  20190529 17:02:41
+Temp:  26.4375
+Moisture:  27.4756
+Time:  20190529 17:03:41
+Temp:  26.375
+Moisture:  27.4719
+Time:  20190529 17:04:42
+Temp:  26.4375
+Moisture:  27.422
+Time:  20190529 17:05:43
+Temp:  26.375
+Moisture:  27.4719
+Time:  20190529 17:06:44
+Temp:  26.2812
+Moisture:  27.4663
+Time:  20190529 17:07:45
+Temp:  26.2812
+Moisture:  27.4663
+Time:  20190529 17:08:46
+Temp:  26.2188
+Moisture:  27.1469
+Time:  20190529 17:09:47
+Temp:  26.0938
+Moisture:  27.4551
+Time:  20190529 17:10:48
+Temp:  26.0312
+Moisture:  27.4514
+Time:  20190529 17:11:48
+Temp:  26.0312
+Moisture:  27.4514
+Time:  20190529 17:12:49
+Temp:  26.1875
+Moisture:  27.7764
+Time:  20190529 17:13:50
+Temp:  26.0938
+Moisture:  27.4016
+Time:  20190529 17:14:51
+Temp:  26.0938
+Moisture:  27.4016
+Time:  20190529 17:15:52
+Temp:  26.0625
+Moisture:  27.4533
+Time:  20190529 17:16:53
+Temp:  26.0625
+Moisture:  27.507
+Time:  20190529 17:17:54
+Temp:  26.2188
+Moisture:  27.4626
+Time:  20190529 17:18:54
+Temp:  26.0938
+Moisture:  27.4551
+Time:  20190529 17:19:55
+Temp:  25.875
+Moisture:  27.4959
+Time:  20190529 17:20:56
+Temp:  25.875
+Moisture:  27.7576
+Time:  20190529 17:21:57
+Temp:  25.8438
+Moisture:  27.4403
+Time:  20190529 17:22:58
+Temp:  25.7812
+Moisture:  27.4366
+Time:  20190529 17:23:59
+Temp:  25.875
+Moisture:  27.4422
+Time:  20190529 17:25:00
+Temp:  25.7812
+Moisture:  27.4366
+Time:  20190529 17:26:00
+Temp:  25.8438
+Moisture:  27.4403
+Time:  20190529 17:27:01
+Temp:  25.75
+Moisture:  27.4347
+Time:  20190529 17:28:02
+Temp:  25.8438
+Moisture:  27.4403
+Time:  20190529 17:29:03
+Temp:  25.6875
+Moisture:  27.431
+Time:  20190529 17:30:04
+Temp:  25.5938
+Moisture:  27.4255
+Time:  20190529 17:31:05
+Temp:  25.5312
+Moisture:  27.4218
+Time:  20190529 17:32:06
+Temp:  25.4062
+Moisture:  27.4144
+Time:  20190529 17:33:07
+Temp:  25.4688
+Moisture:  27.4181
+Time:  20190529 17:34:07
+Temp:  25.4062
+Moisture:  27.468
+Time:  20190529 17:35:08
+Temp:  25.5
+Moisture:  27.4199
+Time:  20190529 17:36:09
+Temp:  25.4062
+Moisture:  27.0993
+Time:  20190529 17:37:10
+Temp:  25.375
+Moisture:  27.4125
+Time:  20190529 17:38:11
+Temp:  25.25
+Moisture:  27.4587
+Time:  20190529 17:39:12
+Temp:  25.2188
+Moisture:  27.4033
+Time:  20190529 17:40:13
+Temp:  25.2188
+Moisture:  27.4033
+Time:  20190529 17:41:14
+Temp:  25.1875
+Moisture:  27.4014
+Time:  20190529 17:42:14
+Temp:  25.25
+Moisture:  27.4051
+Time:  20190529 17:43:15
+Temp:  25.2812
+Moisture:  27.3535
+Time:  20190529 17:44:16
+Temp:  25.1562
+Moisture:  27.3996
+Time:  20190529 17:45:17
+Temp:  25.1562
+Moisture:  27.3996
+Time:  20190529 17:46:18
+Temp:  25.1562
+Moisture:  27.3996
+Time:  20190529 17:47:19
+Temp:  24.9375
+Moisture:  27.3866
+Time:  20190529 17:48:20
+Temp:  24.9062
+Moisture:  27.3848
+Time:  20190529 17:49:21
+Temp:  24.75
+Moisture:  27.4291
+Time:  20190529 17:50:21
+Temp:  24.5938
+Moisture:  27.0518
+Time:  20190529 17:51:22
+Temp:  24.5
+Moisture:  27.3608
+Time:  20190529 17:52:23
+Temp:  24.4688
+Moisture:  27.3589
+Time:  20190529 17:53:24
+Temp:  24.375
+Moisture:  27.3001
+Time:  20190529 17:54:25
+Temp:  24.25
+Moisture:  27.0317
+Time:  20190529 17:55:26
+Temp:  24.2188
+Moisture:  27.2909
+Time:  20190529 17:56:27
+Temp:  24.2188
+Moisture:  26.9772
+Time:  20190529 17:57:27
+Temp:  24.125
+Moisture:  27.2854
+Time:  20190529 17:58:28
+Temp:  24.125
+Moisture:  27.3387
+Time:  20190529 17:59:29
+Temp:  24.0312
+Moisture:  27.3332
+Time:  20190529 18:00:30
+Temp:  24.0938
+Moisture:  27.2836
+Time:  20190529 18:01:31
+Temp:  24.0938
+Moisture:  27.0226
+Time:  20190529 18:02:32
+Temp:  23.9688
+Moisture:  27.0153
+Time:  20190529 18:03:33
+Temp:  23.9375
+Moisture:  27.3276
+Time:  20190529 18:04:33
+Temp:  24.0
+Moisture:  27.3313
+Time:  20190529 18:05:34
+Temp:  23.9688
+Moisture:  26.9627
+Time:  20190529 18:06:35
+Temp:  23.9375
+Moisture:  27.3276
+Time:  20190529 18:07:36
+Temp:  23.8438
+Moisture:  27.3756
+Time:  20190529 18:08:37
+Temp:  23.8438
+Moisture:  27.0081
+Time:  20190529 18:09:38
+Temp:  24.0
+Moisture:  27.3313
+Time:  20190529 18:10:39
+Temp:  23.9688
+Moisture:  27.383
+Time:  20190529 18:11:40
+Temp:  23.9375
+Moisture:  27.0135
+Time:  20190529 18:12:40
+Temp:  23.9062
+Moisture:  27.0117
+Time:  20190529 18:13:41
+Temp:  23.8438
+Moisture:  27.3221
+Time:  20190529 18:14:42
+Temp:  23.9375
+Moisture:  27.3276
+Time:  20190529 18:15:43
+Temp:  23.8438
+Moisture:  27.3221
+Time:  20190529 18:16:44
+Temp:  23.875
+Moisture:  27.0099
+Time:  20190529 18:17:45
+Temp:  23.8125
+Moisture:  27.3203
+Time:  20190529 18:18:46
+Temp:  23.6875
+Moisture:  27.3129
+Time:  20190529 18:19:47
+Temp:  23.75
+Moisture:  27.3166
+Time:  20190529 18:20:48
+Temp:  23.5938
+Moisture:  26.9935
+Time:  20190529 18:21:48
+Temp:  23.5938
+Moisture:  26.9935
+Time:  20190529 18:22:49
+Temp:  23.5938
+Moisture:  27.2542
+Time:  20190529 18:23:50
+Temp:  23.5312
+Moisture:  26.7283
+Time:  20190529 18:24:51
+Temp:  23.6875
+Moisture:  27.2597
+Time:  20190529 18:25:52
+Temp:  23.7188
+Moisture:  27.3148
+Time:  20190529 18:26:53
+Temp:  23.7188
+Moisture:  26.9482
+Time:  20190529 18:27:54
+Temp:  23.6562
+Moisture:  26.9972
+Time:  20190529 18:28:55
+Temp:  23.6875
+Moisture:  27.2597
+Time:  20190529 18:29:55
+Temp:  23.75
+Moisture:  27.3166
+Time:  20190529 18:30:56
+Temp:  23.7188
+Moisture:  27.2615
+Time:  20190529 18:31:57
+Temp:  23.7188
+Moisture:  27.3682
+Time:  20190529 18:32:58
+Temp:  23.6562
+Moisture:  26.9972
+Time:  20190529 18:33:59
+Temp:  23.6875
+Moisture:  27.3129
+Time:  20190529 18:34:59
+Temp:  23.5312
+Moisture:  26.9899
+Time:  20190529 18:36:00
+Temp:  23.5625
+Moisture:  27.359
+Time:  20190529 18:37:01
+Temp:  23.5625
+Moisture:  27.3056
+Time:  20190529 18:38:02
+Temp:  23.5312
+Moisture:  27.3038
+Time:  20190529 18:39:03
+Temp:  23.5312
+Moisture:  27.3038
+Time:  20190529 18:40:04
+Temp:  23.4688
+Moisture:  27.3001
+Time:  20190529 18:41:05
+Temp:  23.4375
+Moisture:  27.2982
+Time:  20190529 18:42:06
+Temp:  23.3125
+Moisture:  27.2909
+Time:  20190529 18:43:06
+Temp:  23.3125
+Moisture:  27.2909
+Time:  20190529 18:44:07
+Temp:  23.3438
+Moisture:  27.2927
+Time:  20190529 18:45:08
+Temp:  23.2812
+Moisture:  27.2891
+Time:  20190529 18:46:09
+Temp:  23.0312
+Moisture:  27.2744
+Time:  20190529 18:47:10
+Temp:  23.2188
+Moisture:  27.2854
+Time:  20190529 18:48:11
+Temp:  23.0938
+Moisture:  27.2781
+Time:  20190529 18:49:11
+Temp:  23.0625
+Moisture:  27.2762
+Time:  20190529 18:50:12
+Temp:  22.9375
+Moisture:  27.2689
+Time:  20190529 18:51:13
+Temp:  22.875
+Moisture:  26.9519
+Time:  20190529 18:52:14
+Temp:  22.7812
+Moisture:  27.2598
+Time:  20190529 18:53:15
+Temp:  22.7188
+Moisture:  27.3094
+Time:  20190529 18:54:16
+Temp:  22.5312
+Moisture:  27.2451
+Time:  20190529 18:55:17
+Temp:  22.5938
+Moisture:  27.2488
+Time:  20190529 18:56:18
+Temp:  22.6562
+Moisture:  27.1993
+Time:  20190529 18:57:18
+Temp:  22.6562
+Moisture:  27.3058
+Time:  20190529 18:58:19
+Temp:  22.625
+Moisture:  27.2506
+Time:  20190529 18:59:20
+Temp:  22.7188
+Moisture:  27.2561
+Time:  20190529 19:00:21
+Temp:  22.7188
+Moisture:  26.9428
+Time:  20190529 19:01:22
+Temp:  22.5938
+Moisture:  27.3021
+Time:  20190529 19:02:23
+Temp:  22.6875
+Moisture:  27.2543
+Time:  20190529 19:03:24
+Temp:  22.5312
+Moisture:  27.192
+Time:  20190529 19:04:25
+Temp:  22.5938
+Moisture:  27.2488
+Time:  20190529 19:05:25
+Temp:  22.5625
+Moisture:  26.9338
+Time:  20190529 19:06:26
+Temp:  22.5938
+Moisture:  27.1957
+Time:  20190529 19:07:27
+Temp:  22.625
+Moisture:  26.9374
+Time:  20190529 19:08:28
+Temp:  22.5
+Moisture:  26.9302
+Time:  20190529 19:09:29
+Temp:  22.4688
+Moisture:  26.981
+Time:  20190529 19:10:30
+Temp:  22.4688
+Moisture:  27.1884
+Time:  20190529 19:11:31
+Temp:  22.3438
+Moisture:  26.9211
+Time:  20190529 19:12:32
+Temp:  22.3125
+Moisture:  27.2323
+Time:  20190529 19:13:32
+Temp:  22.375
+Moisture:  26.9756
+Time:  20190529 19:14:33
+Temp:  22.25
+Moisture:  26.9157
+Time:  20190529 19:15:34
+Temp:  22.25
+Moisture:  26.9157
+Time:  20190529 19:16:35
+Temp:  22.0625
+Moisture:  26.9049
+Time:  20190529 19:17:36
+Temp:  22.0312
+Moisture:  27.2159
+Time:  20190529 19:18:37
+Temp:  22.0312
+Moisture:  27.2159
+Time:  20190529 19:19:38
+Temp:  22.0312
+Moisture:  27.1629
+Time:  20190529 19:20:38
+Temp:  22.0
+Moisture:  26.9013
+Time:  20190529 19:21:39
+Temp:  22.0
+Moisture:  27.2673
+Time:  20190529 19:22:40
+Temp:  22.0312
+Moisture:  26.9031
+Time:  20190529 19:23:41
+Temp:  21.9375
+Moisture:  27.2104
+Time:  20190529 19:24:42
+Temp:  21.9688
+Moisture:  27.2123
+Time:  20190529 19:25:43
+Temp:  21.875
+Moisture:  26.8941
+Time:  20190529 19:26:43
+Temp:  21.7812
+Moisture:  27.2013
+Time:  20190529 19:27:44
+Temp:  21.7188
+Moisture:  26.5724
+Time:  20190529 19:28:45
+Temp:  21.6875
+Moisture:  26.8309
+Time:  20190529 19:29:46
+Temp:  21.5625
+Moisture:  26.8761
+Time:  20190529 19:30:47
+Temp:  21.5625
+Moisture:  26.8761
+Time:  20190529 19:31:48
+Temp:  21.4062
+Moisture:  26.8671
+Time:  20190529 19:32:49
+Temp:  21.3438
+Moisture:  26.8635
+Time:  20190529 19:33:49
+Temp:  21.3438
+Moisture:  27.229
+Time:  20190529 19:34:50
+Temp:  21.25
+Moisture:  27.1704
+Time:  20190529 19:35:51
+Temp:  21.2812
+Moisture:  27.2254
+Time:  20190529 19:36:52
+Temp:  21.2812
+Moisture:  26.5475
+Time:  20190529 19:37:53
+Temp:  21.25
+Moisture:  26.5458
+Time:  20190529 19:38:54
+Temp:  21.25
+Moisture:  27.1174
+Time:  20190529 19:39:55
+Temp:  21.25
+Moisture:  26.8581
+Time:  20190529 19:40:56
+Temp:  21.1875
+Moisture:  26.8545
+Time:  20190529 19:41:56
+Temp:  21.1562
+Moisture:  27.112
+Time:  20190529 19:42:57
+Temp:  21.0938
+Moisture:  26.5369
+Time:  20190529 19:43:58
+Temp:  21.0312
+Moisture:  26.8455
+Time:  20190529 19:44:59
+Temp:  21.0312
+Moisture:  26.5333
+Time:  20190529 19:46:00
+Temp:  21.125
+Moisture:  26.9034
+Time:  20190529 19:47:01
+Temp:  20.875
+Moisture:  26.889
+Time:  20190529 19:48:02
+Temp:  20.9375
+Moisture:  27.1522
+Time:  20190529 19:49:02
+Temp:  20.9062
+Moisture:  27.1504
+Time:  20190529 19:50:03
+Temp:  20.8438
+Moisture:  26.8347
+Time:  20190529 19:51:04
+Temp:  20.9062
+Moisture:  26.8383
+Time:  20190529 19:52:05
+Temp:  20.9688
+Moisture:  26.5298
+Time:  20190529 19:53:06
+Temp:  21.0312
+Moisture:  27.1577
+Time:  20190529 19:54:07
+Temp:  20.9688
+Moisture:  26.8419
+Time:  20190529 19:55:08
+Temp:  20.9688
+Moisture:  26.8944
+Time:  20190529 19:56:08
+Temp:  21.0
+Moisture:  26.7914
+Time:  20190529 19:57:09
+Temp:  20.875
+Moisture:  27.0956
+Time:  20190529 19:58:10
+Temp:  20.9375
+Moisture:  26.8401
+Time:  20190529 19:59:11
+Temp:  20.8438
+Moisture:  26.8347
+Time:  20190529 20:00:12
+Temp:  20.9688
+Moisture:  27.154
+Time:  20190529 20:01:13
+Temp:  20.9062
+Moisture:  26.5262
+Time:  20190529 20:02:14
+Temp:  21.0
+Moisture:  26.7914
+Time:  20190529 20:03:14
+Temp:  20.875
+Moisture:  26.8365
+Time:  20190529 20:04:15
+Temp:  20.8438
+Moisture:  26.8347
+Time:  20190529 20:05:16
+Temp:  20.6562
+Moisture:  27.083
+Time:  20190529 20:06:17
+Temp:  20.625
+Moisture:  26.8222
+Time:  20190529 20:07:18
+Temp:  20.5938
+Moisture:  27.1322
+Time:  20190529 20:08:19
+Temp:  20.5625
+Moisture:  26.8711
+Time:  20190529 20:09:19
+Temp:  20.4375
+Moisture:  26.8639
+Time:  20190529 20:10:20
+Temp:  20.4062
+Moisture:  27.1214
+Time:  20190529 20:11:21
+Temp:  20.4375
+Moisture:  26.8639
+Time:  20190529 20:12:22
+Temp:  20.3438
+Moisture:  26.806
+Time:  20190529 20:13:23
+Temp:  20.0625
+Moisture:  26.4784
+Time:  20190529 20:14:24
+Temp:  20.0312
+Moisture:  26.7882
+Time:  20190529 20:15:25
+Temp:  19.875
+Moisture:  26.7792
+Time:  20190529 20:16:26
+Temp:  19.8125
+Moisture:  26.7235
+Time:  20190529 20:17:26
+Temp:  19.7188
+Moisture:  26.7703
+Time:  20190529 20:18:27
+Temp:  19.7188
+Moisture:  26.5108
+Time:  20190529 20:19:28
+Temp:  19.5938
+Moisture:  27.0743
+Time:  20190529 20:20:29
+Temp:  19.625
+Moisture:  26.7649
+Time:  20190529 20:21:29
+Temp:  19.5938
+Moisture:  27.0216
+Time:  20190529 20:22:30
+Temp:  19.5625
+Moisture:  26.4502
+Time:  20190529 20:23:31
+Temp:  19.375
+Moisture:  26.7507
+Time:  20190529 20:24:32
+Temp:  19.2812
+Moisture:  26.7453
+Time:  20190529 20:25:33
+Temp:  19.25
+Moisture:  26.7435
+Time:  20190529 20:26:34
+Temp:  19.2188
+Moisture:  26.7418
+Time:  20190529 20:27:35
+Temp:  19.0
+Moisture:  26.7293
+Time:  20190529 20:28:36
+Temp:  19.0312
+Moisture:  26.7311
+Time:  20190529 20:29:36
+Temp:  18.9062
+Moisture:  26.4132
+Time:  20190529 20:30:37
+Temp:  18.875
+Moisture:  26.4114
+Time:  20190529 20:31:38
+Temp:  18.75
+Moisture:  26.7673
+Time:  20190529 20:32:39
+Temp:  18.6875
+Moisture:  26.4009
+Time:  20190529 20:33:40
+Temp:  18.6562
+Moisture:  26.7097
+Time:  20190529 20:34:41
+Temp:  18.6562
+Moisture:  26.3991
+Time:  20190529 20:35:42
+Temp:  18.5312
+Moisture:  26.3921
+Time:  20190529 20:36:42
+Temp:  18.4688
+Moisture:  26.4402
+Time:  20190529 20:37:43
+Temp:  18.4688
+Moisture:  26.647
+Time:  20190529 20:38:44
+Temp:  18.3438
+Moisture:  26.692
+Time:  20190529 20:39:45
+Temp:  18.3438
+Moisture:  26.692
+Time:  20190529 20:40:46
+Temp:  18.2812
+Moisture:  26.6884
+Time:  20190529 20:41:47
+Temp:  18.1875
+Moisture:  26.9934
+Time:  20190529 20:42:48
+Temp:  18.1875
+Moisture:  26.6831
+Time:  20190529 20:43:48
+Temp:  18.0
+Moisture:  26.6724
+Time:  20190529 20:44:49
+Temp:  18.0312
+Moisture:  26.3641
+Time:  20190529 20:45:50
+Temp:  17.875
+Moisture:  26.3553
+Time:  20190529 20:46:51
+Temp:  17.9062
+Moisture:  26.9772
+Time:  20190529 20:47:52
+Temp:  17.875
+Moisture:  26.6654
+Time:  20190529 20:48:53
+Temp:  17.8125
+Moisture:  26.6618
+Time:  20190529 20:49:54
+Temp:  17.75
+Moisture:  26.3999
+Time:  20190529 20:50:54
+Temp:  17.7812
+Moisture:  26.35
+Time:  20190529 20:51:55
+Temp:  17.625
+Moisture:  26.6512
+Time:  20190529 20:52:56
+Temp:  17.5625
+Moisture:  26.3893
+Time:  20190529 20:53:57
+Temp:  17.5312
+Moisture:  26.698
+Time:  20190529 20:54:58
+Temp:  17.4375
+Moisture:  26.6927
+Time:  20190529 20:55:59
+Temp:  17.3438
+Moisture:  26.3256
+Time:  20190529 20:57:00
+Temp:  17.4688
+Moisture:  26.3325
+Time:  20190529 20:58:00
+Temp:  17.25
+Moisture:  26.63
+Time:  20190529 20:59:01
+Temp:  17.1875
+Moisture:  26.2655
+Time:  20190529 21:00:02
+Temp:  17.25
+Moisture:  26.63
+Time:  20190529 21:01:03
+Temp:  17.1562
+Moisture:  26.6247
+Time:  20190529 21:02:04
+Temp:  17.0312
+Moisture:  26.3081
+Time:  20190529 21:03:04
+Temp:  17.0938
+Moisture:  26.2603
+Time:  20190529 21:04:05
+Temp:  16.9688
+Moisture:  26.2533
+Time:  20190529 21:05:06
+Temp:  16.9375
+Moisture:  26.3029
+Time:  20190529 21:06:07
+Temp:  16.9375
+Moisture:  26.3029
+Time:  20190529 21:07:08
+Temp:  16.8125
+Moisture:  26.2959
+Time:  20190529 21:08:09
+Temp:  16.625
+Moisture:  26.2854
+Time:  20190529 21:09:10
+Temp:  16.625
+Moisture:  26.6467
+Time:  20190529 21:10:11
+Temp:  16.5625
+Moisture:  26.5393
+Time:  20190529 21:11:11
+Temp:  16.4688
+Moisture:  26.5859
+Time:  20190529 21:12:12
+Temp:  16.5
+Moisture:  26.8968
+Time:  20190529 21:13:13
+Temp:  16.3125
+Moisture:  26.6291
+Time:  20190529 21:14:14
+Temp:  16.3438
+Moisture:  26.8879
+Time:  20190529 21:15:15
+Temp:  16.25
+Moisture:  26.5217
+Time:  20190529 21:16:16
+Temp:  16.0938
+Moisture:  26.8736
+Time:  20190529 21:17:17
+Temp:  16.0625
+Moisture:  26.9772
+Time:  20190529 21:18:17
+Temp:  16.0938
+Moisture:  26.8736
+Time:  20190529 21:19:18
+Temp:  16.0
+Moisture:  26.5077
+Time:  20190529 21:20:19
+Temp:  15.875
+Moisture:  26.8612
+Time:  20190529 21:21:20
+Temp:  15.875
+Moisture:  26.8612
+Time:  20190529 21:22:21
+Temp:  15.75
+Moisture:  26.5454
+Time:  20190529 21:23:22
+Temp:  15.7188
+Moisture:  26.5437
+Time:  20190529 21:24:23
+Temp:  15.5938
+Moisture:  26.7929
+Time:  20190529 21:25:23
+Temp:  15.5625
+Moisture:  26.896
+Time:  20190529 21:26:24
+Temp:  15.375
+Moisture:  26.8328
+Time:  20190529 21:27:25
+Temp:  15.3438
+Moisture:  26.4709
+Time:  20190529 21:28:26
+Temp:  15.2812
+Moisture:  26.5191
+Time:  20190529 21:29:27
+Temp:  15.2188
+Moisture:  26.5675
+Time:  20190529 21:30:28
+Temp:  15.2188
+Moisture:  26.5156
+Time:  20190529 21:31:29
+Temp:  15.0625
+Moisture:  26.4552
+Time:  20190529 21:32:29
+Temp:  14.9375
+Moisture:  26.4482
+Time:  20190529 21:33:30
+Temp:  14.9688
+Moisture:  26.5016
+Time:  20190529 21:34:31
+Temp:  14.9375
+Moisture:  26.4482
+Time:  20190529 21:35:32
+Temp:  14.75
+Moisture:  26.7451
+Time:  20190529 21:36:33
+Temp:  14.75
+Moisture:  26.7974
+Time:  20190529 21:37:34
+Temp:  14.6875
+Moisture:  26.4342
+Time:  20190529 21:38:35
+Temp:  14.625
+Moisture:  26.4824
+Time:  20190529 21:39:35
+Temp:  14.5938
+Moisture:  26.7885
+Time:  20190529 21:40:36
+Temp:  14.5
+Moisture:  26.1675
+Time:  20190529 21:41:37
+Temp:  14.4062
+Moisture:  26.4701
+Time:  20190529 21:42:38
+Temp:  14.4062
+Moisture:  26.4701
+Time:  20190529 21:43:39
+Temp:  14.2812
+Moisture:  26.4632
+Time:  20190529 21:44:40
+Temp:  14.375
+Moisture:  26.1606
+Time:  20190529 21:45:41
+Temp:  14.2812
+Moisture:  26.1555
+Time:  20190529 21:46:42
+Temp:  14.2188
+Moisture:  26.152
+Time:  20190529 21:47:42
+Temp:  14.1562
+Moisture:  26.4562
+Time:  20190529 21:48:43
+Temp:  14.125
+Moisture:  26.5062
+Time:  20190529 21:49:44
+Temp:  14.0625
+Moisture:  26.451
+Time:  20190529 21:50:45
+Temp:  13.9688
+Moisture:  26.0873
+Time:  20190529 21:51:46
+Temp:  14.0
+Moisture:  26.755
+Time:  20190529 21:52:47
+Temp:  13.875
+Moisture:  26.4405
+Time:  20190529 21:53:48
+Temp:  13.8125
+Moisture:  26.3855
+Time:  20190529 21:54:48
+Temp:  13.8438
+Moisture:  26.4388
+Time:  20190529 21:55:49
+Temp:  13.6875
+Moisture:  26.4301
+Time:  20190529 21:56:50
+Temp:  13.625
+Moisture:  26.1193
+Time:  20190529 21:57:51
+Temp:  13.5625
+Moisture:  26.1159
+Time:  20190529 21:58:52
+Temp:  13.5312
+Moisture:  26.1141
+Time:  20190529 21:59:53
+Temp:  13.4375
+Moisture:  26.4161
+Time:  20190529 22:00:54
+Temp:  13.4062
+Moisture:  26.4144
+Time:  20190529 22:01:55
+Temp:  13.375
+Moisture:  26.3612
+Time:  20190529 22:02:55
+Temp:  13.3125
+Moisture:  26.1021
+Time:  20190529 22:03:56
+Temp:  13.2812
+Moisture:  26.0495
+Time:  20190529 22:04:57
+Temp:  13.25
+Moisture:  26.4574
+Time:  20190529 22:05:58
+Temp:  13.25
+Moisture:  26.0478
+Time:  20190529 22:06:59
+Temp:  13.0938
+Moisture:  26.0392
+Time:  20190529 22:08:00
+Temp:  13.0625
+Moisture:  26.0884
+Time:  20190529 22:09:01
+Temp:  13.0
+Moisture:  26.0341
+Time:  20190529 22:10:01
+Temp:  13.0312
+Moisture:  26.3936
+Time:  20190529 22:11:02
+Temp:  12.9375
+Moisture:  26.44
+Time:  20190529 22:12:03
+Temp:  12.9375
+Moisture:  26.0307
+Time:  20190529 22:13:04
+Temp:  12.875
+Moisture:  26.4884
+Time:  20190529 22:14:05
+Temp:  12.875
+Moisture:  26.0781
+Time:  20190529 22:15:06
+Temp:  12.75
+Moisture:  26.0712
+Time:  20190529 22:16:07
+Temp:  12.6562
+Moisture:  26.3727
+Time:  20190529 22:17:08
+Temp:  12.7812
+Moisture:  26.3797
+Time:  20190529 22:18:09
+Temp:  12.6875
+Moisture:  26.0678
+Time:  20190529 22:19:09
+Temp:  12.6875
+Moisture:  26.3745
+Time:  20190529 22:20:10
+Temp:  12.7188
+Moisture:  26.0695
+Time:  20190529 22:21:11
+Temp:  12.5938
+Moisture:  26.3179
+Time:  20190529 22:22:12
+Temp:  12.5938
+Moisture:  26.0627
+Time:  20190529 22:23:13
+Temp:  12.5312
+Moisture:  26.0592
+Time:  20190529 22:24:14
+Temp:  12.375
+Moisture:  25.9999
+Time:  20190529 22:25:14
+Temp:  12.4375
+Moisture:  26.0541
+Time:  20190529 22:26:15
+Temp:  12.3438
+Moisture:  26.3554
+Time:  20190529 22:27:16
+Temp:  12.3438
+Moisture:  26.049
+Time:  20190529 22:28:17
+Temp:  12.375
+Moisture:  26.3058
+Time:  20190529 22:29:18
+Temp:  12.25
+Moisture:  25.9931
+Time:  20190529 22:30:19
+Temp:  12.25
+Moisture:  26.3502
+Time:  20190529 22:31:20
+Temp:  12.25
+Moisture:  26.0948
+Time:  20190529 22:32:20
+Temp:  12.1562
+Moisture:  26.0387
+Time:  20190529 22:33:21
+Temp:  12.125
+Moisture:  26.037
+Time:  20190529 22:34:22
+Temp:  12.125
+Moisture:  26.037
+Time:  20190529 22:35:23
+Temp:  12.125
+Moisture:  25.9862
+Time:  20190529 22:36:24
+Temp:  12.0938
+Moisture:  26.0353
+Time:  20190529 22:37:25
+Temp:  12.0625
+Moisture:  26.0336
+Time:  20190529 22:38:26
+Temp:  11.9062
+Moisture:  26.025
+Time:  20190529 22:39:26
+Temp:  12.0
+Moisture:  26.0302
+Time:  20190529 22:40:27
+Temp:  12.0625
+Moisture:  25.9828
+Time:  20190529 22:41:28
+Temp:  11.9062
+Moisture:  26.076
+Time:  20190529 22:42:29
+Temp:  11.875
+Moisture:  26.0233
+Time:  20190529 22:43:30
+Temp:  11.8438
+Moisture:  26.3278
+Time:  20190529 22:44:31
+Temp:  11.9062
+Moisture:  26.1784
+Time:  20190529 22:45:31
+Temp:  11.8438
+Moisture:  25.9709
+Time:  20190529 22:46:32
+Temp:  11.8125
+Moisture:  26.326
+Time:  20190529 22:47:33
+Temp:  11.8125
+Moisture:  26.0199
+Time:  20190529 22:48:34
+Temp:  11.7812
+Moisture:  26.0691
+Time:  20190529 22:49:35
+Temp:  11.7188
+Moisture:  26.0148
+Time:  20190529 22:50:36
+Temp:  11.5938
+Moisture:  26.008
+Time:  20190529 22:51:37
+Temp:  11.7188
+Moisture:  26.0148
+Time:  20190529 22:52:38
+Temp:  11.6875
+Moisture:  25.9624
+Time:  20190529 22:53:38
+Temp:  11.4375
+Moisture:  25.9488
+Time:  20190529 22:54:39
+Temp:  11.5312
+Moisture:  26.3105
+Time:  20190529 22:55:40
+Temp:  11.4375
+Moisture:  25.9995
+Time:  20190529 22:56:41
+Temp:  11.375
+Moisture:  25.9454
+Time:  20190529 22:57:42
+Temp:  11.4375
+Moisture:  25.9995
+Time:  20190529 22:58:43
+Temp:  11.375
+Moisture:  25.9961
+Time:  20190529 22:59:43
+Temp:  11.4062
+Moisture:  26.3036
+Time:  20190529 23:00:44
+Temp:  11.3125
+Moisture:  25.9926
+Time:  20190529 23:01:45
+Temp:  11.2812
+Moisture:  25.9909
+Time:  20190529 23:02:46
+Temp:  11.3438
+Moisture:  25.9943
+Time:  20190529 23:03:47
+Temp:  11.1562
+Moisture:  25.9841
+Time:  20190529 23:04:48
+Temp:  11.2188
+Moisture:  26.0384
+Time:  20190529 23:05:49
+Temp:  11.2188
+Moisture:  25.9369
+Time:  20190529 23:06:49
+Temp:  11.0938
+Moisture:  25.9807
+Time:  20190529 23:07:50
+Temp:  11.0625
+Moisture:  25.979
+Time:  20190529 23:08:51
+Temp:  11.0938
+Moisture:  26.0316
+Time:  20190529 23:09:52
+Temp:  11.0625
+Moisture:  25.979
+Time:  20190529 23:10:53
+Temp:  11.0312
+Moisture:  25.9773
+Time:  20190529 23:11:54
+Temp:  11.0
+Moisture:  26.0265
+Time:  20190529 23:12:55
+Temp:  11.0625
+Moisture:  26.5903
+Time:  20190529 23:13:56
+Temp:  11.0
+Moisture:  25.9756
+Time:  20190529 23:14:56
+Temp:  10.9375
+Moisture:  25.9722
+Time:  20190529 23:15:57
+Temp:  11.0312
+Moisture:  25.9773
+Time:  20190529 23:16:58
+Temp:  11.0625
+Moisture:  26.2847
+Time:  20190529 23:17:59
+Temp:  11.0312
+Moisture:  25.9267
+Time:  20190529 23:19:00
+Temp:  10.9062
+Moisture:  25.9199
+Time:  20190529 23:20:01
+Temp:  10.9062
+Moisture:  25.9705
+Time:  20190529 23:21:02
+Temp:  10.9375
+Moisture:  25.9722
+Time:  20190529 23:22:03
+Temp:  10.9688
+Moisture:  26.2795
+Time:  20190529 23:23:03
+Temp:  10.875
+Moisture:  25.9688
+Time:  20190529 23:24:04
+Temp:  10.7812
+Moisture:  25.9131
+Time:  20190529 23:25:05
+Temp:  10.7812
+Moisture:  25.9637
+Time:  20190529 23:26:06
+Temp:  10.8125
+Moisture:  25.9148
+Time:  20190529 23:27:07
+Temp:  10.6875
+Moisture:  25.9586
+Time:  20190529 23:28:08
+Temp:  10.7188
+Moisture:  25.9603
+Time:  20190529 23:29:09
+Temp:  10.7188
+Moisture:  25.9097
+Time:  20190529 23:30:09
+Temp:  10.7188
+Moisture:  25.9097
+Time:  20190529 23:31:10
+Temp:  10.6875
+Moisture:  25.9586
+Time:  20190529 23:32:11
+Temp:  10.6875
+Moisture:  25.908
+Time:  20190529 23:33:12
+Temp:  10.5625
+Moisture:  26.2572
+Time:  20190529 23:34:13
+Temp:  10.5312
+Moisture:  26.0009
+Time:  20190529 23:35:14
+Temp:  10.5938
+Moisture:  25.9535
+Time:  20190529 23:36:15
+Temp:  10.5
+Moisture:  25.8979
+Time:  20190529 23:37:16
+Temp:  10.4062
+Moisture:  25.9433
+Time:  20190529 23:38:16
+Temp:  10.4688
+Moisture:  25.9467
+Time:  20190529 23:39:17
+Temp:  10.3125
+Moisture:  25.9383
+Time:  20190529 23:40:18
+Temp:  10.4375
+Moisture:  25.9958
+Time:  20190529 23:41:19
+Temp:  10.375
+Moisture:  25.9417
+Time:  20190529 23:42:20
+Temp:  10.3438
+Moisture:  25.94
+Time:  20190529 23:43:21
+Temp:  10.3438
+Moisture:  25.94
+Time:  20190529 23:44:22
+Temp:  10.3438
+Moisture:  25.94
+Time:  20190529 23:45:22
+Temp:  10.375
+Moisture:  25.8911
+Time:  20190529 23:46:23
+Temp:  10.375
+Moisture:  25.9924
+Time:  20190529 23:47:24
+Temp:  10.375
+Moisture:  25.9417
+Time:  20190529 23:48:25
+Temp:  10.375
+Moisture:  25.9417
+Time:  20190529 23:49:26
+Temp:  10.2812
+Moisture:  25.886
+Time:  20190529 23:50:27
+Temp:  10.3438
+Moisture:  25.94
+Time:  20190529 23:51:28
+Temp:  10.2812
+Moisture:  25.9366
+Time:  20190529 23:52:29
+Temp:  10.3125
+Moisture:  25.9383
+Time:  20190529 23:53:29
+Temp:  10.3438
+Moisture:  25.94
+Time:  20190529 23:54:30
+Temp:  10.2188
+Moisture:  25.6782
+Time:  20190529 23:55:31
+Temp:  10.2812
+Moisture:  25.9366
+Time:  20190529 23:56:32
+Temp:  10.2812
+Moisture:  25.886
+Time:  20190529 23:57:33
+Temp:  10.4375
+Moisture:  25.8945
+Time:  20190529 23:58:34
+Temp:  10.4375
+Moisture:  25.9958
+Time:  20190529 23:59:35
+Temp:  10.2812
+Moisture:  25.9366
+Time:  20190530 00:00:35
+Temp:  10.3438
+Moisture:  25.8894
+Time:  20190530 00:01:36
+Temp:  10.2812
+Moisture:  25.9366
+Time:  20190530 00:02:37
+Temp:  10.3125
+Moisture:  25.9383
+Time:  20190530 00:03:38
+Temp:  10.3438
+Moisture:  25.94
+Time:  20190530 00:04:39
+Temp:  10.4062
+Moisture:  25.9433
+Time:  20190530 00:05:40
+Temp:  10.3125
+Moisture:  25.8877
+Time:  20190530 00:06:41
+Temp:  10.4062
+Moisture:  25.9433
+Time:  20190530 00:07:41
+Temp:  10.4062
+Moisture:  25.8928
+Time:  20190530 00:08:42
+Temp:  10.25
+Moisture:  25.8843
+Time:  20190530 00:09:43
+Temp:  10.3438
+Moisture:  25.94
+Time:  20190530 00:10:44
+Temp:  10.375
+Moisture:  25.9417
+Time:  20190530 00:11:45
+Temp:  10.4375
+Moisture:  25.945
+Time:  20190530 00:12:46
+Temp:  10.4688
+Moisture:  25.8962
+Time:  20190530 00:13:47
+Temp:  10.3125
+Moisture:  25.9383
+Time:  20190530 00:14:47
+Temp:  10.4688
+Moisture:  25.9467
+Time:  20190530 00:15:48
+Temp:  10.4688
+Moisture:  25.9467
+Time:  20190530 00:16:49
+Temp:  10.5
+Moisture:  25.9484
+Time:  20190530 00:17:50
+Temp:  10.4375
+Moisture:  25.8945
+Time:  20190530 00:18:51
+Temp:  10.4375
+Moisture:  25.945
+Time:  20190530 00:19:52
+Temp:  10.5
+Moisture:  25.9992
+Time:  20190530 00:20:53
+Temp:  10.5625
+Moisture:  25.9518
+Time:  20190530 00:21:54
+Temp:  10.625
+Moisture:  25.9552
+Time:  20190530 00:22:54
+Temp:  10.4375
+Moisture:  26.2503
+Time:  20190530 00:23:55
+Temp:  10.5312
+Moisture:  25.9501
+Time:  20190530 00:24:56
+Temp:  10.4688
+Moisture:  25.9467
+Time:  20190530 00:25:57
+Temp:  10.4688
+Moisture:  25.9467
+Time:  20190530 00:26:58
+Temp:  10.3438
+Moisture:  25.94
+Time:  20190530 00:27:59
+Temp:  10.4688
+Moisture:  26.3034
+Time:  20190530 00:29:00
+Temp:  10.4062
+Moisture:  25.9433
+Time:  20190530 00:30:01
+Temp:  10.3438
+Moisture:  25.94
+Time:  20190530 00:31:01
+Temp:  10.3438
+Moisture:  25.8894
+Time:  20190530 00:32:02
+Temp:  10.375
+Moisture:  25.9924
+Time:  20190530 00:33:03
+Temp:  10.3125
+Moisture:  25.9383
+Time:  20190530 00:34:04
+Temp:  10.2188
+Moisture:  25.8826
+Time:  20190530 00:35:05
+Temp:  10.2812
+Moisture:  25.9366
+Time:  20190530 00:36:06
+Temp:  10.1562
+Moisture:  25.9298
+Time:  20190530 00:37:06
+Temp:  10.2188
+Moisture:  26.2383
+Time:  20190530 00:38:07
+Temp:  10.125
+Moisture:  25.9281
+Time:  20190530 00:39:08
+Temp:  10.0312
+Moisture:  25.8725
+Time:  20190530 00:40:09
+Temp:  10.0938
+Moisture:  25.9771
+Time:  20190530 00:41:10
+Temp:  10.0312
+Moisture:  25.923
+Time:  20190530 00:42:11
+Temp:  9.9375
+Moisture:  25.9179
+Time:  20190530 00:43:12
+Temp:  9.96875
+Moisture:  25.9196
+Time:  20190530 00:44:12
+Temp:  10.0
+Moisture:  25.9213
+Time:  20190530 00:45:13
+Temp:  9.84375
+Moisture:  25.9128
+Time:  20190530 00:46:14
+Temp:  9.84375
+Moisture:  25.9128
+Time:  20190530 00:47:15
+Temp:  9.90625
+Moisture:  25.9162
+Time:  20190530 00:48:16
+Temp:  9.8125
+Moisture:  25.9112
+Time:  20190530 00:49:17
+Temp:  9.75
+Moisture:  25.9078
+Time:  20190530 00:50:18
+Temp:  9.625
+Moisture:  25.901
+Time:  20190530 00:51:18
+Temp:  9.6875
+Moisture:  25.9044
+Time:  20190530 00:52:19
+Temp:  9.59375
+Moisture:  25.8993
+Time:  20190530 00:53:20
+Temp:  9.5
+Moisture:  25.8942
+Time:  20190530 00:54:21
+Temp:  9.5625
+Moisture:  25.8976
+Time:  20190530 00:55:22
+Temp:  9.53125
+Moisture:  25.8959
+Time:  20190530 00:56:23
+Temp:  9.5
+Moisture:  25.9449
+Time:  20190530 00:57:24
+Temp:  9.46875
+Moisture:  25.8925
+Time:  20190530 00:58:24
+Temp:  9.4375
+Moisture:  25.8909
+Time:  20190530 00:59:25
+Temp:  9.40625
+Moisture:  25.8387
+Time:  20190530 01:00:26
+Temp:  9.46875
+Moisture:  25.8925
+Time:  20190530 01:01:27
+Temp:  9.5
+Moisture:  25.8438
+Time:  20190530 01:02:28
+Temp:  9.5
+Moisture:  25.8942
+Time:  20190530 01:03:29
+Temp:  9.46875
+Moisture:  25.8925
+Time:  20190530 01:04:30
+Temp:  9.46875
+Moisture:  25.8925
+Time:  20190530 01:05:31
+Temp:  9.46875
+Moisture:  25.8925
+Time:  20190530 01:06:31
+Temp:  9.4375
+Moisture:  25.8404
+Time:  20190530 01:07:32
+Temp:  9.4375
+Moisture:  25.8909
+Time:  20190530 01:08:33
+Temp:  9.4375
+Moisture:  25.8404
+Time:  20190530 01:09:34
+Temp:  9.40625
+Moisture:  25.9398
+Time:  20190530 01:10:35
+Temp:  9.34375
+Moisture:  25.8858
+Time:  20190530 01:11:36
+Temp:  9.375
+Moisture:  25.837
+Time:  20190530 01:12:37
+Temp:  9.375
+Moisture:  25.837
+Time:  20190530 01:13:38
+Temp:  9.28125
+Moisture:  25.832
+Time:  20190530 01:14:38
+Temp:  9.34375
+Moisture:  25.8858
+Time:  20190530 01:15:39
+Temp:  9.28125
+Moisture:  25.5779
+Time:  20190530 01:16:40
+Temp:  9.28125
+Moisture:  25.5779
+Time:  20190530 01:17:41
+Temp:  9.28125
+Moisture:  25.9331
+Time:  20190530 01:18:42
+Temp:  9.25
+Moisture:  25.8807
+Time:  20190530 01:19:43
+Temp:  9.28125
+Moisture:  25.832
+Time:  20190530 01:20:43
+Temp:  9.28125
+Moisture:  25.8824
+Time:  20190530 01:21:44
+Temp:  9.25
+Moisture:  25.8303
+Time:  20190530 01:22:45
+Temp:  9.21875
+Moisture:  25.879
+Time:  20190530 01:23:46
+Temp:  9.25
+Moisture:  25.8807
+Time:  20190530 01:24:47
+Temp:  9.28125
+Moisture:  25.832
+Time:  20190530 01:25:48
+Temp:  9.28125
+Moisture:  25.9331
+Time:  20190530 01:26:49
+Temp:  9.28125
+Moisture:  25.8824
+Time:  20190530 01:27:50
+Temp:  9.25
+Moisture:  25.8807
+Time:  20190530 01:28:50
+Temp:  9.15625
+Moisture:  25.8757
+Time:  20190530 01:29:51
+Temp:  9.25
+Moisture:  25.5762
+Time:  20190530 01:30:52
+Temp:  9.3125
+Moisture:  25.8841
+Time:  20190530 01:31:53
+Temp:  9.375
+Moisture:  25.8875
+Time:  20190530 01:32:54
+Temp:  9.3125
+Moisture:  25.8841
+Time:  20190530 01:33:55
+Temp:  9.40625
+Moisture:  25.9398
+Time:  20190530 01:34:56
+Temp:  9.28125
+Moisture:  25.9331
+Time:  20190530 01:35:57
+Temp:  9.25
+Moisture:  25.8807
+Time:  20190530 01:36:57
+Temp:  9.1875
+Moisture:  25.8269
+Time:  20190530 01:37:58
+Temp:  9.21875
+Moisture:  25.879
+Time:  20190530 01:38:59
+Temp:  9.28125
+Moisture:  25.832
+Time:  20190530 01:40:00
+Temp:  9.3125
+Moisture:  25.8336
+Time:  20190530 01:41:01
+Temp:  9.34375
+Moisture:  25.8858
+Time:  20190530 01:42:02
+Temp:  9.21875
+Moisture:  25.5247
+Time:  20190530 01:43:03
+Temp:  9.21875
+Moisture:  25.8286
+Time:  20190530 01:44:03
+Temp:  9.1875
+Moisture:  25.8773
+Time:  20190530 01:45:04
+Temp:  9.21875
+Moisture:  25.8286
+Time:  20190530 01:46:05
+Temp:  9.25
+Moisture:  25.8303
+Time:  20190530 01:47:06
+Temp:  9.1875
+Moisture:  26.0299
+Time:  20190530 01:48:07
+Temp:  9.28125
+Moisture:  26.1869
+Time:  20190530 01:49:08
+Temp:  9.3125
+Moisture:  25.8336
+Time:  20190530 01:50:09
+Temp:  9.28125
+Moisture:  25.8824
+Time:  20190530 01:51:09
+Temp:  9.375
+Moisture:  25.8875
+Time:  20190530 01:52:10
+Temp:  9.375
+Moisture:  25.837
+Time:  20190530 01:53:11
+Temp:  9.40625
+Moisture:  25.8892
+Time:  20190530 01:54:12
+Temp:  9.4375
+Moisture:  25.5863
+Time:  20190530 01:55:13
+Temp:  9.375
+Moisture:  25.8875
+Time:  20190530 01:56:14
+Temp:  9.375
+Moisture:  25.8875
+Time:  20190530 01:57:14
+Temp:  9.46875
+Moisture:  25.8925
+Time:  20190530 01:58:15
+Temp:  9.5625
+Moisture:  25.8976
+Time:  20190530 01:59:16
+Temp:  9.4375
+Moisture:  25.8909
+Time:  20190530 02:00:17
+Temp:  9.5
+Moisture:  25.8942
+Time:  20190530 02:01:18
+Temp:  9.5625
+Moisture:  25.8471
+Time:  20190530 02:02:19
+Temp:  9.625
+Moisture:  25.901
+Time:  20190530 02:03:20
+Temp:  9.65625
+Moisture:  25.9027
+Time:  20190530 02:04:20
+Temp:  9.71875
+Moisture:  25.9061
+Time:  20190530 02:05:21
+Temp:  9.75
+Moisture:  26.0094
+Time:  20190530 02:06:22
+Temp:  9.78125
+Moisture:  25.6046
+Time:  20190530 02:07:23
+Temp:  9.78125
+Moisture:  25.9095
+Time:  20190530 02:08:24
+Temp:  9.6875
+Moisture:  25.9044
+Time:  20190530 02:09:25
+Temp:  9.78125
+Moisture:  25.9095
+Time:  20190530 02:10:26
+Temp:  9.8125
+Moisture:  25.9112
+Time:  20190530 02:11:27
+Temp:  9.8125
+Moisture:  25.9112
+Time:  20190530 02:12:27
+Temp:  9.875
+Moisture:  25.9653
+Time:  20190530 02:13:28
+Temp:  9.9375
+Moisture:  25.9179
+Time:  20190530 02:14:29
+Temp:  10.0625
+Moisture:  25.9247
+Time:  20190530 02:15:30
+Temp:  10.0
+Moisture:  25.972
+Time:  20190530 02:16:31
+Temp:  10.0312
+Moisture:  25.8725
+Time:  20190530 02:17:32
+Temp:  10.0938
+Moisture:  25.5714
+Time:  20190530 02:18:32
+Temp:  10.1562
+Moisture:  25.8792
+Time:  20190530 02:19:33
+Temp:  10.1562
+Moisture:  25.8792
+Time:  20190530 02:20:34
+Temp:  10.1875
+Moisture:  25.9315
+Time:  20190530 02:21:35
+Temp:  10.3125
+Moisture:  25.8877
+Time:  20190530 02:22:36
+Temp:  10.2812
+Moisture:  25.9366
+Time:  20190530 02:23:37
+Temp:  10.2812
+Moisture:  25.9873
+Time:  20190530 02:24:38
+Temp:  10.2188
+Moisture:  25.9332
+Time:  20190530 02:25:38
+Temp:  10.3125
+Moisture:  25.9383
+Time:  20190530 02:26:39
+Temp:  10.375
+Moisture:  25.9417
+Time:  20190530 02:27:40
+Temp:  10.3438
+Moisture:  25.9907
+Time:  20190530 02:28:41
+Temp:  10.4375
+Moisture:  25.945
+Time:  20190530 02:29:42
+Temp:  10.4688
+Moisture:  25.8962
+Time:  20190530 02:30:43
+Temp:  10.4062
+Moisture:  25.9433
+Time:  20190530 02:31:44
+Temp:  10.3125
+Moisture:  25.989
+Time:  20190530 02:32:45
+Temp:  10.4062
+Moisture:  25.9433
+Time:  20190530 02:33:45
+Temp:  10.4062
+Moisture:  25.9433
+Time:  20190530 02:34:46
+Temp:  10.4375
+Moisture:  25.945
+Time:  20190530 02:35:47
+Temp:  10.3438
+Moisture:  25.8894
+Time:  20190530 02:36:48
+Temp:  10.3438
+Moisture:  25.94
+Time:  20190530 02:37:49
+Temp:  10.25
+Moisture:  25.9349
+Time:  20190530 02:38:50
+Temp:  10.1562
+Moisture:  25.9298
+Time:  20190530 02:39:51
+Temp:  10.1562
+Moisture:  25.9805
+Time:  20190530 02:40:51
+Temp:  10.2812
+Moisture:  25.9873
+Time:  20190530 02:41:52
+Temp:  10.1562
+Moisture:  25.9298
+Time:  20190530 02:42:53
+Temp:  10.1875
+Moisture:  25.9315
+Time:  20190530 02:43:54
+Temp:  10.1875
+Moisture:  25.9822
+Time:  20190530 02:44:55
+Temp:  10.2812
+Moisture:  25.9366
+Time:  20190530 02:45:56
+Temp:  10.1875
+Moisture:  25.9315
+Time:  20190530 02:46:56
+Temp:  10.1875
+Moisture:  25.9315
+Time:  20190530 02:47:57
+Temp:  10.0312
+Moisture:  25.923
+Time:  20190530 02:48:58
+Temp:  9.9375
+Moisture:  25.9179
+Time:  20190530 02:49:59
+Temp:  10.0
+Moisture:  25.9213
+Time:  20190530 02:51:00
+Temp:  9.9375
+Moisture:  25.8674
+Time:  20190530 02:52:01
+Temp:  9.8125
+Moisture:  25.8606
+Time:  20190530 02:53:02
+Temp:  9.8125
+Moisture:  25.9112
+Time:  20190530 02:54:03
+Temp:  9.8125
+Moisture:  25.9112
+Time:  20190530 02:55:03
+Temp:  9.90625
+Moisture:  25.9162
+Time:  20190530 02:56:04
+Temp:  9.75
+Moisture:  25.9078
+Time:  20190530 02:57:05
+Temp:  9.65625
+Moisture:  25.8522
+Time:  20190530 02:58:06
+Temp:  9.6875
+Moisture:  25.9044
+Time:  20190530 02:59:07
+Temp:  9.59375
+Moisture:  25.95
+Time:  20190530 03:00:08
+Temp:  9.65625
+Moisture:  25.9534
+Time:  20190530 03:01:08
+Temp:  9.6875
+Moisture:  25.9044
+Time:  20190530 03:02:09
+Temp:  9.65625
+Moisture:  25.8522
+Time:  20190530 03:03:10
+Temp:  9.5625
+Moisture:  25.8471
+Time:  20190530 03:04:11
+Temp:  9.65625
+Moisture:  25.598
+Time:  20190530 03:05:12
+Temp:  9.53125
+Moisture:  25.8454
+Time:  20190530 03:06:13
+Temp:  9.5625
+Moisture:  25.8471
+Time:  20190530 03:07:14
+Temp:  9.4375
+Moisture:  25.8909
+Time:  20190530 03:08:15
+Temp:  9.53125
+Moisture:  25.9975
+Time:  20190530 03:09:15
+Temp:  9.46875
+Moisture:  25.9432
+Time:  20190530 03:10:16
+Temp:  9.4375
+Moisture:  25.8909
+Time:  20190530 03:11:17
+Temp:  9.5
+Moisture:  25.8438
+Time:  20190530 03:12:18
+Temp:  9.5
+Moisture:  25.9449
+Time:  20190530 03:13:19
+Temp:  9.4375
+Moisture:  25.8909
+Time:  20190530 03:14:20
+Temp:  9.5
+Moisture:  26.1989
+Time:  20190530 03:15:20
+Temp:  9.4375
+Moisture:  25.5863
+Time:  20190530 03:16:21
+Temp:  9.5
+Moisture:  25.8942
+Time:  20190530 03:17:22
+Temp:  9.46875
+Moisture:  25.9432
+Time:  20190530 03:18:23
+Temp:  9.53125
+Moisture:  25.8454
+Time:  20190530 03:19:24
+Temp:  9.5625
+Moisture:  25.8976
+Time:  20190530 03:20:25
+Temp:  9.625
+Moisture:  25.8505
+Time:  20190530 03:21:26
+Temp:  9.625
+Moisture:  25.9517
+Time:  20190530 03:22:26
+Temp:  9.59375
+Moisture:  25.8993
+Time:  20190530 03:23:27
+Temp:  9.625
+Moisture:  25.8505
+Time:  20190530 03:24:28
+Temp:  9.6875
+Moisture:  25.9044
+Time:  20190530 03:25:29
+Temp:  9.78125
+Moisture:  25.859
+Time:  20190530 03:26:30
+Temp:  9.75
+Moisture:  25.9585
+Time:  20190530 03:27:31
+Temp:  9.71875
+Moisture:  25.8556
+Time:  20190530 03:28:32
+Temp:  9.875
+Moisture:  25.9653
+Time:  20190530 03:29:33
+Temp:  9.90625
+Moisture:  25.9669
+Time:  20190530 03:30:33
+Temp:  9.84375
+Moisture:  25.8623
+Time:  20190530 03:31:34
+Temp:  9.9375
+Moisture:  25.9179
+Time:  20190530 03:32:35
+Temp:  9.8125
+Moisture:  25.9112
+Time:  20190530 03:33:36
+Temp:  9.78125
+Moisture:  25.9095
+Time:  20190530 03:34:37
+Temp:  9.71875
+Moisture:  25.9061
+Time:  20190530 03:35:38
+Temp:  9.78125
+Moisture:  25.9095
+Time:  20190530 03:36:39
+Temp:  9.71875
+Moisture:  25.9061
+Time:  20190530 03:37:39
+Temp:  9.75
+Moisture:  26.0094
+Time:  20190530 03:38:40
+Temp:  9.65625
+Moisture:  25.9027
+Time:  20190530 03:39:41
+Temp:  9.625
+Moisture:  25.901
+Time:  20190530 03:40:42
+Temp:  9.65625
+Moisture:  25.8522
+Time:  20190530 03:41:43
+Temp:  9.5625
+Moisture:  25.8976
+Time:  20190530 03:42:44
+Temp:  9.6875
+Moisture:  25.9044
+Time:  20190530 03:43:44
+Temp:  9.59375
+Moisture:  25.8993
+Time:  20190530 03:44:45
+Temp:  9.65625
+Moisture:  25.9027
+Time:  20190530 03:45:46
+Temp:  9.625
+Moisture:  25.8505
+Time:  20190530 03:46:47
+Temp:  9.59375
+Moisture:  25.8993
+Time:  20190530 03:47:48
+Temp:  9.625
+Moisture:  25.901
+Time:  20190530 03:48:49
+Temp:  9.625
+Moisture:  26.2057
+Time:  20190530 03:49:50
+Temp:  9.59375
+Moisture:  25.8993
+Time:  20190530 03:50:50
+Temp:  9.53125
+Moisture:  25.8959
+Time:  20190530 03:51:51
+Temp:  9.46875
+Moisture:  25.8925
+Time:  20190530 03:52:52
+Temp:  9.65625
+Moisture:  25.9027
+Time:  20190530 03:53:53
+Temp:  9.59375
+Moisture:  25.8993
+Time:  20190530 03:54:54
+Temp:  9.6875
+Moisture:  25.9044
+Time:  20190530 03:55:55
+Temp:  9.8125
+Moisture:  25.9112
+Time:  20190530 03:56:56
+Temp:  9.78125
+Moisture:  25.9095
+Time:  20190530 03:57:56
+Temp:  9.8125
+Moisture:  25.8606
+Time:  20190530 03:58:57
+Temp:  9.8125
+Moisture:  25.9112
+Time:  20190530 03:59:58
+Temp:  9.9375
+Moisture:  25.9179
+Time:  20190530 04:00:59
+Temp:  10.0
+Moisture:  25.9213
+Time:  20190530 04:02:00
+Temp:  10.0
+Moisture:  25.9213
+Time:  20190530 04:03:01
+Temp:  9.96875
+Moisture:  26.0213
+Time:  20190530 04:04:02
+Temp:  10.0625
+Moisture:  25.9247
+Time:  20190530 04:05:02
+Temp:  10.0312
+Moisture:  25.923
+Time:  20190530 04:06:03
+Temp:  10.1562
+Moisture:  25.9298
+Time:  20190530 04:07:04
+Temp:  10.1875
+Moisture:  25.9315
+Time:  20190530 04:08:05
+Temp:  10.1562
+Moisture:  25.9298
+Time:  20190530 04:09:06
+Temp:  10.1562
+Moisture:  25.9298
+Time:  20190530 04:10:07
+Temp:  10.1875
+Moisture:  25.8809
+Time:  20190530 04:11:08
+Temp:  10.2188
+Moisture:  25.9839
+Time:  20190530 04:12:08
+Temp:  10.25
+Moisture:  25.9349
+Time:  20190530 04:13:09
+Temp:  10.2812
+Moisture:  25.9366
+Time:  20190530 04:14:10
+Temp:  10.25
+Moisture:  25.9349
+Time:  20190530 04:15:11
+Temp:  10.2188
+Moisture:  26.086
+Time:  20190530 04:16:12
+Temp:  10.1875
+Moisture:  25.9315
+Time:  20190530 04:17:13
+Temp:  10.2812
+Moisture:  25.9366
+Time:  20190530 04:18:13
+Temp:  10.1875
+Moisture:  25.6264
+Time:  20190530 04:19:14
+Temp:  10.25
+Moisture:  25.9349
+Time:  20190530 04:20:15
+Temp:  10.125
+Moisture:  25.9281
+Time:  20190530 04:21:16
+Temp:  10.0625
+Moisture:  25.9247
+Time:  20190530 04:22:17
+Temp:  10.0625
+Moisture:  25.9247
+Time:  20190530 04:23:18
+Temp:  9.96875
+Moisture:  26.0213
+Time:  20190530 04:24:18
+Temp:  10.0625
+Moisture:  25.8742
+Time:  20190530 04:25:19
+Temp:  10.0
+Moisture:  25.8708
+Time:  20190530 04:26:20
+Temp:  10.0
+Moisture:  25.9213
+Time:  20190530 04:27:21
+Temp:  9.90625
+Moisture:  25.9162
+Time:  20190530 04:28:22
+Temp:  9.875
+Moisture:  25.9145
+Time:  20190530 04:29:23
+Temp:  9.8125
+Moisture:  25.9112
+Time:  20190530 04:30:24
+Temp:  9.84375
+Moisture:  25.9128
+Time:  20190530 04:31:24
+Temp:  9.8125
+Moisture:  25.9619
+Time:  20190530 04:32:25
+Temp:  9.78125
+Moisture:  25.9095
+Time:  20190530 04:33:26
+Temp:  9.78125
+Moisture:  25.9095
+Time:  20190530 04:34:27
+Temp:  9.59375
+Moisture:  25.8993
+Time:  20190530 04:35:28
+Temp:  9.75
+Moisture:  25.9078
+Time:  20190530 04:36:29
+Temp:  9.75
+Moisture:  25.8573
+Time:  20190530 04:37:29
+Temp:  9.59375
+Moisture:  25.8993
+Time:  20190530 04:38:30
+Temp:  9.625
+Moisture:  25.901
+Time:  20190530 04:39:31
+Temp:  9.53125
+Moisture:  25.8454
+Time:  20190530 04:40:32
+Temp:  9.53125
+Moisture:  25.8959
+Time:  20190530 04:41:33
+Temp:  9.53125
+Moisture:  25.8959
+Time:  20190530 04:42:34
+Temp:  9.5
+Moisture:  25.8438
+Time:  20190530 04:43:35
+Temp:  9.375
+Moisture:  25.8875
+Time:  20190530 04:44:35
+Temp:  9.34375
+Moisture:  25.8858
+Time:  20190530 04:45:36
+Temp:  9.34375
+Moisture:  25.8858
+Time:  20190530 04:46:37
+Temp:  9.28125
+Moisture:  25.8824
+Time:  20190530 04:47:38
+Temp:  9.21875
+Moisture:  25.879
+Time:  20190530 04:48:39
+Temp:  9.21875
+Moisture:  25.9297
+Time:  20190530 04:49:40
+Temp:  9.21875
+Moisture:  25.879
+Time:  20190530 04:50:41
+Temp:  9.28125
+Moisture:  25.832
+Time:  20190530 04:51:41
+Temp:  9.28125
+Moisture:  25.8824
+Time:  20190530 04:52:42
+Temp:  9.1875
+Moisture:  25.8773
+Time:  20190530 04:53:43
+Temp:  9.21875
+Moisture:  25.879
+Time:  20190530 04:54:44
+Temp:  9.21875
+Moisture:  25.879
+Time:  20190530 04:55:45
+Temp:  9.0625
+Moisture:  25.8202
+Time:  20190530 04:56:46
+Temp:  9.21875
+Moisture:  25.879
+Time:  20190530 04:57:47
+Temp:  9.0625
+Moisture:  25.8706
+Time:  20190530 04:58:47
+Temp:  9.03125
+Moisture:  25.8689
+Time:  20190530 04:59:48
+Temp:  8.9375
+Moisture:  25.9145
+Time:  20190530 05:00:49
+Temp:  8.96875
+Moisture:  25.8655
+Time:  20190530 05:01:50
+Temp:  8.9375
+Moisture:  25.8638
+Time:  20190530 05:02:51
+Temp:  8.78125
+Moisture:  25.8554
+Time:  20190530 05:03:52
+Temp:  8.84375
+Moisture:  25.8588
+Time:  20190530 05:04:52
+Temp:  8.8125
+Moisture:  25.8571
+Time:  20190530 05:05:53
+Temp:  8.75
+Moisture:  25.8537
+Time:  20190530 05:06:54
+Temp:  8.8125
+Moisture:  25.8067
+Time:  20190530 05:07:55
+Temp:  8.71875
+Moisture:  25.8521
+Time:  20190530 05:08:56
+Temp:  8.59375
+Moisture:  25.8453
+Time:  20190530 05:09:57
+Temp:  8.71875
+Moisture:  25.8521
+Time:  20190530 05:10:58
+Temp:  8.6875
+Moisture:  25.8504
+Time:  20190530 05:11:59
+Temp:  8.6875
+Moisture:  25.8504
+Time:  20190530 05:12:59
+Temp:  8.6875
+Moisture:  25.8504
+Time:  20190530 05:14:00
+Temp:  8.75
+Moisture:  25.8033
+Time:  20190530 05:15:01
+Temp:  8.59375
+Moisture:  25.8453
+Time:  20190530 05:16:02
+Temp:  8.75
+Moisture:  25.8537
+Time:  20190530 05:17:02
+Temp:  8.625
+Moisture:  25.8976
+Time:  20190530 05:18:04
+Temp:  8.5625
+Moisture:  25.8436
+Time:  20190530 05:19:04
+Temp:  8.625
+Moisture:  25.847
+Time:  20190530 05:20:05
+Temp:  8.71875
+Moisture:  25.8017
+Time:  20190530 05:21:06
+Temp:  8.5625
+Moisture:  25.8436
+Time:  20190530 05:22:07
+Temp:  8.5625
+Moisture:  25.945
+Time:  20190530 05:23:08
+Temp:  8.59375
+Moisture:  25.7949
+Time:  20190530 05:24:09
+Temp:  8.53125
+Moisture:  25.8419
+Time:  20190530 05:25:10
+Temp:  8.5625
+Moisture:  25.8436
+Time:  20190530 05:26:11
+Temp:  8.53125
+Moisture:  25.8419
+Time:  20190530 05:27:11
+Temp:  8.625
+Moisture:  25.847
+Time:  20190530 05:28:12
+Temp:  8.53125
+Moisture:  25.8419
+Time:  20190530 05:29:13
+Temp:  8.5625
+Moisture:  25.8436
+Time:  20190530 05:30:14
+Temp:  8.5
+Moisture:  25.7899
+Time:  20190530 05:31:15
+Temp:  8.5625
+Moisture:  25.8436
+Time:  20190530 05:32:16
+Temp:  8.53125
+Moisture:  25.7916
+Time:  20190530 05:33:17
+Temp:  8.5
+Moisture:  25.8403
+Time:  20190530 05:34:17
+Temp:  8.625
+Moisture:  25.847
+Time:  20190530 05:35:18
+Temp:  8.53125
+Moisture:  25.8419
+Time:  20190530 05:36:19
+Temp:  8.4375
+Moisture:  25.7865
+Time:  20190530 05:37:20
+Temp:  8.625
+Moisture:  25.847
+Time:  20190530 05:38:21
+Temp:  8.59375
+Moisture:  25.7949
+Time:  20190530 05:39:22
+Temp:  8.6875
+Moisture:  25.5462
+Time:  20190530 05:40:23
+Temp:  8.78125
+Moisture:  25.2471
+Time:  20190530 05:41:24
+Temp:  8.75
+Moisture:  25.5496
+Time:  20190530 05:42:24
+Temp:  8.78125
+Moisture:  25.805
+Time:  20190530 05:43:25
+Temp:  8.84375
+Moisture:  25.5048
+Time:  20190530 05:44:26
+Temp:  8.78125
+Moisture:  25.8554
+Time:  20190530 05:45:27
+Temp:  8.78125
+Moisture:  25.2471
+Time:  20190530 05:46:28
+Temp:  8.84375
+Moisture:  25.5546
+Time:  20190530 05:47:29
+Temp:  8.9375
+Moisture:  25.8134
+Time:  20190530 05:48:30
+Temp:  8.96875
+Moisture:  25.5612
+Time:  20190530 05:49:30
+Temp:  8.96875
+Moisture:  25.5612
+Time:  20190530 05:50:31
+Temp:  8.96875
+Moisture:  25.2569
+Time:  20190530 05:51:32
+Temp:  9.0625
+Moisture:  25.2126
+Time:  20190530 05:52:33
+Temp:  9.0
+Moisture:  25.5131
+Time:  20190530 05:53:34
+Temp:  9.0
+Moisture:  25.5629
+Time:  20190530 05:54:35
+Temp:  9.125
+Moisture:  25.5197
+Time:  20190530 05:55:35
+Temp:  9.09375
+Moisture:  25.5679
+Time:  20190530 05:56:36
+Temp:  9.125
+Moisture:  25.2652
+Time:  20190530 05:57:37
+Temp:  9.1875
+Moisture:  25.5729
+Time:  20190530 05:58:38
+Temp:  9.21875
+Moisture:  25.6246
+Time:  20190530 05:59:39
+Temp:  9.25
+Moisture:  25.5264
+Time:  20190530 06:00:40
+Temp:  9.375
+Moisture:  25.837
+Time:  20190530 06:01:41
+Temp:  9.375
+Moisture:  25.2291
+Time:  20190530 06:02:42
+Temp:  9.46875
+Moisture:  25.5879
+Time:  20190530 06:03:42
+Temp:  9.40625
+Moisture:  25.8892
+Time:  20190530 06:04:43
+Temp:  9.5625
+Moisture:  25.5431
+Time:  20190530 06:05:44
+Temp:  9.65625
+Moisture:  25.648
+Time:  20190530 06:06:45
+Temp:  9.6875
+Moisture:  25.9044
+Time:  20190530 06:07:46
+Temp:  9.71875
+Moisture:  25.6013
+Time:  20190530 06:08:47
+Temp:  9.8125
+Moisture:  25.9112
+Time:  20190530 06:09:48
+Temp:  9.6875
+Moisture:  25.9044
+Time:  20190530 06:10:48
+Temp:  9.78125
+Moisture:  25.6547
+Time:  20190530 06:11:49
+Temp:  9.8125
+Moisture:  25.8606
+Time:  20190530 06:12:50
+Temp:  9.875
+Moisture:  25.9145
+Time:  20190530 06:13:51
+Temp:  9.9375
+Moisture:  25.613
+Time:  20190530 06:14:52
+Temp:  10.0625
+Moisture:  25.6197
+Time:  20190530 06:15:53
+Temp:  10.2188
+Moisture:  25.9332
+Time:  20190530 06:16:54
+Temp:  10.2188
+Moisture:  25.9332
+Time:  20190530 06:17:55
+Temp:  10.2812
+Moisture:  25.6314
+Time:  20190530 06:18:56
+Temp:  10.4375
+Moisture:  25.3842
+Time:  20190530 06:19:56
+Temp:  10.4375
+Moisture:  25.945
+Time:  20190530 06:20:57
+Temp:  10.4688
+Moisture:  25.6917
+Time:  20190530 06:21:58
+Temp:  10.4375
+Moisture:  25.6398
+Time:  20190530 06:22:59
+Temp:  10.4062
+Moisture:  25.6381
+Time:  20190530 06:24:00
+Temp:  10.5625
+Moisture:  25.6465
+Time:  20190530 06:25:01
+Temp:  10.4688
+Moisture:  26.0997
+Time:  20190530 06:26:02
+Temp:  10.5938
+Moisture:  25.6482
+Time:  20190530 06:27:02
+Temp:  10.7188
+Moisture:  25.7051
+Time:  20190530 06:28:03
+Temp:  10.7812
+Moisture:  25.9637
+Time:  20190530 06:29:04
+Temp:  10.8125
+Moisture:  25.9654
+Time:  20190530 06:30:05
+Temp:  10.7812
+Moisture:  25.9131
+Time:  20190530 06:31:06
+Temp:  10.9375
+Moisture:  26.0231
+Time:  20190530 06:32:07
+Temp:  10.9688
+Moisture:  25.9739
+Time:  20190530 06:33:08
+Temp:  11.0625
+Moisture:  25.979
+Time:  20190530 06:34:09
+Temp:  11.1562
+Moisture:  25.9841
+Time:  20190530 06:35:09
+Temp:  11.1875
+Moisture:  25.9858
+Time:  20190530 06:36:10
+Temp:  11.2188
+Moisture:  25.9875
+Time:  20190530 06:37:11
+Temp:  11.2812
+Moisture:  25.9909
+Time:  20190530 06:38:12
+Temp:  11.3438
+Moisture:  25.9943
+Time:  20190530 06:39:13
+Temp:  11.375
+Moisture:  25.6902
+Time:  20190530 06:40:14
+Temp:  11.375
+Moisture:  25.9961
+Time:  20190530 06:41:15
+Temp:  11.5
+Moisture:  25.9522
+Time:  20190530 06:42:16
+Temp:  11.5312
+Moisture:  25.6986
+Time:  20190530 06:43:16
+Temp:  11.5625
+Moisture:  25.3449
+Time:  20190530 06:44:17
+Temp:  11.6562
+Moisture:  25.7557
+Time:  20190530 06:45:18
+Temp:  11.75
+Moisture:  25.4044
+Time:  20190530 06:46:19
+Temp:  11.7188
+Moisture:  25.9641
+Time:  20190530 06:47:20
+Temp:  11.75
+Moisture:  26.0165
+Time:  20190530 06:48:21
+Temp:  11.75
+Moisture:  25.7104
+Time:  20190530 06:49:22
+Temp:  11.6875
+Moisture:  25.9624
+Time:  20190530 06:50:23
+Temp:  11.75
+Moisture:  26.0165
+Time:  20190530 06:51:23
+Temp:  11.8125
+Moisture:  25.9692
+Time:  20190530 06:52:24
+Temp:  11.7812
+Moisture:  26.0182
+Time:  20190530 06:53:25
+Temp:  11.875
+Moisture:  25.7172
+Time:  20190530 06:54:26
+Temp:  11.8438
+Moisture:  26.0216
+Time:  20190530 06:55:27
+Temp:  11.8438
+Moisture:  25.9709
+Time:  20190530 06:56:28
+Temp:  11.9375
+Moisture:  25.976
+Time:  20190530 06:57:29
+Temp:  12.0
+Moisture:  26.0302
+Time:  20190530 06:58:29
+Temp:  12.0312
+Moisture:  26.0319
+Time:  20190530 06:59:30
+Temp:  12.0938
+Moisture:  26.0862
+Time:  20190530 07:00:31
+Temp:  12.2188
+Moisture:  26.0421
+Time:  20190530 07:01:32
+Temp:  12.1562
+Moisture:  26.0387
+Time:  20190530 07:02:33
+Temp:  12.3438
+Moisture:  26.049
+Time:  20190530 07:03:34
+Temp:  12.25
+Moisture:  26.0438
+Time:  20190530 07:04:34
+Temp:  12.25
+Moisture:  26.0438
+Time:  20190530 07:05:35
+Temp:  12.2812
+Moisture:  25.9948
+Time:  20190530 07:06:36
+Temp:  12.3125
+Moisture:  26.0982
+Time:  20190530 07:07:37
+Temp:  12.3125
+Moisture:  25.7408
+Time:  20190530 07:08:38
+Temp:  12.2812
+Moisture:  26.0456
+Time:  20190530 07:09:38
+Temp:  12.4375
+Moisture:  26.0033
+Time:  20190530 07:10:39
+Temp:  12.4375
+Moisture:  26.0541
+Time:  20190530 07:11:40
+Temp:  12.5
+Moisture:  26.0575
+Time:  20190530 07:12:41
+Temp:  12.5938
+Moisture:  25.8064
+Time:  20190530 07:13:42
+Temp:  12.625
+Moisture:  26.0644
+Time:  20190530 07:14:43
+Temp:  12.5312
+Moisture:  26.0592
+Time:  20190530 07:15:44
+Temp:  12.7188
+Moisture:  26.0695
+Time:  20190530 07:16:44
+Temp:  12.6875
+Moisture:  26.0678
+Time:  20190530 07:17:45
+Temp:  12.7188
+Moisture:  25.7628
+Time:  20190530 07:18:46
+Temp:  12.8125
+Moisture:  26.0238
+Time:  20190530 07:19:47
+Temp:  12.75
+Moisture:  26.0712
+Time:  20190530 07:20:48
+Temp:  12.9062
+Moisture:  26.1308
+Time:  20190530 07:21:49
+Temp:  12.9375
+Moisture:  26.0815
+Time:  20190530 07:22:50
+Temp:  12.9062
+Moisture:  26.1308
+Time:  20190530 07:23:51
+Temp:  12.9375
+Moisture:  26.0815
+Time:  20190530 07:24:51
+Temp:  12.9688
+Moisture:  26.0832
+Time:  20190530 07:25:52
+Temp:  13.0938
+Moisture:  26.0901
+Time:  20190530 07:26:53
+Temp:  13.0938
+Moisture:  26.0392
+Time:  20190530 07:27:54
+Temp:  13.0
+Moisture:  26.0849
+Time:  20190530 07:28:55
+Temp:  13.0
+Moisture:  26.136
+Time:  20190530 07:29:56
+Temp:  13.0625
+Moisture:  26.0884
+Time:  20190530 07:30:57
+Temp:  13.1875
+Moisture:  26.0952
+Time:  20190530 07:31:57
+Temp:  13.1562
+Moisture:  26.0935
+Time:  20190530 07:32:58
+Temp:  13.2188
+Moisture:  25.7899
+Time:  20190530 07:33:59
+Temp:  13.2188
+Moisture:  26.097
+Time:  20190530 07:35:00
+Temp:  13.1875
+Moisture:  26.0952
+Time:  20190530 07:36:01
+Temp:  13.3125
+Moisture:  26.1021
+Time:  20190530 07:37:02
+Temp:  13.4375
+Moisture:  26.0581
+Time:  20190530 07:38:03
+Temp:  13.4062
+Moisture:  26.1073
+Time:  20190530 07:39:04
+Temp:  13.3438
+Moisture:  25.8472
+Time:  20190530 07:40:04
+Temp:  13.4375
+Moisture:  26.0581
+Time:  20190530 07:41:05
+Temp:  13.4375
+Moisture:  26.109
+Time:  20190530 07:42:06
+Temp:  13.5
+Moisture:  26.1124
+Time:  20190530 07:43:07
+Temp:  13.625
+Moisture:  26.1193
+Time:  20190530 07:44:08
+Temp:  13.7188
+Moisture:  25.8171
+Time:  20190530 07:45:08
+Temp:  13.6562
+Moisture:  26.121
+Time:  20190530 07:46:09
+Temp:  13.8438
+Moisture:  26.1313
+Time:  20190530 07:47:10
+Temp:  13.875
+Moisture:  26.1331
+Time:  20190530 07:48:11
+Temp:  13.9375
+Moisture:  26.1365
+Time:  20190530 07:49:12
+Temp:  13.9688
+Moisture:  26.1382
+Time:  20190530 07:50:13
+Temp:  14.0625
+Moisture:  26.1946
+Time:  20190530 07:51:14
+Temp:  14.0625
+Moisture:  26.1946
+Time:  20190530 07:52:14
+Temp:  14.1562
+Moisture:  26.1486
+Time:  20190530 07:53:15
+Temp:  14.3125
+Moisture:  26.1062
+Time:  20190530 07:54:16
+Temp:  14.25
+Moisture:  26.1537
+Time:  20190530 07:55:17
+Temp:  14.2812
+Moisture:  26.1555
+Time:  20190530 07:56:18
+Temp:  14.3438
+Moisture:  26.1589
+Time:  20190530 07:57:19
+Temp:  14.4688
+Moisture:  26.217
+Time:  20190530 07:58:19
+Temp:  14.4688
+Moisture:  26.1658
+Time:  20190530 07:59:20
+Temp:  14.5938
+Moisture:  26.1727
+Time:  20190530 08:00:21
+Temp:  14.5312
+Moisture:  26.1693
+Time:  20190530 08:01:22
+Temp:  14.6562
+Moisture:  26.1762
+Time:  20190530 08:02:23
+Temp:  14.5938
+Moisture:  26.1727
+Time:  20190530 08:03:24
+Temp:  14.6562
+Moisture:  26.4841
+Time:  20190530 08:04:25
+Temp:  14.7812
+Moisture:  26.132
+Time:  20190530 08:05:26
+Temp:  14.8125
+Moisture:  26.1848
+Time:  20190530 08:06:26
+Temp:  14.8438
+Moisture:  26.2378
+Time:  20190530 08:07:27
+Temp:  14.8438
+Moisture:  26.1865
+Time:  20190530 08:08:28
+Temp:  14.9688
+Moisture:  26.1935
+Time:  20190530 08:09:29
+Temp:  15.0938
+Moisture:  26.3031
+Time:  20190530 08:10:30
+Temp:  15.125
+Moisture:  26.2534
+Time:  20190530 08:11:31
+Temp:  15.125
+Moisture:  26.2021
+Time:  20190530 08:12:32
+Temp:  15.1875
+Moisture:  26.2056
+Time:  20190530 08:13:32
+Temp:  15.1562
+Moisture:  26.2038
+Time:  20190530 08:14:33
+Temp:  15.3125
+Moisture:  26.2638
+Time:  20190530 08:15:34
+Temp:  15.4375
+Moisture:  26.2194
+Time:  20190530 08:16:35
+Temp:  15.3438
+Moisture:  26.2142
+Time:  20190530 08:17:36
+Temp:  15.5
+Moisture:  26.2229
+Time:  20190530 08:18:37
+Temp:  15.5312
+Moisture:  26.2759
+Time:  20190530 08:19:37
+Temp:  15.625
+Moisture:  26.1787
+Time:  20190530 08:20:38
+Temp:  15.6875
+Moisture:  26.2333
+Time:  20190530 08:21:39
+Temp:  15.625
+Moisture:  26.5903
+Time:  20190530 08:22:40
+Temp:  15.8125
+Moisture:  26.2402
+Time:  20190530 08:23:41
+Temp:  15.8125
+Moisture:  26.1891
+Time:  20190530 08:24:42
+Temp:  16.0938
+Moisture:  26.2559
+Time:  20190530 08:25:43
+Temp:  16.2188
+Moisture:  26.2628
+Time:  20190530 08:26:43
+Temp:  16.125
+Moisture:  26.4124
+Time:  20190530 08:27:44
+Temp:  16.1875
+Moisture:  26.2611
+Time:  20190530 08:28:45
+Temp:  16.3438
+Moisture:  26.2186
+Time:  20190530 08:29:46
+Temp:  16.5
+Moisture:  26.2785
+Time:  20190530 08:30:47
+Temp:  16.5
+Moisture:  26.3299
+Time:  20190530 08:31:48
+Temp:  16.6562
+Moisture:  26.2872
+Time:  20190530 08:32:48
+Temp:  16.75
+Moisture:  26.2412
+Time:  20190530 08:33:49
+Temp:  16.9375
+Moisture:  26.3029
+Time:  20190530 08:34:50
+Temp:  16.9688
+Moisture:  26.3561
+Time:  20190530 08:35:51
+Temp:  17.0938
+Moisture:  26.2603
+Time:  20190530 08:36:52
+Temp:  17.125
+Moisture:  26.6229
+Time:  20190530 08:37:53
+Temp:  17.25
+Moisture:  26.3203
+Time:  20190530 08:38:54
+Temp:  17.375
+Moisture:  26.3273
+Time:  20190530 08:39:55
+Temp:  17.4062
+Moisture:  26.3291
+Time:  20190530 08:40:55
+Temp:  17.5
+Moisture:  26.6441
+Time:  20190530 08:41:56
+Temp:  17.5938
+Moisture:  26.3395
+Time:  20190530 08:42:57
+Temp:  17.8125
+Moisture:  26.3518
+Time:  20190530 08:43:58
+Temp:  17.75
+Moisture:  26.3999
+Time:  20190530 08:44:59
+Temp:  18.0
+Moisture:  26.3623
+Time:  20190530 08:46:00
+Temp:  18.1875
+Moisture:  26.7353
+Time:  20190530 08:47:00
+Temp:  18.1875
+Moisture:  26.4244
+Time:  20190530 08:48:01
+Temp:  18.2812
+Moisture:  26.3781
+Time:  20190530 08:49:02
+Temp:  18.3438
+Moisture:  26.3816
+Time:  20190530 08:50:03
+Temp:  18.4688
+Moisture:  26.3886
+Time:  20190530 08:51:04
+Temp:  18.4688
+Moisture:  26.6991
+Time:  20190530 08:52:05
+Temp:  18.5
+Moisture:  26.7008
+Time:  20190530 08:53:06
+Temp:  18.4688
+Moisture:  26.3886
+Time:  20190530 08:54:07
+Temp:  18.5312
+Moisture:  26.3921
+Time:  20190530 08:55:07
+Temp:  18.5312
+Moisture:  26.7026
+Time:  20190530 08:56:08
+Temp:  18.5625
+Moisture:  26.3939
+Time:  20190530 08:57:09
+Temp:  18.5938
+Moisture:  26.3956
+Time:  20190530 08:58:10
+Temp:  18.625
+Moisture:  26.3974
+Time:  20190530 08:59:11
+Temp:  18.6875
+Moisture:  26.7115
+Time:  20190530 09:00:12
+Temp:  18.7812
+Moisture:  26.7691
+Time:  20190530 09:01:12
+Temp:  18.8125
+Moisture:  26.3564
+Time:  20190530 09:02:13
+Temp:  18.875
+Moisture:  26.7222
+Time:  20190530 09:03:14
+Temp:  19.0312
+Moisture:  26.4202
+Time:  20190530 09:04:15
+Temp:  19.0
+Moisture:  26.4702
+Time:  20190530 09:05:16
+Temp:  19.0625
+Moisture:  26.422
+Time:  20190530 09:06:17
+Temp:  19.0312
+Moisture:  26.7311
+Time:  20190530 09:07:18
+Temp:  19.0938
+Moisture:  26.4238
+Time:  20190530 09:08:18
+Temp:  19.25
+Moisture:  26.4843
+Time:  20190530 09:09:19
+Temp:  19.2812
+Moisture:  26.7453
+Time:  20190530 09:10:20
+Temp:  19.4375
+Moisture:  26.3916
+Time:  20190530 09:11:21
+Temp:  19.375
+Moisture:  26.3881
+Time:  20190530 09:12:22
+Temp:  19.5
+Moisture:  26.9155
+Time:  20190530 09:13:23
+Temp:  19.75
+Moisture:  26.7199
+Time:  20190530 09:14:23
+Temp:  19.9062
+Moisture:  26.781
+Time:  20190530 09:15:24
+Temp:  20.2188
+Moisture:  26.7989
+Time:  20190530 09:16:25
+Temp:  20.5
+Moisture:  26.815
+Time:  20190530 09:17:26
+Temp:  20.9375
+Moisture:  26.4763
+Time:  20190530 09:18:27
+Temp:  21.125
+Moisture:  26.8509
+Time:  20190530 09:19:28
+Temp:  21.4375
+Moisture:  26.8689
+Time:  20190530 09:20:29
+Temp:  21.5312
+Moisture:  26.9268
+Time:  20190530 09:21:29
+Temp:  21.8438
+Moisture:  27.205
+Time:  20190530 09:22:30
+Temp:  22.1562
+Moisture:  26.9103
+Time:  20190530 09:23:31
+Temp:  22.5312
+Moisture:  27.2451
+Time:  20190530 09:24:32
+Temp:  22.9688
+Moisture:  27.2176
+Time:  20190530 09:25:33
+Temp:  23.375
+Moisture:  26.6671
+Time:  20190530 09:26:34
+Temp:  23.7188
+Moisture:  27.0008
+Time:  20190530 09:27:34
+Temp:  23.8438
+Moisture:  27.0081
+Time:  20190530 09:28:35
+Temp:  23.9375
+Moisture:  27.2799
+Time:  20190530 09:29:36
+Temp:  24.25
+Moisture:  26.7174
+Time:  20190530 09:30:37
+Temp:  24.5
+Moisture:  27.0463
+Time:  20190530 09:31:38
+Temp:  24.7812
+Moisture:  27.0627
+Time:  20190530 09:32:39
+Temp:  24.75
+Moisture:  27.167
+Time:  20190530 09:33:39
+Temp:  24.5
+Moisture:  27.3608
+Time:  20190530 09:34:40
+Temp:  24.3438
+Moisture:  27.2983
+Time:  20190530 09:35:41
+Temp:  24.2812
+Moisture:  27.3479
+Time:  20190530 09:36:42
+Temp:  24.1562
+Moisture:  27.0263
+Time:  20190530 09:37:43
+Temp:  24.0
+Moisture:  27.3313
+Time:  20190530 09:38:44
+Temp:  23.625
+Moisture:  27.3093
+Time:  20190530 09:39:45
+Temp:  23.4375
+Moisture:  26.9319
+Time:  20190530 09:40:45
+Temp:  23.0625
+Moisture:  26.9627
+Time:  20190530 09:41:46
+Temp:  22.9062
+Moisture:  27.2671
+Time:  20190530 09:42:47
+Temp:  22.875
+Moisture:  26.9519
+Time:  20190530 09:43:48
+Temp:  22.8438
+Moisture:  26.95
+Time:  20190530 09:44:49
+Temp:  23.0
+Moisture:  26.9591
+Time:  20190530 09:45:50
+Temp:  23.1875
+Moisture:  27.2836
+Time:  20190530 09:46:51
+Temp:  23.3438
+Moisture:  26.979
+Time:  20190530 09:47:52
+Temp:  23.6562
+Moisture:  27.3111
+Time:  20190530 09:48:52
+Temp:  23.75
+Moisture:  27.0026
+Time:  20190530 09:49:53
+Temp:  24.1562
+Moisture:  27.394
+Time:  20190530 09:50:54
+Temp:  24.375
+Moisture:  27.4069
+Time:  20190530 09:51:55
+Temp:  24.875
+Moisture:  27.3829
+Time:  20190530 09:52:56
+Temp:  25.1562
+Moisture:  27.0846
+Time:  20190530 09:53:57
+Temp:  25.3438
+Moisture:  27.4643
+Time:  20190530 09:54:57
+Temp:  25.6562
+Moisture:  27.4292
+Time:  20190530 09:55:58
+Temp:  25.9062
+Moisture:  27.1286
+Time:  20190530 09:56:59
+Temp:  25.875
+Moisture:  27.4422
+Time:  20190530 09:58:00
+Temp:  26.1562
+Moisture:  27.1964
+Time:  20190530 09:59:01
+Temp:  26.0312
+Moisture:  27.4514
+Time:  20190530 10:00:01
+Temp:  25.9062
+Moisture:  27.444
+Time:  20190530 10:01:02
+Temp:  25.7188
+Moisture:  27.4329
+Time:  20190530 10:02:03
+Temp:  25.375
+Moisture:  27.4662
+Time:  20190530 10:03:04
+Temp:  25.1562
+Moisture:  27.3996
+Time:  20190530 10:04:05
+Temp:  25.1875
+Moisture:  27.455
+Time:  20190530 10:05:05
+Temp:  25.1875
+Moisture:  27.4014
+Time:  20190530 10:06:06
+Temp:  25.3438
+Moisture:  27.0956
+Time:  20190530 10:07:07
+Temp:  25.4062
+Moisture:  27.4144
+Time:  20190530 10:08:08
+Temp:  25.4062
+Moisture:  27.3609
+Time:  20190530 10:09:09
+Temp:  25.3125
+Moisture:  27.4088
+Time:  20190530 10:10:10
+Temp:  25.125
+Moisture:  27.4513
+Time:  20190530 10:11:11
+Temp:  24.9062
+Moisture:  27.3848
+Time:  20190530 10:12:12
+Temp:  24.875
+Moisture:  27.0682
+Time:  20190530 10:13:12
+Temp:  24.875
+Moisture:  27.3829
+Time:  20190530 10:14:13
+Temp:  24.7188
+Moisture:  27.4273
+Time:  20190530 10:15:14
+Temp:  24.6562
+Moisture:  27.37
+Time:  20190530 10:16:15
+Temp:  24.5
+Moisture:  27.3608
+Time:  20190530 10:17:16
+Temp:  24.4688
+Moisture:  27.0445
+Time:  20190530 10:18:17
+Temp:  24.25
+Moisture:  27.3996
+Time:  20190530 10:19:18
+Temp:  24.0938
+Moisture:  27.3368
+Time:  20190530 10:20:18
+Temp:  23.9688
+Moisture:  26.9627
+Time:  20190530 10:21:19
+Temp:  23.75
+Moisture:  27.3166
+Time:  20190530 10:22:20
+Temp:  23.75
+Moisture:  27.0026
+Time:  20190530 10:23:21
+Temp:  23.6875
+Moisture:  27.3129
+Time:  20190530 10:24:22
+Temp:  23.7188
+Moisture:  27.3148
+Time:  20190530 10:25:23
+Temp:  23.6562
+Moisture:  27.05
+Time:  20190530 10:26:24
+Temp:  23.625
+Moisture:  27.3093
+Time:  20190530 10:27:24
+Temp:  23.6562
+Moisture:  27.05
+Time:  20190530 10:28:25
+Temp:  23.75
+Moisture:  27.3166
+Time:  20190530 10:29:26
+Temp:  23.8125
+Moisture:  27.3737
+Time:  20190530 10:30:27
+Temp:  23.9375
+Moisture:  27.3276
+Time:  20190530 10:31:28
+Temp:  24.0
+Moisture:  27.3313
+Time:  20190530 10:32:29
+Temp:  24.1562
+Moisture:  27.3405
+Time:  20190530 10:33:29
+Temp:  24.1875
+Moisture:  26.9754
+Time:  20190530 10:34:30
+Temp:  24.3125
+Moisture:  27.3497
+Time:  20190530 10:35:31
+Temp:  24.1875
+Moisture:  27.3424
+Time:  20190530 10:36:32
+Temp:  24.3438
+Moisture:  27.2983
+Time:  20190530 10:37:33
+Temp:  24.2812
+Moisture:  27.3479
+Time:  20190530 10:38:34
+Temp:  24.2812
+Moisture:  27.4014
+Time:  20190530 10:39:35
+Temp:  24.5
+Moisture:  27.0463
+Time:  20190530 10:40:36
+Temp:  24.625
+Moisture:  27.0536
+Time:  20190530 10:41:36
+Temp:  24.75
+Moisture:  27.0081
+Time:  20190530 10:42:37
+Temp:  25.0
+Moisture:  27.3903
+Time:  20190530 10:43:38
+Temp:  25.2812
+Moisture:  27.407
+Time:  20190530 10:44:39
+Temp:  25.75
+Moisture:  27.0665
+Time:  20190530 10:45:40
+Temp:  26.3438
+Moisture:  27.4165
+Time:  20190530 10:46:41
+Temp:  27.1562
+Moisture:  27.6263
+Time:  20190530 10:47:41
+Temp:  28.0312
+Moisture:  27.3072
+Time:  20190530 10:48:42
+Temp:  29.0625
+Moisture:  27.6327
+Time:  20190530 10:49:43
+Temp:  29.6875
+Moisture:  27.6703
+Time:  20190530 10:50:44
+Temp:  30.0
+Moisture:  27.6892
+Time:  20190530 10:51:45
+Temp:  30.3125
+Moisture:  27.7081
+Time:  20190530 10:52:46
+Temp:  30.4688
+Moisture:  28.0361
+Time:  20190530 10:53:46
+Temp:  30.4688
+Moisture:  28.3547
+Time:  20190530 10:54:47
+Temp:  30.3438
+Moisture:  27.71
+Time:  20190530 10:55:48
+Temp:  30.1562
+Moisture:  28.3354
+Time:  20190530 10:56:49
+Temp:  30.0625
+Moisture:  27.693
+Time:  20190530 10:57:50
+Temp:  29.9375
+Moisture:  28.0036
+Time:  20190530 10:58:51
+Temp:  29.8438
+Moisture:  27.6797
+Time:  20190530 10:59:52
+Temp:  30.125
+Moisture:  28.3334
+Time:  20190530 11:00:52
+Temp:  30.5
+Moisture:  27.6654
+Time:  20190530 11:01:53
+Temp:  31.3125
+Moisture:  28.0879
+Time:  20190530 11:02:54
+Temp:  32.2812
+Moisture:  28.4119
+Time:  20190530 11:03:55
+Temp:  33.75
+Moisture:  28.3493
+Time:  20190530 11:04:56
+Temp:  35.0
+Moisture:  28.6382
+Time:  20190530 11:05:57
+Temp:  35.8125
+Moisture:  28.3673
+Time:  20190530 11:06:57
+Temp:  36.1562
+Moisture:  28.3335
+Time:  20190530 11:07:58
+Temp:  35.9062
+Moisture:  28.3178
+Time:  20190530 11:08:59
+Temp:  35.2188
+Moisture:  28.652
+Time:  20190530 11:10:00
+Temp:  34.25
+Moisture:  28.2145
+Time:  20190530 11:11:01
+Temp:  33.5625
+Moisture:  28.492
+Time:  20190530 11:12:02
+Temp:  33.125
+Moisture:  28.1448
+Time:  20190530 11:13:03
+Temp:  33.0625
+Moisture:  27.8755
+Time:  20190530 11:14:03
+Temp:  32.9062
+Moisture:  28.5065
+Time:  20190530 11:15:04
+Temp:  33.125
+Moisture:  28.1998
+Time:  20190530 11:16:05
+Temp:  33.4062
+Moisture:  28.3279
+Time:  20190530 11:17:06
+Temp:  34.6875
+Moisture:  28.2969
+Time:  20190530 11:18:07
+Temp:  36.5938
+Moisture:  28.4163
+Time:  20190530 11:19:08
+Temp:  38.625
+Moisture:  28.8691
+Time:  20190530 11:20:09
+Temp:  40.3438
+Moisture:  28.9799
+Time:  20190530 11:21:09
+Temp:  41.5312
+Moisture:  29.0003
+Time:  20190530 11:22:10
+Temp:  42.5
+Moisture:  29.1201
+Time:  20190530 11:23:11
+Temp:  43.2812
+Moisture:  29.1712
+Time:  20190530 11:24:12
+Temp:  43.8438
+Moisture:  29.2653
+Time:  20190530 11:25:13
+Temp:  44.25
+Moisture:  29.2348
+Time:  20190530 11:26:14
+Temp:  44.2812
+Moisture:  29.1799
+Time:  20190530 11:27:15
+Temp:  44.625
+Moisture:  29.2025
+Time:  20190530 11:28:16
+Temp:  44.9375
+Moisture:  29.2802
+Time:  20190530 11:29:16
+Temp:  45.3438
+Moisture:  29.307
+Time:  20190530 11:30:17
+Temp:  45.875
+Moisture:  29.3422
+Time:  20190530 11:31:18
+Temp:  46.5312
+Moisture:  29.3285
+Time:  20190530 11:32:19
+Temp:  46.7188
+Moisture:  29.4558
+Time:  20190530 11:33:20
+Temp:  46.9375
+Moisture:  29.4129
+Time:  20190530 11:34:21
+Temp:  47.0625
+Moisture:  29.4212
+Time:  20190530 11:35:22
+Temp:  46.9062
+Moisture:  29.3535
+Time:  20190530 11:36:22
+Temp:  46.9062
+Moisture:  29.4108
+Time:  20190530 11:37:23
+Temp:  47.2812
+Moisture:  29.7085
+Time:  20190530 11:38:24
+Temp:  47.7812
+Moisture:  29.4692
+Time:  20190530 11:39:25
+Temp:  47.6875
+Moisture:  29.7359
+Time:  20190530 11:40:26
+Temp:  46.8125
+Moisture:  29.4045
+Time:  20190530 11:41:27
+Temp:  45.4062
+Moisture:  29.254
+Time:  20190530 11:42:28
+Temp:  44.5625
+Moisture:  29.5841
+Time:  20190530 11:43:28
+Temp:  45.2188
+Moisture:  29.628
+Time:  20190530 11:44:29
+Temp:  46.1875
+Moisture:  29.635
+Time:  20190530 11:45:30
+Temp:  47.3125
+Moisture:  29.7106
+Time:  20190530 11:46:31
+Temp:  47.3438
+Moisture:  29.44
+Time:  20190530 11:47:32
+Temp:  46.1562
+Moisture:  29.3037
+Time:  20190530 11:48:33
+Temp:  44.625
+Moisture:  29.2596
+Time:  20190530 11:49:34
+Temp:  43.9375
+Moisture:  29.1573
+Time:  20190530 11:50:34
+Temp:  44.0
+Moisture:  29.2184
+Time:  20190530 11:51:35
+Temp:  44.4062
+Moisture:  29.1881
+Time:  20190530 11:52:36
+Temp:  45.1875
+Moisture:  29.2967
+Time:  20190530 11:53:37
+Temp:  45.9688
+Moisture:  29.6782
+Time:  20190530 11:54:38
+Temp:  45.9688
+Moisture:  29.2912
+Time:  20190530 11:55:39
+Temp:  45.375
+Moisture:  29.3091
+Time:  20190530 11:56:40
+Temp:  44.7188
+Moisture:  29.6525
+Time:  20190530 11:57:40
+Temp:  43.625
+Moisture:  29.1937
+Time:  20190530 11:58:41
+Temp:  42.0938
+Moisture:  29.0368
+Time:  20190530 11:59:42
+Temp:  40.5938
+Moisture:  28.9961
+Time:  20190530 12:00:43
+Temp:  39.25
+Moisture:  28.8529
+Time:  20190530 12:01:44
+Temp:  38.0938
+Moisture:  28.835
+Time:  20190530 12:02:45
+Temp:  37.125
+Moisture:  28.7731
+Time:  20190530 12:03:46
+Temp:  36.375
+Moisture:  28.7816
+Time:  20190530 12:04:46
+Temp:  35.6875
+Moisture:  28.6817
+Time:  20190530 12:05:47
+Temp:  34.9062
+Moisture:  28.6323
+Time:  20190530 12:06:48
+Temp:  34.2812
+Moisture:  28.5929
+Time:  20190530 12:07:49
+Temp:  33.8125
+Moisture:  28.5634
+Time:  20190530 12:08:50
+Temp:  33.25
+Moisture:  28.528
+Time:  20190530 12:09:51
+Temp:  32.8438
+Moisture:  28.5026
+Time:  20190530 12:10:51
+Temp:  32.4375
+Moisture:  28.4217
+Time:  20190530 12:11:52
+Temp:  31.9062
+Moisture:  28.3886
+Time:  20190530 12:12:53
+Temp:  31.9688
+Moisture:  28.4479
+Time:  20190530 12:13:54
+Temp:  32.6875
+Moisture:  28.1727
+Time:  20190530 12:14:55
+Temp:  33.4688
+Moisture:  28.5418
+Time:  20190530 12:15:56
+Temp:  35.0625
+Moisture:  28.6421
+Time:  20190530 12:16:57
+Temp:  36.5
+Moisture:  28.3551
+Time:  20190530 12:17:58
+Temp:  37.3125
+Moisture:  28.7851
+Time:  20190530 12:18:58
+Temp:  38.0
+Moisture:  28.829
+Time:  20190530 12:19:59
+Temp:  39.2812
+Moisture:  28.9113
+Time:  20190530 12:21:00
+Temp:  40.5625
+Moisture:  28.994
+Time:  20190530 12:22:01
+Temp:  40.5
+Moisture:  28.99
+Time:  20190530 12:23:02
+Temp:  39.3438
+Moisture:  28.9153
+Time:  20190530 12:24:03
+Temp:  38.8125
+Moisture:  28.8811
+Time:  20190530 12:25:04
+Temp:  38.3125
+Moisture:  31.3809
+Time:  20190530 12:26:04
+Temp:  38.2188
+Moisture:  31.4972
+Time:  20190530 12:27:05
+Temp:  38.125
+Moisture:  31.1051
+Time:  20190530 12:28:06
+Temp:  38.0
+Moisture:  31.0358
+Time:  20190530 12:29:07
+Temp:  37.8438
+Moisture:  31.0857
+Time:  20190530 12:30:08
+Temp:  38.75
+Moisture:  31.5344
+Time:  20190530 12:31:09
+Temp:  40.125
+Moisture:  31.6932
+Time:  20190530 12:32:10
+Temp:  41.5312
+Moisture:  31.527
+Time:  20190530 12:33:11
+Temp:  41.9688
+Moisture:  31.8866
+Time:  20190530 12:34:11
+Temp:  42.3438
+Moisture:  31.9763
+Time:  20190530 12:35:12
+Temp:  43.1562
+Moisture:  31.9717
+Time:  20190530 12:36:13
+Temp:  43.0625
+Moisture:  31.965
+Time:  20190530 12:37:14
+Temp:  42.8125
+Moisture:  31.8844
+Time:  20190530 12:38:15
+Temp:  44.0
+Moisture:  31.9071
+Time:  20190530 12:39:15
+Temp:  45.8438
+Moisture:  31.9775
+Time:  20190530 12:40:16
+Temp:  47.4062
+Moisture:  32.0908
+Time:  20190530 12:41:17
+Temp:  48.625
+Moisture:  32.1798
+Time:  20190530 12:42:18
+Temp:  48.9062
+Moisture:  32.2004
+Time:  20190530 12:43:19
+Temp:  49.0312
+Moisture:  32.4632
+Time:  20190530 12:44:19
+Temp:  49.1875
+Moisture:  32.4109
+Time:  20190530 12:45:20
+Temp:  49.6562
+Moisture:  32.4456
+Time:  20190530 12:46:21
+Temp:  50.3125
+Moisture:  32.5581
+Time:  20190530 12:47:22
+Temp:  50.1562
+Moisture:  32.6252
+Time:  20190530 12:48:23
+Temp:  48.3125
+Moisture:  32.1569
+Time:  20190530 12:49:24
+Temp:  46.0
+Moisture:  31.9264
+Time:  20190530 12:50:25
+Temp:  43.875
+Moisture:  32.2269
+Time:  20190530 12:51:25
+Temp:  41.9375
+Moisture:  31.6358
+Time:  20190530 12:52:26
+Temp:  40.5
+Moisture:  31.8593
+Time:  20190530 12:53:27
+Temp:  39.25
+Moisture:  31.4464
+Time:  20190530 12:54:28
+Temp:  38.0312
+Moisture:  31.3613
+Time:  20190530 12:55:29
+Temp:  37.2812
+Moisture:  31.0469
+Time:  20190530 12:56:30
+Temp:  36.5938
+Moisture:  31.6455
+Time:  20190530 12:57:31
+Temp:  36.125
+Moisture:  30.9675
+Time:  20190530 12:58:31
+Temp:  35.875
+Moisture:  31.2728
+Time:  20190530 12:59:32
+Temp:  35.8125
+Moisture:  31.0067
+Time:  20190530 13:00:33
+Temp:  35.5312
+Moisture:  30.9269
+Time:  20190530 13:01:34
+Temp:  34.9062
+Moisture:  30.8843
+Time:  20190530 13:02:35
+Temp:  34.625
+Moisture:  30.5436
+Time:  20190530 13:03:36
+Temp:  34.5
+Moisture:  30.5352
+Time:  20190530 13:04:36
+Temp:  34.75
+Moisture:  30.8736
+Time:  20190530 13:05:37
+Temp:  35.2188
+Moisture:  30.8453
+Time:  20190530 13:06:38
+Temp:  36.6875
+Moisture:  30.6831
+Time:  20190530 13:07:39
+Temp:  37.8438
+Moisture:  30.7619
+Time:  20190530 13:08:40
+Temp:  38.4062
+Moisture:  31.1245
+Time:  20190530 13:09:40
+Temp:  39.0625
+Moisture:  31.4947
+Time:  20190530 13:10:41
+Temp:  39.5625
+Moisture:  31.4683
+Time:  20190530 13:11:42
+Temp:  39.1875
+Moisture:  31.2397
+Time:  20190530 13:12:43
+Temp:  38.3125
+Moisture:  31.4422
+Time:  20190530 13:13:44
+Temp:  37.5938
+Moisture:  31.3309
+Time:  20190530 13:14:45
+Temp:  37.0938
+Moisture:  31.3573
+Time:  20190530 13:15:46
+Temp:  36.8125
+Moisture:  31.3377
+Time:  20190530 13:16:47
+Temp:  36.2812
+Moisture:  31.2399
+Time:  20190530 13:17:47
+Temp:  36.0
+Moisture:  31.2814
+Time:  20190530 13:18:48
+Temp:  36.0312
+Moisture:  31.2836
+Time:  20190530 13:19:49
+Temp:  36.4688
+Moisture:  31.3139
+Time:  20190530 13:20:50
+Temp:  37.0
+Moisture:  30.7043
+Time:  20190530 13:21:51
+Temp:  37.625
+Moisture:  31.3942
+Time:  20190530 13:22:52
+Temp:  37.4688
+Moisture:  31.4448
+Time:  20190530 13:23:53
+Temp:  38.0938
+Moisture:  30.779
+Time:  20190530 13:24:54
+Temp:  38.5
+Moisture:  31.4553
+Time:  20190530 13:25:54
+Temp:  39.0938
+Moisture:  30.8475
+Time:  20190530 13:26:55
+Temp:  40.125
+Moisture:  31.5694
+Time:  20190530 13:27:56
+Temp:  40.5938
+Moisture:  31.6643
+Time:  20190530 13:28:57
+Temp:  40.3438
+Moisture:  31.6466
+Time:  20190530 13:29:58
+Temp:  39.75
+Moisture:  31.543
+Time:  20190530 13:30:59
+Temp:  39.3438
+Moisture:  31.453
+Time:  20190530 13:32:00
+Temp:  39.3125
+Moisture:  31.6358
+Time:  20190530 13:33:00
+Temp:  40.0938
+Moisture:  31.5056
+Time:  20190530 13:34:01
+Temp:  41.875
+Moisture:  31.3664
+Time:  20190530 13:35:02
+Temp:  44.0
+Moisture:  31.8448
+Time:  20190530 13:36:03
+Temp:  45.25
+Moisture:  32.2638
+Time:  20190530 13:37:04
+Temp:  46.4375
+Moisture:  32.0205
+Time:  20190530 13:38:05
+Temp:  46.7188
+Moisture:  32.1035
+Time:  20190530 13:39:05
+Temp:  46.2812
+Moisture:  31.6174
+Time:  20190530 13:40:06
+Temp:  45.3125
+Moisture:  31.6099
+Time:  20190530 13:41:07
+Temp:  43.625
+Moisture:  31.4285
+Time:  20190530 13:42:08
+Temp:  41.5938
+Moisture:  31.6732
+Time:  20190530 13:43:09
+Temp:  39.8438
+Moisture:  31.5496
+Time:  20190530 13:44:09
+Temp:  38.8125
+Moisture:  31.4772
+Time:  20190530 13:45:10
+Temp:  39.25
+Moisture:  31.4464
+Time:  20190530 13:46:11
+Temp:  41.0625
+Moisture:  31.3094
+Time:  20190530 13:47:12
+Temp:  42.7812
+Moisture:  31.4302
+Time:  20190530 13:48:13
+Temp:  44.0625
+Moisture:  31.9116
+Time:  20190530 13:49:14
+Temp:  44.5625
+Moisture:  31.5564
+Time:  20190530 13:50:14
+Temp:  45.4062
+Moisture:  31.2262
+Time:  20190530 13:51:15
+Temp:  46.5
+Moisture:  31.9626
+Time:  20190530 13:52:16
+Temp:  47.4375
+Moisture:  32.0931
+Time:  20190530 13:53:17
+Temp:  48.4375
+Moisture:  32.1661
+Time:  20190530 13:54:18
+Temp:  48.9375
+Moisture:  31.8707
+Time:  20190530 13:55:19
+Temp:  49.25
+Moisture:  32.2256
+Time:  20190530 13:56:20
+Temp:  49.4688
+Moisture:  32.3048
+Time:  20190530 13:57:20
+Temp:  49.875
+Moisture:  32.5407
+Time:  20190530 13:58:21
+Temp:  50.2812
+Moisture:  32.3015
+Time:  20190530 13:59:22
+Temp:  50.7188
+Moisture:  32.3338
+Time:  20190530 14:00:23
+Temp:  50.8438
+Moisture:  32.343
+Time:  20190530 14:01:24
+Temp:  51.2812
+Moisture:  32.3754
+Time:  20190530 14:02:25
+Temp:  51.7812
+Moisture:  32.7466
+Time:  20190530 14:03:26
+Temp:  52.1562
+Moisture:  32.3771
+Time:  20190530 14:04:27
+Temp:  52.4688
+Moisture:  32.8625
+Time:  20190530 14:05:27
+Temp:  52.5312
+Moisture:  33.1377
+Time:  20190530 14:06:28
+Temp:  52.5938
+Moisture:  32.7438
+Time:  20190530 14:07:29
+Temp:  52.8125
+Moisture:  32.8242
+Time:  20190530 14:08:30
+Temp:  52.875
+Moisture:  32.8289
+Time:  20190530 14:09:31
+Temp:  52.9062
+Moisture:  32.8313
+Time:  20190530 14:10:32
+Temp:  52.5625
+Moisture:  33.1401
+Time:  20190530 14:11:32
+Temp:  51.9375
+Moisture:  33.0926
+Time:  20190530 14:12:33
+Temp:  51.5625
+Moisture:  33.0642
+Time:  20190530 14:13:34
+Temp:  51.5
+Moisture:  32.455
+Time:  20190530 14:14:35
+Temp:  51.5312
+Moisture:  32.7279
+Time:  20190530 14:15:36
+Temp:  51.4688
+Moisture:  32.3893
+Time:  20190530 14:16:37
+Temp:  51.8438
+Moisture:  32.4171
+Time:  20190530 14:17:38
+Temp:  51.9375
+Moisture:  33.1574
+Time:  20190530 14:18:38
+Temp:  51.1562
+Moisture:  32.3661
+Time:  20190530 14:19:39
+Temp:  49.75
+Moisture:  32.2623
+Time:  20190530 14:20:40
+Temp:  47.9375
+Moisture:  32.7281
+Time:  20190530 14:21:41
+Temp:  46.625
+Moisture:  32.6945
+Time:  20190530 14:22:42
+Temp:  46.1562
+Moisture:  32.267
+Time:  20190530 14:23:43
+Temp:  46.125
+Moisture:  32.3277
+Time:  20190530 14:24:44
+Temp:  45.1875
+Moisture:  31.9301
+Time:  20190530 14:25:45
+Temp:  43.4062
+Moisture:  32.193
+Time:  20190530 14:26:45
+Temp:  41.2812
+Moisture:  31.9774
+Time:  20190530 14:27:46
+Temp:  39.7812
+Moisture:  32.1956
+Time:  20190530 14:28:47
+Temp:  38.875
+Moisture:  31.8061
+Time:  20190530 14:29:48
+Temp:  37.8438
+Moisture:  31.532726.76249D010000
+bus.0
+Time:  20190530 15:09:30
+Temp:  29.875
+Moisture:  30.2862
+Time:  20190530 15:10:31
+Temp:  29.5938
+Moisture:  30.8445
+Time:  20190530 15:11:32
+Temp:  29.375
+Moisture:  30.5717
+Time:  20190530 15:12:33
+Temp:  29.0625
+Moisture:  30.4912
+Time:  20190530 15:13:33
+Temp:  28.875
+Moisture:  30.1613
+Time:  20190530 15:14:34
+Temp:  28.75
+Moisture:  30.1531
+Time:  20190530 15:15:35
+Temp:  28.6562
+Moisture:  30.5239
+Time:  20190530 15:16:36
+Temp:  28.5
+Moisture:  30.4539
+Time:  20190530 15:17:37
+Temp:  28.2188
+Moisture:  30.7523
+Time:  20190530 15:18:38
+Temp:  28.0312
+Moisture:  30.7398
+Time:  20190530 15:19:39
+Temp:  27.8125
+Moisture:  30.7252
+Time:  20190530 15:20:39
+Temp:  27.5938
+Moisture:  30.394
+Time:  20190530 15:21:40
+Temp:  27.4688
+Moisture:  30.3857
+Time:  20190530 15:22:41
+Temp:  27.4062
+Moisture:  30.3816
+Time:  20190530 15:23:42
+Temp:  27.1562
+Moisture:  30.923
+Time:  20190530 15:24:43
+Temp:  27.0
+Moisture:  30.0387
+Time:  20190530 15:25:44
+Temp:  26.9688
+Moisture:  30.3528
+Time:  20190530 15:26:44
+Temp:  26.875
+Moisture:  30.0305
+Time:  20190530 15:27:45
+Temp:  26.7188
+Moisture:  30.2772
+Time:  20190530 15:28:46
+Temp:  26.75
+Moisture:  30.0224
+Time:  20190530 15:29:47
+Temp:  26.875
+Moisture:  30.0305
+Time:  20190530 15:30:48
+Temp:  26.7188
+Moisture:  30.0204
+Time:  20190530 15:31:49
+Temp:  26.7812
+Moisture:  30.0244
+Time:  20190530 15:32:50
+Temp:  26.5938
+Moisture:  30.3281
+Time:  20190530 15:33:50
+Temp:  26.4062
+Moisture:  30.0
+Time:  20190530 15:34:51
+Temp:  26.2188
+Moisture:  29.9879
+Time:  20190530 15:35:52
+Temp:  26.2188
+Moisture:  29.9879
+Time:  20190530 15:36:53
+Temp:  26.2188
+Moisture:  30.3035
+Time:  20190530 15:37:54
+Temp:  26.25
+Moisture:  29.9899
+Time:  20190530 15:38:55
+Temp:  26.4688
+Moisture:  30.6358
+Time:  20190530 15:39:55
+Temp:  26.9375
+Moisture:  30.0346
+Time:  20190530 15:40:56
+Temp:  26.8438
+Moisture:  30.0873
+Time:  20190530 15:41:57
+Temp:  26.8438
+Moisture:  30.3446
+Time:  20190530 15:42:58
+Temp:  26.7188
+Moisture:  30.0204
+Time:  20190530 15:43:59
+Temp:  26.625
+Moisture:  30.5864
+Time:  20190530 15:45:00
+Temp:  26.4375
+Moisture:  30.0021
+Time:  20190530 15:46:00
+Temp:  26.375
+Moisture:  30.2547
+Time:  20190530 15:47:01
+Temp:  26.375
+Moisture:  30.3731
+Time:  20190530 15:48:02
+Temp:  26.4375
+Moisture:  29.9436
+Time:  20190530 15:49:03
+Temp:  26.5312
+Moisture:  30.2649
+Time:  20190530 15:50:04
+Temp:  26.6562
+Moisture:  30.7082
+Time:  20190530 15:51:05
+Temp:  26.7812
+Moisture:  30.2813
+Time:  20190530 15:52:05
+Temp:  26.9688
+Moisture:  30.2936
+Time:  20190530 15:53:06
+Temp:  27.1562
+Moisture:  30.306
+Time:  20190530 15:54:07
+Temp:  27.2188
+Moisture:  30.6856
+Time:  20190530 15:55:08
+Temp:  27.1875
+Moisture:  30.6237
+Time:  20190530 15:56:09
+Temp:  27.1875
+Moisture:  30.0509
+Time:  20190530 15:57:10
+Temp:  27.0625
+Moisture:  30.6752
+Time:  20190530 15:58:11
+Temp:  27.0625
+Moisture:  30.6752
+Time:  20190530 15:59:11
+Temp:  27.0312
+Moisture:  30.6731
+Time:  20190530 16:00:12
+Temp:  26.9375
+Moisture:  30.0346
+Time:  20190530 16:01:13
+Temp:  26.875
+Moisture:  30.6627
+Time:  20190530 16:02:14
+Temp:  26.9688
+Moisture:  30.0954
+Time:  20190530 16:03:15
+Temp:  26.9688
+Moisture:  29.9781
+Time:  20190530 16:04:16
+Temp:  26.8438
+Moisture:  30.404
+Time:  20190530 16:05:17
+Temp:  26.875
+Moisture:  29.972
+Time:  20190530 16:06:17
+Temp:  26.8438
+Moisture:  30.0285
+Time:  20190530 16:07:18
+Temp:  26.75
+Moisture:  30.0811
+Time:  20190530 16:08:19
+Temp:  26.7188
+Moisture:  29.9618
+Time:  20190530 16:09:20
+Temp:  26.7188
+Moisture:  30.0791
+Time:  20190530 16:10:21
+Temp:  26.5312
+Moisture:  30.0082
+Time:  20190530 16:11:21
+Temp:  26.5938
+Moisture:  30.0122
+Time:  20190530 16:12:22
+Temp:  26.5
+Moisture:  30.2629
+Time:  20190530 16:13:23
+Temp:  26.4375
+Moisture:  30.574
+Time:  20190530 16:14:24
+Temp:  26.5625
+Moisture:  30.702
+Time:  20190530 16:15:25
+Temp:  26.5312
+Moisture:  30.0082
+Time:  20190530 16:16:26
+Temp:  26.5625
+Moisture:  30.0102
+Time:  20190530 16:17:26
+Temp:  26.4062
+Moisture:  30.6316
+Time:  20190530 16:18:27
+Temp:  26.25
+Moisture:  30.0486
+Time:  20190530 16:19:28
+Temp:  26.1562
+Moisture:  29.9254
+Time:  20190530 16:20:29
+Temp:  25.9688
+Moisture:  29.9132
+Time:  20190530 16:21:30
+Temp:  25.875
+Moisture:  29.9656
+Time:  20190530 16:22:31
+Temp:  25.7812
+Moisture:  30.2749
+Time:  20190530 16:23:32
+Temp:  25.5
+Moisture:  29.9999
+Time:  20190530 16:24:32
+Temp:  25.5625
+Moisture:  29.9453
+Time:  20190530 16:25:33
+Temp:  25.4375
+Moisture:  29.6221
+Time:  20190530 16:26:34
+Temp:  25.3438
+Moisture:  29.9312
+Time:  20190530 16:27:35
+Temp:  25.4062
+Moisture:  29.9352
+Time:  20190530 16:28:36
+Temp:  25.3438
+Moisture:  30.2462
+Time:  20190530 16:29:37
+Temp:  25.3125
+Moisture:  29.8708
+Time:  20190530 16:30:38
+Temp:  25.3438
+Moisture:  29.9312
+Time:  20190530 16:31:38
+Temp:  25.3125
+Moisture:  29.9292
+Time:  20190530 16:32:39
+Temp:  25.5
+Moisture:  29.9413
+Time:  20190530 16:33:40
+Temp:  25.5
+Moisture:  29.9413
+Time:  20190530 16:34:41
+Temp:  25.625
+Moisture:  29.9494
+Time:  20190530 16:35:42
+Temp:  25.625
+Moisture:  30.2646
+Time:  20190530 16:36:43
+Temp:  25.7812
+Moisture:  30.2158
+Time:  20190530 16:37:43
+Temp:  26.0312
+Moisture:  29.9757
+Time:  20190530 16:38:44
+Temp:  26.1875
+Moisture:  29.9274
+Time:  20190530 16:39:45
+Temp:  26.2812
+Moisture:  29.9919
+Time:  20190530 16:40:46
+Temp:  26.5938
+Moisture:  30.0122
+Time:  20190530 16:41:47
+Temp:  26.6562
+Moisture:  30.0163
+Time:  20190530 16:42:48
+Temp:  26.7188
+Moisture:  30.0204
+Time:  20190530 16:43:49
+Temp:  26.7812
+Moisture:  30.2813
+Time:  20190530 16:44:49
+Temp:  26.8438
+Moisture:  30.0285
+Time:  20190530 16:45:50
+Temp:  26.7812
+Moisture:  30.2813
+Time:  20190530 16:46:51
+Temp:  26.7812
+Moisture:  30.0244
+Time:  20190530 16:47:52
+Temp:  26.8125
+Moisture:  30.0265
+Time:  20190530 16:48:53
+Temp:  26.6875
+Moisture:  29.9598
+Time:  20190530 16:49:54
+Temp:  26.8125
+Moisture:  29.9679
+Time:  20190530 16:50:54
+Temp:  26.75
+Moisture:  30.0224
+Time:  20190530 16:51:55
+Temp:  26.6875
+Moisture:  30.0771
+Time:  20190530 16:52:56
+Temp:  26.4375
+Moisture:  29.9436
+Time:  20190530 16:53:57
+Temp:  26.4375
+Moisture:  29.6863
+Time:  20190530 16:54:58
+Temp:  26.375
+Moisture:  29.998
+Time:  20190530 16:55:59
+Temp:  26.4062
+Moisture:  30.5977
+Time:  20190530 16:56:59
+Temp:  26.4375
+Moisture:  30.0021
+Time:  20190530 16:58:00
+Temp:  26.625
+Moisture:  30.0143
+Time:  20190530 16:59:01
+Temp:  26.6875
+Moisture:  30.0183
+Time:  20190530 17:00:02
+Temp:  27.0
+Moisture:  30.0387
+Time:  20190530 17:01:03
+Temp:  27.0625
+Moisture:  29.9017
+Time:  20190530 17:02:04
+Temp:  27.1875
+Moisture:  30.0509
+Time:  20190530 17:03:05
+Temp:  27.25
+Moisture:  30.0549
+Time:  20190530 17:04:05
+Temp:  27.1875
+Moisture:  30.1097
+Time:  20190530 17:05:06
+Temp:  27.3125
+Moisture:  30.059
+Time:  20190530 17:06:07
+Temp:  27.2188
+Moisture:  30.0529
+Time:  20190530 17:07:08
+Temp:  27.2188
+Moisture:  29.7366
+Time:  20190530 17:08:09
+Temp:  27.3438
+Moisture:  30.1789
+Time:  20190530 17:09:09
+Temp:  27.4375
+Moisture:  30.0672
+Time:  20190530 17:10:10
+Temp:  27.375
+Moisture:  29.7466
+Time:  20190530 17:11:11
+Temp:  27.3125
+Moisture:  30.059
+Time:  20190530 17:12:12
+Temp:  27.2188
+Moisture:  30.0529
+Time:  20190530 17:13:13
+Temp:  27.2188
+Moisture:  30.0529
+Time:  20190530 17:14:14
+Temp:  27.0938
+Moisture:  29.9862
+Time:  20190530 17:15:15
+Temp:  27.0625
+Moisture:  29.7847
+Time:  20190530 17:16:15
+Temp:  26.8438
+Moisture:  30.0285
+Time:  20190530 17:17:16
+Temp:  26.7188
+Moisture:  29.7043
+Time:  20190530 17:18:17
+Temp:  26.5938
+Moisture:  30.0122
+Time:  20190530 17:19:18
+Temp:  26.3125
+Moisture:  29.6782
+Time:  20190530 17:20:19
+Temp:  26.1562
+Moisture:  29.9838
+Time:  20190530 17:21:19
+Temp:  25.8438
+Moisture:  29.6481
+Time:  20190530 17:22:20
+Temp:  25.75
+Moisture:  29.9575
+Time:  20190530 17:23:21
+Temp:  25.5938
+Moisture:  30.006
+Time:  20190530 17:24:22
+Temp:  25.4688
+Moisture:  29.9979
+Time:  20190530 17:25:23
+Temp:  25.3125
+Moisture:  29.8708
+Time:  20190530 17:26:24
+Temp:  25.1875
+Moisture:  29.9211
+Time:  20190530 17:27:25
+Temp:  25.0625
+Moisture:  29.913
+Time:  20190530 17:28:25
+Temp:  24.9062
+Moisture:  30.1588
+Time:  20190530 17:29:26
+Temp:  24.8125
+Moisture:  29.8386
+Time:  20190530 17:30:27
+Temp:  24.8125
+Moisture:  29.8969
+Time:  20190530 17:31:28
+Temp:  24.5938
+Moisture:  29.8828
+Time:  20190530 17:32:29
+Temp:  24.375
+Moisture:  29.8687
+Time:  20190530 17:33:30
+Temp:  24.2188
+Moisture:  29.5443
+Time:  20190530 17:34:31
+Temp:  24.125
+Moisture:  29.5383
+Time:  20190530 17:35:31
+Temp:  23.9375
+Moisture:  29.8405
+Time:  20190530 17:36:32
+Temp:  23.7812
+Moisture:  29.8305
+Time:  20190530 17:37:33
+Temp:  23.7188
+Moisture:  29.7683
+Time:  20190530 17:38:34
+Temp:  23.625
+Moisture:  29.449
+Time:  20190530 17:39:35
+Temp:  23.5
+Moisture:  29.4986
+Time:  20190530 17:40:36
+Temp:  23.4375
+Moisture:  29.4372
+Time:  20190530 17:41:36
+Temp:  23.5
+Moisture:  29.4986
+Time:  20190530 17:42:37
+Temp:  23.375
+Moisture:  29.7463
+Time:  20190530 17:43:38
+Temp:  23.2812
+Moisture:  29.7403
+Time:  20190530 17:44:39
+Temp:  23.2188
+Moisture:  29.7944
+Time:  20190530 17:45:40
+Temp:  23.125
+Moisture:  29.4748
+Time:  20190530 17:46:41
+Temp:  23.125
+Moisture:  29.1613
+Time:  20190530 17:47:41
+Temp:  22.9688
+Moisture:  29.4649
+Time:  20190530 17:48:42
+Temp:  22.9688
+Moisture:  29.5226
+Time:  20190530 17:49:43
+Temp:  23.0312
+Moisture:  29.4689
+Time:  20190530 17:50:44
+Temp:  23.125
+Moisture:  29.4748
+Time:  20190530 17:51:45
+Temp:  23.0
+Moisture:  30.0939
+Time:  20190530 17:52:45
+Temp:  23.1875
+Moisture:  29.7924
+Time:  20190530 17:53:46
+Temp:  23.25
+Moisture:  29.7383
+Time:  20190530 17:54:47
+Temp:  23.3438
+Moisture:  29.8024
+Time:  20190530 17:55:48
+Temp:  23.3438
+Moisture:  29.4312
+Time:  20190530 17:56:49
+Temp:  23.125
+Moisture:  29.7884
+Time:  20190530 17:57:50
+Temp:  23.375
+Moisture:  29.8044
+Time:  20190530 17:58:51
+Temp:  23.25
+Moisture:  29.7964
+Time:  20190530 17:59:51
+Temp:  23.0
+Moisture:  29.7223
+Time:  20190530 18:00:52
+Temp:  22.9688
+Moisture:  29.7784
+Time:  20190530 18:01:53
+Temp:  22.9375
+Moisture:  29.7764
+Time:  20190530 18:02:54
+Temp:  22.8125
+Moisture:  29.7104
+Time:  20190530 18:03:55
+Temp:  22.8438
+Moisture:  29.3996
+Time:  20190530 18:04:56
+Temp:  22.75
+Moisture:  29.3937
+Time:  20190530 18:05:57
+Temp:  22.75
+Moisture:  29.7644
+Time:  20190530 18:06:58
+Temp:  22.625
+Moisture:  29.4432
+Time:  20190530 18:07:58
+Temp:  22.6875
+Moisture:  29.3897
+Time:  20190530 18:08:59
+Temp:  22.75
+Moisture:  29.7644
+Time:  20190530 18:10:00
+Temp:  22.7188
+Moisture:  29.5067
+Time:  20190530 18:11:01
+Temp:  22.7812
+Moisture:  29.7664
+Time:  20190530 18:12:02
+Temp:  22.75
+Moisture:  30.0191
+Time:  20190530 18:13:03
+Temp:  22.75
+Moisture:  29.7644
+Time:  20190530 18:14:04
+Temp:  22.7188
+Moisture:  29.3917
+Time:  20190530 18:15:04
+Temp:  22.75
+Moisture:  29.7644
+Time:  20190530 18:16:05
+Temp:  22.875
+Moisture:  29.3174
+Time:  20190530 18:17:06
+Temp:  22.8438
+Moisture:  29.3996
+Time:  20190530 18:18:07
+Temp:  22.7812
+Moisture:  29.4531
+Time:  20190530 18:19:08
+Temp:  22.5938
+Moisture:  29.4988
+Time:  20190530 18:20:08
+Temp:  22.6562
+Moisture:  29.0751
+Time:  20190530 18:21:09
+Temp:  22.5
+Moisture:  29.4353
+Time:  20190530 18:22:10
+Temp:  22.4375
+Moisture:  29.8026
+Time:  20190530 18:23:11
+Temp:  22.4375
+Moisture:  29.0615
+Time:  20190530 18:24:12
+Temp:  22.375
+Moisture:  29.37
+Time:  20190530 18:25:13
+Temp:  22.25
+Moisture:  29.6745
+Time:  20190530 18:26:14
+Temp:  22.0938
+Moisture:  29.7225
+Time:  20190530 18:27:14
+Temp:  22.0938
+Moisture:  29.3523
+Time:  20190530 18:28:15
+Temp:  22.0625
+Moisture:  29.0948
+Time:  20190530 18:29:16
+Temp:  21.8438
+Moisture:  29.3366
+Time:  20190530 18:30:17
+Temp:  21.6875
+Moisture:  29.7547
+Time:  20190530 18:31:18
+Temp:  21.5938
+Moisture:  29.6907
+Time:  20190530 18:32:18
+Temp:  21.5312
+Moisture:  29.3169
+Time:  20190530 18:33:19
+Temp:  21.5
+Moisture:  29.6847
+Time:  20190530 18:34:20
+Temp:  21.3438
+Moisture:  29.1069
+Time:  20190530 18:35:21
+Temp:  21.375
+Moisture:  29.3644
+Time:  20190530 18:36:22
+Temp:  21.2812
+Moisture:  29.0461
+Time:  20190530 18:37:23
+Temp:  21.1875
+Moisture:  29.2953
+Time:  20190530 18:38:24
+Temp:  21.1875
+Moisture:  29.2953
+Time:  20190530 18:39:24
+Temp:  21.125
+Moisture:  29.6609
+Time:  20190530 18:40:25
+Temp:  21.0938
+Moisture:  29.6589
+Time:  20190530 18:41:26
+Temp:  21.0
+Moisture:  29.6529
+Time:  20190530 18:42:27
+Temp:  21.0
+Moisture:  29.5951
+Time:  20190530 18:43:28
+Temp:  20.8438
+Moisture:  29.2738
+Time:  20190530 18:44:29
+Temp:  20.875
+Moisture:  29.5872
+Time:  20190530 18:45:30
+Temp:  20.75
+Moisture:  29.5793
+Time:  20190530 18:46:30
+Temp:  20.7812
+Moisture:  29.0718
+Time:  20190530 18:47:31
+Temp:  20.7188
+Moisture:  29.0112
+Time:  20190530 18:48:32
+Temp:  20.6875
+Moisture:  29.3212
+Time:  20190530 18:49:33
+Temp:  20.5938
+Moisture:  29.0034
+Time:  20190530 18:50:34
+Temp:  20.5938
+Moisture:  28.9469
+Time:  20190530 18:51:35
+Temp:  20.5938
+Moisture:  29.0034
+Time:  20190530 18:52:35
+Temp:  20.4688
+Moisture:  29.2503
+Time:  20190530 18:53:36
+Temp:  20.3125
+Moisture:  29.2406
+Time:  20190530 18:54:37
+Temp:  20.1562
+Moisture:  29.6574
+Time:  20190530 18:55:38
+Temp:  20.0625
+Moisture:  29.0272
+Time:  20190530 18:56:39
+Temp:  20.1875
+Moisture:  28.9783
+Time:  20190530 18:57:39
+Temp:  20.0938
+Moisture:  29.284
+Time:  20190530 18:58:40
+Temp:  20.0938
+Moisture:  29.2269
+Time:  20190530 18:59:41
+Temp:  20.0312
+Moisture:  29.223
+Time:  20190530 19:00:42
+Temp:  20.0625
+Moisture:  28.914
+Time:  20190530 19:01:43
+Temp:  20.0625
+Moisture:  29.225
+Time:  20190530 19:02:44
+Temp:  20.0625
+Moisture:  29.5935
+Time:  20190530 19:03:44
+Temp:  20.0938
+Moisture:  28.9725
+Time:  20190530 19:04:45
+Temp:  19.9375
+Moisture:  29.5856
+Time:  20190530 19:05:46
+Temp:  19.9375
+Moisture:  29.5856
+Time:  20190530 19:06:47
+Temp:  19.9688
+Moisture:  28.9647
+Time:  20190530 19:07:48
+Temp:  19.8438
+Moisture:  28.957
+Time:  20190530 19:08:49
+Temp:  19.7812
+Moisture:  28.9531
+Time:  20190530 19:09:49
+Temp:  19.75
+Moisture:  28.8948
+Time:  20190530 19:10:50
+Temp:  19.6562
+Moisture:  29.0589
+Time:  20190530 19:11:51
+Temp:  19.5938
+Moisture:  29.5063
+Time:  20190530 19:12:52
+Temp:  19.5
+Moisture:  28.9358
+Time:  20190530 19:13:53
+Temp:  19.4062
+Moisture:  28.8736
+Time:  20190530 19:14:53
+Temp:  19.375
+Moisture:  29.5502
+Time:  20190530 19:15:54
+Temp:  19.375
+Moisture:  28.928
+Time:  20190530 19:16:55
+Temp:  19.1875
+Moisture:  29.2274
+Time:  20190530 19:17:56
+Temp:  19.1562
+Moisture:  28.8582
+Time:  20190530 19:18:57
+Temp:  19.0938
+Moisture:  28.9673
+Time:  20190530 19:19:58
+Temp:  19.0312
+Moisture:  28.9068
+Time:  20190530 19:20:58
+Temp:  18.8125
+Moisture:  28.8934
+Time:  20190530 19:21:59
+Temp:  18.75
+Moisture:  28.8895
+Time:  20190530 19:23:00
+Temp:  18.8438
+Moisture:  29.5167
+Time:  20190530 19:24:01
+Temp:  18.8438
+Moisture:  28.8953
+Time:  20190530 19:25:02
+Temp:  18.8125
+Moisture:  28.8371
+Time:  20190530 19:26:03
+Temp:  18.9062
+Moisture:  28.8992
+Time:  20190530 19:27:04
+Temp:  18.875
+Moisture:  29.151
+Time:  20190530 19:28:04
+Temp:  18.6875
+Moisture:  28.8857
+Time:  20190530 19:29:05
+Temp:  18.6875
+Moisture:  29.1963
+Time:  20190530 19:30:06
+Temp:  18.7188
+Moisture:  28.8876
+Time:  20190530 19:31:07
+Temp:  18.625
+Moisture:  28.8818
+Time:  20190530 19:32:08
+Temp:  18.5625
+Moisture:  28.8217
+Time:  20190530 19:33:09
+Temp:  18.4375
+Moisture:  28.814
+Time:  20190530 19:34:09
+Temp:  18.4375
+Moisture:  28.814
+Time:  20190530 19:35:10
+Temp:  18.3125
+Moisture:  28.8626
+Time:  20190530 19:36:11
+Temp:  18.25
+Moisture:  28.8588
+Time:  20190530 19:37:12
+Temp:  18.125
+Moisture:  28.7949
+Time:  20190530 19:38:13
+Temp:  17.9688
+Moisture:  28.7853
+Time:  20190530 19:39:14
+Temp:  17.8438
+Moisture:  28.8339
+Time:  20190530 19:40:15
+Temp:  17.7188
+Moisture:  28.9393
+Time:  20190530 19:41:15
+Temp:  17.625
+Moisture:  28.5106
+Time:  20190530 19:42:16
+Temp:  17.5625
+Moisture:  28.7605
+Time:  20190530 19:43:17
+Temp:  17.5312
+Moisture:  29.1246
+Time:  20190530 19:44:18
+Temp:  17.3125
+Moisture:  28.8013
+Time:  20190530 19:45:19
+Temp:  17.2812
+Moisture:  28.7994
+Time:  20190530 19:46:20
+Temp:  17.1875
+Moisture:  28.7376
+Time:  20190530 19:47:21
+Temp:  17.0312
+Moisture:  28.728
+Time:  20190530 19:48:22
+Temp:  16.9688
+Moisture:  28.7803
+Time:  20190530 19:49:22
+Temp:  16.9688
+Moisture:  28.4709
+Time:  20190530 19:50:23
+Temp:  16.9375
+Moisture:  28.7223
+Time:  20190530 19:51:24
+Temp:  16.7812
+Moisture:  28.7689
+Time:  20190530 19:52:25
+Temp:  16.6875
+Moisture:  28.8195
+Time:  20190530 19:53:26
+Temp:  16.7188
+Moisture:  28.7651
+Time:  20190530 19:54:27
+Temp:  16.6562
+Moisture:  28.7613
+Time:  20190530 19:55:28
+Temp:  16.5625
+Moisture:  28.7556
+Time:  20190530 19:56:28
+Temp:  16.5938
+Moisture:  28.7014
+Time:  20190530 19:57:29
+Temp:  16.4375
+Moisture:  28.7479
+Time:  20190530 19:58:30
+Temp:  16.5312
+Moisture:  29.0062
+Time:  20190530 19:59:31
+Temp:  16.4062
+Moisture:  28.69
+Time:  20190530 20:00:32
+Temp:  16.3125
+Moisture:  28.6843
+Time:  20190530 20:01:33
+Temp:  16.3125
+Moisture:  28.6843
+Time:  20190530 20:02:34
+Temp:  16.3125
+Moisture:  28.3759
+Time:  20190530 20:03:35
+Temp:  16.1875
+Moisture:  28.7327
+Time:  20190530 20:04:35
+Temp:  16.125
+Moisture:  28.7851
+Time:  20190530 20:05:36
+Temp:  16.0625
+Moisture:  28.0526
+Time:  20190530 20:06:37
+Temp:  15.9375
+Moisture:  28.4087
+Time:  20190530 20:07:38
+Temp:  15.9688
+Moisture:  28.7194
+Time:  20190530 20:08:39
+Temp:  15.8125
+Moisture:  29.0754
+Time:  20190530 20:09:40
+Temp:  15.75
+Moisture:  28.7061
+Time:  20190530 20:10:40
+Temp:  15.875
+Moisture:  28.6577
+Time:  20190530 20:11:41
+Temp:  15.625
+Moisture:  28.6985
+Time:  20190530 20:12:42
+Temp:  15.6875
+Moisture:  28.8149
+Time:  20190530 20:13:43
+Temp:  15.5938
+Moisture:  28.3327
+Time:  20190530 20:14:44
+Temp:  15.625
+Moisture:  28.6985
+Time:  20190530 20:15:45
+Temp:  15.6562
+Moisture:  28.3918
+Time:  20190530 20:16:45
+Temp:  15.5312
+Moisture:  28.4398
+Time:  20190530 20:17:46
+Temp:  15.4688
+Moisture:  28.689
+Time:  20190530 20:18:47
+Temp:  15.5
+Moisture:  28.635
+Time:  20190530 20:19:48
+Temp:  15.3438
+Moisture:  28.6814
+Time:  20190530 20:20:49
+Temp:  15.3125
+Moisture:  28.6236
+Time:  20190530 20:21:50
+Temp:  15.2188
+Moisture:  28.3655
+Time:  20190530 20:22:51
+Temp:  15.4062
+Moisture:  28.9372
+Time:  20190530 20:23:51
+Temp:  15.2188
+Moisture:  28.618
+Time:  20190530 20:24:52
+Temp:  15.25
+Moisture:  28.6199
+Time:  20190530 20:25:53
+Temp:  15.1562
+Moisture:  28.6142
+Time:  20190530 20:26:54
+Temp:  15.125
+Moisture:  28.6682
+Time:  20190530 20:27:55
+Temp:  15.0312
+Moisture:  28.3543
+Time:  20190530 20:28:56
+Temp:  15.0312
+Moisture:  28.3543
+Time:  20190530 20:29:56
+Temp:  14.9062
+Moisture:  27.984
+Time:  20190530 20:30:57
+Temp:  14.9688
+Moisture:  28.6587
+Time:  20190530 20:31:58
+Temp:  14.9688
+Moisture:  28.6587
+Time:  20190530 20:32:59
+Temp:  14.875
+Moisture:  28.5972
+Time:  20190530 20:34:00
+Temp:  14.875
+Moisture:  28.653
+Time:  20190530 20:35:01
+Temp:  14.875
+Moisture:  28.3449
+Time:  20190530 20:36:02
+Temp:  14.8438
+Moisture:  28.6511
+Time:  20190530 20:37:02
+Temp:  14.8125
+Moisture:  28.6493
+Time:  20190530 20:38:03
+Temp:  14.7188
+Moisture:  28.6996
+Time:  20190530 20:39:04
+Temp:  14.625
+Moisture:  28.33
+Time:  20190530 20:40:05
+Temp:  14.6562
+Moisture:  28.6398
+Time:  20190530 20:41:06
+Temp:  14.7188
+Moisture:  28.6436
+Time:  20190530 20:42:07
+Temp:  14.625
+Moisture:  28.6379
+Time:  20190530 20:43:07
+Temp:  14.5312
+Moisture:  28.6322
+Time:  20190530 20:44:08
+Temp:  14.6562
+Moisture:  28.6398
+Time:  20190530 20:45:09
+Temp:  14.5625
+Moisture:  28.6341
+Time:  20190530 20:46:10
+Temp:  14.5
+Moisture:  28.6304
+Time:  20190530 20:47:11
+Temp:  14.375
+Moisture:  28.567
+Time:  20190530 20:48:12
+Temp:  14.5312
+Moisture:  28.6322
+Time:  20190530 20:49:12
+Temp:  14.4688
+Moisture:  28.2654
+Time:  20190530 20:50:13
+Temp:  14.5625
+Moisture:  28.3262
+Time:  20190530 20:51:14
+Temp:  14.4688
+Moisture:  28.6285
+Time:  20190530 20:52:15
+Temp:  14.4688
+Moisture:  28.6285
+Time:  20190530 20:53:16
+Temp:  14.4688
+Moisture:  28.5727
+Time:  20190530 20:54:17
+Temp:  14.5
+Moisture:  28.7426
+Time:  20190530 20:55:17
+Temp:  14.5
+Moisture:  28.6304
+Time:  20190530 20:56:18
+Temp:  14.4375
+Moisture:  28.5708
+Time:  20190530 20:57:19
+Temp:  14.4375
+Moisture:  28.011
+Time:  20190530 20:58:20
+Temp:  14.4688
+Moisture:  28.5727
+Time:  20190530 20:59:21
+Temp:  14.4688
+Moisture:  28.6285
+Time:  20190530 21:00:22
+Temp:  14.4375
+Moisture:  28.6266
+Time:  20190530 21:01:22
+Temp:  14.4375
+Moisture:  28.6266
+Time:  20190530 21:02:23
+Temp:  14.4375
+Moisture:  28.3742
+Time:  20190530 21:03:24
+Temp:  14.4375
+Moisture:  28.6266
+Time:  20190530 21:04:25
+Temp:  14.375
+Moisture:  28.6228
+Time:  20190530 21:05:26
+Temp:  14.4062
+Moisture:  28.6247
+Time:  20190530 21:06:27
+Temp:  14.3438
+Moisture:  27.9508
+Time:  20190530 21:07:28
+Temp:  14.4062
+Moisture:  28.2617
+Time:  20190530 21:08:29
+Temp:  14.3438
+Moisture:  28.3132
+Time:  20190530 21:09:29
+Temp:  14.4062
+Moisture:  29.2403
+Time:  20190530 21:10:30
+Temp:  14.4688
+Moisture:  29.2441
+Time:  20190530 21:11:31
+Temp:  14.4062
+Moisture:  29.2403
+Time:  20190530 21:12:32
+Temp:  14.4375
+Moisture:  28.878
+Time:  20190530 21:13:33
+Temp:  14.375
+Moisture:  28.8742
+Time:  20190530 21:14:34
+Temp:  14.3438
+Moisture:  28.9287
+Time:  20190530 21:15:34
+Temp:  14.4062
+Moisture:  29.2403
+Time:  20190530 21:16:35
+Temp:  14.375
+Moisture:  29.2384
+Time:  20190530 21:17:36
+Temp:  14.4062
+Moisture:  29.2403
+Time:  20190530 21:18:37
+Temp:  14.3125
+Moisture:  28.9834
+Time:  20190530 21:19:38
+Temp:  14.2812
+Moisture:  29.2326
+Time:  20190530 21:20:39
+Temp:  14.2812
+Moisture:  28.8685
+Time:  20190530 21:21:40
+Temp:  14.3125
+Moisture:  29.2345
+Time:  20190530 21:22:40
+Temp:  14.2188
+Moisture:  28.921
+Time:  20190530 21:23:41
+Temp:  14.1562
+Moisture:  28.8609
+Time:  20190530 21:24:42
+Temp:  14.0625
+Moisture:  28.8552
+Time:  20190530 21:25:43
+Temp:  14.0
+Moisture:  28.9077
+Time:  20190530 21:26:44
+Temp:  14.0
+Moisture:  29.1583
+Time:  20190530 21:27:45
+Temp:  13.9688
+Moisture:  29.1564
+Time:  20190530 21:28:45
+Temp:  13.9062
+Moisture:  29.1525
+Time:  20190530 21:29:46
+Temp:  13.9688
+Moisture:  29.2133
+Time:  20190530 21:30:47
+Temp:  13.9375
+Moisture:  29.2685
+Time:  20190530 21:31:48
+Temp:  13.875
+Moisture:  29.2075
+Time:  20190530 21:32:49
+Temp:  13.8438
+Moisture:  29.1487
+Time:  20190530 21:33:50
+Temp:  13.9375
+Moisture:  28.8476
+Time:  20190530 21:34:50
+Temp:  13.9062
+Moisture:  29.2095
+Time:  20190530 21:35:51
+Temp:  13.9062
+Moisture:  28.902
+Time:  20190530 21:36:52
+Temp:  13.8125
+Moisture:  28.5331
+Time:  20190530 21:37:53
+Temp:  13.9375
+Moisture:  28.9039
+Time:  20190530 21:38:54
+Temp:  13.9375
+Moisture:  29.1544
+Time:  20190530 21:39:55
+Temp:  13.875
+Moisture:  29.2075
+Time:  20190530 21:40:55
+Temp:  13.9062
+Moisture:  28.5945
+Time:  20190530 21:41:56
+Temp:  13.9375
+Moisture:  28.5964
+Time:  20190530 21:42:57
+Temp:  13.8438
+Moisture:  28.8982
+Time:  20190530 21:43:58
+Temp:  13.875
+Moisture:  28.5369
+Time:  20190530 21:44:59
+Temp:  13.8125
+Moisture:  28.84
+Time:  20190530 21:46:00
+Temp:  13.8438
+Moisture:  28.5908
+Time:  20190530 21:47:00
+Temp:  13.75
+Moisture:  29.1998
+Time:  20190530 21:48:01
+Temp:  13.875
+Moisture:  28.9001
+Time:  20190530 21:49:02
+Temp:  13.8438
+Moisture:  28.6467
+Time:  20190530 21:50:03
+Temp:  13.8125
+Moisture:  29.1468
+Time:  20190530 21:51:04
+Temp:  13.9062
+Moisture:  28.5945
+Time:  20190530 21:52:05
+Temp:  13.8125
+Moisture:  28.2263
+Time:  20190530 21:53:05
+Temp:  13.875
+Moisture:  29.2075
+Time:  20190530 21:54:06
+Temp:  13.875
+Moisture:  28.9001
+Time:  20190530 21:55:07
+Temp:  13.9688
+Moisture:  28.8495
+Time:  20190530 21:56:08
+Temp:  13.9375
+Moisture:  28.9039
+Time:  20190530 21:57:09
+Temp:  13.8438
+Moisture:  28.5908
+Time:  20190530 21:58:10
+Temp:  13.875
+Moisture:  28.9001
+Time:  20190530 21:59:11
+Temp:  13.9062
+Moisture:  29.2095
+Time:  20190530 22:00:11
+Temp:  13.875
+Moisture:  28.5369
+Time:  20190530 22:01:12
+Temp:  13.875
+Moisture:  29.1506
+Time:  20190530 22:02:13
+Temp:  13.875
+Moisture:  28.8438
+Time:  20190530 22:03:14
+Temp:  13.9062
+Moisture:  28.5945
+Time:  20190530 22:04:15
+Temp:  13.9062
+Moisture:  28.6505
+Time:  20190530 22:05:16
+Temp:  13.9375
+Moisture:  29.1544
+Time:  20190530 22:06:17
+Temp:  13.7812
+Moisture:  28.5313
+Time:  20190530 22:07:17
+Temp:  13.875
+Moisture:  28.5369
+Time:  20190530 22:08:18
+Temp:  13.9062
+Moisture:  28.5945
+Time:  20190530 22:09:19
+Temp:  13.9062
+Moisture:  28.5388
+Time:  20190530 22:10:20
+Temp:  13.9688
+Moisture:  28.8495
+Time:  20190530 22:11:21
+Temp:  13.9688
+Moisture:  28.5983
+Time:  20190530 22:12:22
+Temp:  14.0312
+Moisture:  29.023
+Time:  20190530 22:13:22
+Temp:  13.9375
+Moisture:  28.5407
+Time:  20190530 22:14:23
+Temp:  13.9062
+Moisture:  29.1525
+Time:  20190530 22:15:24
+Temp:  13.875
+Moisture:  28.9566
+Time:  20190530 22:16:25
+Temp:  13.9375
+Moisture:  28.5407
+Time:  20190530 22:17:26
+Temp:  14.0
+Moisture:  29.2152
+Time:  20190530 22:18:27
+Temp:  14.0312
+Moisture:  29.2743
+Time:  20190530 22:19:27
+Temp:  13.9062
+Moisture:  28.8457
+Time:  20190530 22:20:28
+Temp:  14.0
+Moisture:  29.1583
+Time:  20190530 22:21:29
+Temp:  13.9062
+Moisture:  28.5388
+Time:  20190530 22:22:30
+Temp:  13.9375
+Moisture:  28.8476
+Time:  20190530 22:23:31
+Temp:  13.875
+Moisture:  28.5926
+Time:  20190530 22:24:32
+Temp:  13.875
+Moisture:  29.0704
+Time:  20190530 22:25:33
+Temp:  13.8125
+Moisture:  28.6448
+Time:  20190530 22:26:33
+Temp:  13.8125
+Moisture:  29.2037
+Time:  20190530 22:27:34
+Temp:  13.6875
+Moisture:  29.196
+Time:  20190530 22:28:35
+Temp:  13.75
+Moisture:  29.257
+Time:  20190530 22:29:36
+Temp:  13.8125
+Moisture:  28.5331
+Time:  20190530 22:30:37
+Temp:  13.7188
+Moisture:  28.8906
+Time:  20190530 22:31:38
+Temp:  13.75
+Moisture:  28.8925
+Time:  20190530 22:32:38
+Temp:  13.6562
+Moisture:  28.8305
+Time:  20190530 22:33:39
+Temp:  13.6562
+Moisture:  28.8868
+Time:  20190530 22:34:40
+Temp:  13.625
+Moisture:  28.8849
+Time:  20190530 22:35:41
+Temp:  13.5625
+Moisture:  29.1314
+Time:  20190530 22:36:42
+Temp:  13.6562
+Moisture:  28.5237
+Time:  20190530 22:37:43
+Temp:  13.5625
+Moisture:  28.5181
+Time:  20190530 22:38:44
+Temp:  13.5312
+Moisture:  28.8792
+Time:  20190530 22:39:44
+Temp:  13.6562
+Moisture:  29.1941
+Time:  20190530 22:40:45
+Temp:  13.5
+Moisture:  28.9338
+Time:  20190530 22:41:46
+Temp:  13.6875
+Moisture:  29.1391
+Time:  20190530 22:42:47
+Temp:  13.5625
+Moisture:  29.1314
+Time:  20190530 22:43:48
+Temp:  13.5
+Moisture:  28.821
+Time:  20190530 22:44:49
+Temp:  13.6562
+Moisture:  28.8868
+Time:  20190530 22:45:49
+Temp:  13.5938
+Moisture:  28.883
+Time:  20190530 22:46:50
+Temp:  13.5625
+Moisture:  28.8248
+Time:  20190530 22:47:51
+Temp:  13.4375
+Moisture:  28.8172
+Time:  20190530 22:48:52
+Temp:  13.5
+Moisture:  28.821
+Time:  20190530 22:49:53
+Temp:  13.4375
+Moisture:  29.1806
+Time:  20190530 22:50:54
+Temp:  13.5
+Moisture:  28.8773
+Time:  20190530 22:51:55
+Temp:  13.5312
+Moisture:  28.5162
+Time:  20190530 22:52:55
+Temp:  13.4688
+Moisture:  28.8754
+Time:  20190530 22:53:56
+Temp:  13.4688
+Moisture:  28.8191
+Time:  20190530 22:54:57
+Temp:  13.4375
+Moisture:  28.6222
+Time:  20190530 22:55:58
+Temp:  13.4062
+Moisture:  28.8153
+Time:  20190530 22:56:59
+Temp:  13.4062
+Moisture:  28.5644
+Time:  20190530 22:58:00
+Temp:  13.4375
+Moisture:  28.8735
+Time:  20190530 22:59:00
+Temp:  13.4062
+Moisture:  28.5087
+Time:  20190530 23:00:01
+Temp:  13.4062
+Moisture:  28.5644
+Time:  20190530 23:01:02
+Temp:  13.4688
+Moisture:  29.1825
+Time:  20190530 23:02:03
+Temp:  13.4062
+Moisture:  28.6203
+Time:  20190530 23:03:04
+Temp:  13.4062
+Moisture:  29.1787
+Time:  20190530 23:04:05
+Temp:  13.3438
+Moisture:  28.8678
+Time:  20190530 23:05:06
+Temp:  13.3438
+Moisture:  28.6165
+Time:  20190530 23:06:06
+Temp:  13.4375
+Moisture:  28.8735
+Time:  20190530 23:07:07
+Temp:  13.375
+Moisture:  29.1199
+Time:  20190530 23:08:08
+Temp:  13.4062
+Moisture:  29.1787
+Time:  20190530 23:09:09
+Temp:  13.25
+Moisture:  28.4994
+Time:  20190530 23:10:10
+Temp:  13.2812
+Moisture:  29.2281
+Time:  20190530 23:11:11
+Temp:  13.2188
+Moisture:  28.8602
+Time:  20190530 23:12:12
+Temp:  13.1875
+Moisture:  28.8583
+Time:  20190530 23:13:12
+Temp:  13.3125
+Moisture:  29.1729
+Time:  20190530 23:14:13
+Temp:  13.125
+Moisture:  29.1614
+Time:  20190530 23:15:14
+Temp:  13.2188
+Moisture:  29.1672
+Time:  20190530 23:16:15
+Temp:  13.2188
+Moisture:  28.8039
+Time:  20190530 23:17:16
+Temp:  13.1562
+Moisture:  28.8001
+Time:  20190530 23:18:17
+Temp:  13.1562
+Moisture:  28.8564
+Time:  20190530 23:19:17
+Temp:  13.0625
+Moisture:  28.8507
+Time:  20190530 23:20:18
+Temp:  13.1875
+Moisture:  29.1653
+Time:  20190530 23:21:19
+Temp:  13.125
+Moisture:  28.4919
+Time:  20190530 23:22:20
+Temp:  13.125
+Moisture:  29.2185
+Time:  20190530 23:23:21
+Temp:  13.125
+Moisture:  28.5475
+Time:  20190530 23:24:22
+Temp:  13.0625
+Moisture:  28.5996
+Time:  20190530 23:25:22
+Temp:  13.0625
+Moisture:  28.7944
+Time:  20190530 23:26:23
+Temp:  13.125
+Moisture:  28.4919
+Time:  20190530 23:27:24
+Temp:  13.1562
+Moisture:  28.5494
+Time:  20190530 23:28:25
+Temp:  13.0312
+Moisture:  29.1557
+Time:  20190530 23:29:26
+Temp:  13.0312
+Moisture:  29.1557
+Time:  20190530 23:30:27
+Temp:  13.0312
+Moisture:  29.1557
+Time:  20190530 23:31:27
+Temp:  12.9688
+Moisture:  28.845
+Time:  20190530 23:32:28
+Temp:  12.9688
+Moisture:  29.1518
+Time:  20190530 23:33:29
+Temp:  13.0
+Moisture:  29.1538
+Time:  20190530 23:34:30
+Temp:  13.0625
+Moisture:  29.1008
+Time:  20190530 23:35:31
+Temp:  12.9688
+Moisture:  28.7888
+Time:  20190530 23:36:32
+Temp:  12.9688
+Moisture:  28.7888
+Time:  20190530 23:37:33
+Temp:  12.9688
+Moisture:  29.095
+Time:  20190530 23:38:34
+Temp:  12.9375
+Moisture:  28.7869
+Time:  20190530 23:39:34
+Temp:  12.875
+Moisture:  29.0893
+Time:  20190530 23:40:35
+Temp:  12.875
+Moisture:  29.1461
+Time:  20190530 23:41:36
+Temp:  12.8125
+Moisture:  28.8355
+Time:  20190530 23:42:37
+Temp:  12.8125
+Moisture:  29.1993
+Time:  20190530 23:43:38
+Temp:  12.8125
+Moisture:  28.8355
+Time:  20190530 23:44:39
+Temp:  12.875
+Moisture:  28.8393
+Time:  20190530 23:45:39
+Temp:  12.8125
+Moisture:  29.1423
+Time:  20190530 23:46:40
+Temp:  12.7812
+Moisture:  29.0835
+Time:  20190530 23:47:41
+Temp:  12.7812
+Moisture:  29.1403
+Time:  20190530 23:48:42
+Temp:  12.7188
+Moisture:  29.1365
+Time:  20190530 23:49:43
+Temp:  12.6875
+Moisture:  29.1346
+Time:  20190530 23:50:44
+Temp:  12.6875
+Moisture:  28.941
+Time:  20190530 23:51:44
+Temp:  12.75
+Moisture:  28.7755
+Time:  20190530 23:52:45
+Temp:  12.5625
+Moisture:  29.1269
+Time:  20190530 23:53:46
+Temp:  12.625
+Moisture:  28.7679
+Time:  20190530 23:54:47
+Temp:  12.6562
+Moisture:  28.5194
+Time:  20190530 23:55:48
+Temp:  12.6562
+Moisture:  28.826
+Time:  20190530 23:56:49
+Temp:  12.625
+Moisture:  28.8241
+Time:  20190530 23:57:50
+Temp:  12.6562
+Moisture:  29.0759
+Time:  20190530 23:58:51
+Temp:  12.5312
+Moisture:  29.125
+Time:  20190530 23:59:51
+Temp:  12.625
+Moisture:  28.8241
+Time:  20190531 00:00:52
+Temp:  12.5625
+Moisture:  29.1269
+Time:  20190531 00:01:53
+Temp:  12.5312
+Moisture:  28.8185
+Time:  20190531 00:02:54
+Temp:  12.5312
+Moisture:  28.5119
+Time:  20190531 00:03:55
+Temp:  12.3438
+Moisture:  29.0568
+Time:  20190531 00:04:55
+Temp:  12.3438
+Moisture:  28.8071
+Time:  20190531 00:05:56
+Temp:  12.4062
+Moisture:  29.1174
+Time:  20190531 00:06:57
+Temp:  12.3438
+Moisture:  29.1136
+Time:  20190531 00:07:58
+Temp:  12.3125
+Moisture:  29.0549
+Time:  20190531 00:08:59
+Temp:  12.2812
+Moisture:  29.1097
+Time:  20190531 00:10:00
+Temp:  12.2188
+Moisture:  29.1059
+Time:  20190531 00:11:00
+Temp:  12.125
+Moisture:  28.7939
+Time:  20190531 00:12:01
+Temp:  12.1875
+Moisture:  28.7415
+Time:  20190531 00:13:02
+Temp:  12.1562
+Moisture:  29.1021
+Time:  20190531 00:14:03
+Temp:  12.0938
+Moisture:  28.792
+Time:  20190531 00:15:04
+Temp:  12.0938
+Moisture:  29.0983
+Time:  20190531 00:16:05
+Temp:  12.0938
+Moisture:  29.0983
+Time:  20190531 00:17:05
+Temp:  12.0625
+Moisture:  28.7901
+Time:  20190531 00:18:06
+Temp:  12.0312
+Moisture:  29.0945
+Time:  20190531 00:19:07
+Temp:  12.0625
+Moisture:  28.734
+Time:  20190531 00:20:08
+Temp:  12.0312
+Moisture:  28.7882
+Time:  20190531 00:21:09
+Temp:  11.9688
+Moisture:  28.7283
+Time:  20190531 00:22:10
+Temp:  11.9688
+Moisture:  29.0339
+Time:  20190531 00:23:11
+Temp:  11.9688
+Moisture:  28.4782
+Time:  20190531 00:24:11
+Temp:  11.875
+Moisture:  28.5283
+Time:  20190531 00:25:12
+Temp:  11.9688
+Moisture:  28.7283
+Time:  20190531 00:26:13
+Temp:  11.9688
+Moisture:  28.7844
+Time:  20190531 00:27:14
+Temp:  11.9062
+Moisture:  28.419
+Time:  20190531 00:28:15
+Temp:  11.8438
+Moisture:  29.083
+Time:  20190531 00:29:16
+Temp:  11.8438
+Moisture:  28.7208
+Time:  20190531 00:30:17
+Temp:  11.875
+Moisture:  28.7788
+Time:  20190531 00:31:18
+Temp:  11.7812
+Moisture:  29.0792
+Time:  20190531 00:32:18
+Temp:  11.8125
+Moisture:  28.8878
+Time:  20190531 00:33:19
+Temp:  11.7812
+Moisture:  28.717
+Time:  20190531 00:34:20
+Temp:  11.8125
+Moisture:  28.775
+Time:  20190531 00:35:21
+Temp:  11.9375
+Moisture:  29.0887
+Time:  20190531 00:36:22
+Temp:  11.8125
+Moisture:  29.138
+Time:  20190531 00:37:23
+Temp:  11.7812
+Moisture:  28.467
+Time:  20190531 00:38:23
+Temp:  11.7812
+Moisture:  29.0792
+Time:  20190531 00:39:24
+Temp:  11.7812
+Moisture:  29.0792
+Time:  20190531 00:40:25
+Temp:  11.75
+Moisture:  28.5208
+Time:  20190531 00:41:26
+Temp:  11.6875
+Moisture:  28.7674
+Time:  20190531 00:42:27
+Temp:  11.8125
+Moisture:  28.7189
+Time:  20190531 00:43:28
+Temp:  11.8125
+Moisture:  29.0811
+Time:  20190531 00:44:29
+Temp:  11.7812
+Moisture:  29.0225
+Time:  20190531 00:45:29
+Temp:  11.75
+Moisture:  29.0773
+Time:  20190531 00:46:30
+Temp:  11.75
+Moisture:  28.7151
+Time:  20190531 00:47:31
+Temp:  11.8125
+Moisture:  28.7189
+Time:  20190531 00:48:32
+Temp:  11.75
+Moisture:  29.0206
+Time:  20190531 00:49:33
+Temp:  11.6562
+Moisture:  29.0149
+Time:  20190531 00:50:34
+Temp:  11.625
+Moisture:  28.7637
+Time:  20190531 00:51:35
+Temp:  11.7188
+Moisture:  29.0187
+Time:  20190531 00:52:36
+Temp:  11.625
+Moisture:  29.1265
+Time:  20190531 00:53:36
+Temp:  11.75
+Moisture:  29.0206
+Time:  20190531 00:54:37
+Temp:  11.6875
+Moisture:  29.1304
+Time:  20190531 00:55:38
+Temp:  11.5938
+Moisture:  29.0677
+Time:  20190531 00:56:39
+Temp:  11.7188
+Moisture:  29.1323
+Time:  20190531 00:57:40
+Temp:  11.625
+Moisture:  29.013
+Time:  20190531 00:58:41
+Temp:  11.625
+Moisture:  28.7076
+Time:  20190531 00:59:41
+Temp:  11.5938
+Moisture:  29.0677
+Time:  20190531 01:00:42
+Temp:  11.625
+Moisture:  29.1265
+Time:  20190531 01:01:43
+Temp:  11.5938
+Moisture:  28.7057
+Time:  20190531 01:02:44
+Temp:  11.6562
+Moisture:  29.0716
+Time:  20190531 01:03:45
+Temp:  11.5938
+Moisture:  29.0111
+Time:  20190531 01:04:46
+Temp:  11.6875
+Moisture:  28.7674
+Time:  20190531 01:05:47
+Temp:  11.6562
+Moisture:  28.7655
+Time:  20190531 01:06:48
+Temp:  11.6562
+Moisture:  28.404
+Time:  20190531 01:07:48
+Temp:  11.6875
+Moisture:  28.7114
+Time:  20190531 01:08:49
+Temp:  11.625
+Moisture:  28.7637
+Time:  20190531 01:09:50
+Temp:  11.625
+Moisture:  28.5693
+Time:  20190531 01:10:50
+Temp:  11.7188
+Moisture:  28.4078
+Time:  20190531 01:11:51
+Temp:  11.625
+Moisture:  28.4577
+Time:  20190531 01:12:52
+Temp:  11.5938
+Moisture:  28.5115
+Time:  20190531 01:13:53
+Temp:  11.5312
+Moisture:  29.0639
+Time:  20190531 01:14:54
+Temp:  11.5938
+Moisture:  28.4558
+Time:  20190531 01:15:55
+Temp:  11.5938
+Moisture:  28.6235
+Time:  20190531 01:16:56
+Temp:  11.4375
+Moisture:  28.4465
+Time:  20190531 01:17:56
+Temp:  11.3125
+Moisture:  28.7448
+Time:  20190531 01:18:57
+Temp:  11.4062
+Moisture:  29.0563
+Time:  20190531 01:19:58
+Temp:  11.2812
+Moisture:  28.4371
+Time:  20190531 01:20:59
+Temp:  11.4062
+Moisture:  28.4446
+Time:  20190531 01:22:00
+Temp:  11.2188
+Moisture:  28.6831
+Time:  20190531 01:23:01
+Temp:  11.2812
+Moisture:  28.4371
+Time:  20190531 01:24:02
+Temp:  11.125
+Moisture:  28.7897
+Time:  20190531 01:25:02
+Temp:  11.0312
+Moisture:  28.6719
+Time:  20190531 01:26:03
+Temp:  11.0625
+Moisture:  28.3687
+Time:  20190531 01:27:04
+Temp:  10.9375
+Moisture:  28.9712
+Time:  20190531 01:28:05
+Temp:  10.875
+Moisture:  28.6625
+Time:  20190531 01:29:06
+Temp:  10.8125
+Moisture:  29.0202
+Time:  20190531 01:30:06
+Temp:  10.7812
+Moisture:  28.463
+Time:  20190531 01:31:07
+Temp:  10.6875
+Moisture:  28.7072
+Time:  20190531 01:32:08
+Temp:  10.75
+Moisture:  28.7109
+Time:  20190531 01:33:09
+Temp:  10.6875
+Moisture:  28.4018
+Time:  20190531 01:34:10
+Temp:  10.6562
+Moisture:  28.4555
+Time:  20190531 01:35:11
+Temp:  10.5312
+Moisture:  29.0031
+Time:  20190531 01:36:12
+Temp:  10.5
+Moisture:  28.3353
+Time:  20190531 01:37:12
+Temp:  10.4688
+Moisture:  28.6381
+Time:  20190531 01:38:13
+Temp:  10.3438
+Moisture:  28.7427
+Time:  20190531 01:39:14
+Temp:  10.3438
+Moisture:  28.6865
+Time:  20190531 01:40:15
+Temp:  10.25
+Moisture:  28.986
+Time:  20190531 01:41:16
+Temp:  10.25
+Moisture:  28.3758
+Time:  20190531 01:42:17
+Temp:  10.2812
+Moisture:  28.4332
+Time:  20190531 01:43:18
+Temp:  10.1875
+Moisture:  28.6772
+Time:  20190531 01:44:18
+Temp:  10.1562
+Moisture:  28.3149
+Time:  20190531 01:45:19
+Temp:  10.0625
+Moisture:  28.6697
+Time:  20190531 01:46:20
+Temp:  10.0312
+Moisture:  28.474
+Time:  20190531 01:47:21
+Temp:  10.0938
+Moisture:  28.6157
+Time:  20190531 01:48:22
+Temp:  9.90625
+Moisture:  28.9652
+Time:  20190531 01:49:23
+Temp:  10.0938
+Moisture:  28.6157
+Time:  20190531 01:50:24
+Temp:  10.0312
+Moisture:  28.3075
+Time:  20190531 01:51:24
+Temp:  9.90625
+Moisture:  28.9652
+Time:  20190531 01:52:25
+Temp:  9.8125
+Moisture:  28.6547
+Time:  20190531 01:53:26
+Temp:  9.875
+Moisture:  28.6584
+Time:  20190531 01:54:27
+Temp:  9.78125
+Moisture:  28.348
+Time:  20190531 01:55:28
+Temp:  9.71875
+Moisture:  28.289
+Time:  20190531 01:56:29
+Temp:  9.71875
+Moisture:  28.6491
+Time:  20190531 01:57:30
+Temp:  9.625
+Moisture:  28.9482
+Time:  20190531 01:58:31
+Temp:  9.65625
+Moisture:  28.7014
+Time:  20190531 01:59:31
+Temp:  9.5625
+Moisture:  28.6397
+Time:  20190531 02:00:32
+Temp:  9.65625
+Moisture:  28.3406
+Time:  20190531 02:01:33
+Temp:  9.46875
+Moisture:  28.4965
+Time:  20190531 02:02:34
+Temp:  9.53125
+Moisture:  28.6379
+Time:  20190531 02:03:35
+Temp:  9.5625
+Moisture:  28.335
+Time:  20190531 02:04:36
+Temp:  9.59375
+Moisture:  28.2817
+Time:  20190531 02:05:36
+Temp:  9.4375
+Moisture:  28.9368
+Time:  20190531 02:06:37
+Temp:  9.34375
+Moisture:  28.2669
+Time:  20190531 02:07:38
+Temp:  9.375
+Moisture:  28.3239
+Time:  20190531 02:08:39
+Temp:  9.28125
+Moisture:  28.5671
+Time:  20190531 02:09:40
+Temp:  9.28125
+Moisture:  28.3184
+Time:  20190531 02:10:41
+Temp:  9.15625
+Moisture:  28.3664
+Time:  20190531 02:11:42
+Temp:  9.1875
+Moisture:  28.8654
+Time:  20190531 02:12:42
+Temp:  9.1875
+Moisture:  28.3683
+Time:  20190531 02:13:43
+Temp:  9.1875
+Moisture:  28.6173
+Time:  20190531 02:14:44
+Temp:  9.25
+Moisture:  28.621
+Time:  20190531 02:15:45
+Temp:  9.15625
+Moisture:  28.311
+Time:  20190531 02:16:46
+Temp:  9.09375
+Moisture:  28.5559
+Time:  20190531 02:17:47
+Temp:  9.09375
+Moisture:  28.3073
+Time:  20190531 02:18:48
+Temp:  9.09375
+Moisture:  28.2521
+Time:  20190531 02:19:49
+Temp:  9.09375
+Moisture:  28.2521
+Time:  20190531 02:20:49
+Temp:  9.0
+Moisture:  28.3018
+Time:  20190531 02:21:50
+Temp:  8.96875
+Moisture:  28.2448
+Time:  20190531 02:22:51
+Temp:  8.96875
+Moisture:  28.5485
+Time:  20190531 02:23:52
+Temp:  8.9375
+Moisture:  28.2981
+Time:  20190531 02:24:53
+Temp:  8.875
+Moisture:  28.2392
+Time:  20190531 02:25:54
+Temp:  8.875
+Moisture:  28.3498
+Time:  20190531 02:26:55
+Temp:  8.875
+Moisture:  28.2944
+Time:  20190531 02:27:55
+Temp:  8.75
+Moisture:  28.5912
+Time:  20190531 02:28:56
+Temp:  8.875
+Moisture:  28.2392
+Time:  20190531 02:29:57
+Temp:  8.84375
+Moisture:  28.541
+Time:  20190531 02:30:58
+Temp:  8.75
+Moisture:  28.5912
+Time:  20190531 02:31:59
+Temp:  8.59375
+Moisture:  28.3332
+Time:  20190531 02:33:00
+Temp:  8.65625
+Moisture:  28.2264
+Time:  20190531 02:34:01
+Temp:  8.5625
+Moisture:  28.2209
+Time:  20190531 02:35:01
+Temp:  8.65625
+Moisture:  28.2815
+Time:  20190531 02:36:02
+Temp:  8.53125
+Moisture:  28.2741
+Time:  20190531 02:37:03
+Temp:  8.46875
+Moisture:  28.2704
+Time:  20190531 02:38:04
+Temp:  8.5
+Moisture:  28.2172
+Time:  20190531 02:39:05
+Temp:  8.5625
+Moisture:  28.5243
+Time:  20190531 02:40:06
+Temp:  8.5625
+Moisture:  28.2209
+Time:  20190531 02:41:07
+Temp:  8.53125
+Moisture:  28.219
+Time:  20190531 02:42:08
+Temp:  8.5625
+Moisture:  28.3313
+Time:  20190531 02:43:08
+Temp:  8.5
+Moisture:  28.5763
+Time:  20190531 02:44:09
+Temp:  8.53125
+Moisture:  28.2741
+Time:  20190531 02:45:10
+Temp:  8.46875
+Moisture:  28.2153
+Time:  20190531 02:46:11
+Temp:  8.5
+Moisture:  28.8803
+Time:  20190531 02:47:12
+Temp:  8.375
+Moisture:  28.8728
+Time:  20190531 02:48:13
+Temp:  8.53125
+Moisture:  28.2741
+Time:  20190531 02:49:14
+Temp:  8.4375
+Moisture:  28.3795
+Time:  20190531 02:50:14
+Temp:  8.53125
+Moisture:  28.2741
+Time:  20190531 02:51:15
+Temp:  8.5
+Moisture:  28.2723
+Time:  20190531 02:52:16
+Temp:  8.4375
+Moisture:  27.9646
+Time:  20190531 02:53:17
+Temp:  8.625
+Moisture:  28.2797
+Time:  20190531 02:54:18
+Temp:  8.5625
+Moisture:  28.5243
+Time:  20190531 02:55:19
+Temp:  8.53125
+Moisture:  28.219
+Time:  20190531 02:56:20
+Temp:  8.59375
+Moisture:  28.6378
+Time:  20190531 02:57:20
+Temp:  8.59375
+Moisture:  28.2227
+Time:  20190531 02:58:21
+Temp:  8.65625
+Moisture:  28.2815
+Time:  20190531 02:59:22
+Temp:  8.65625
+Moisture:  28.2264
+Time:  20190531 03:00:23
+Temp:  8.71875
+Moisture:  28.2852
+Time:  20190531 03:01:24
+Temp:  8.84375
+Moisture:  28.2926
+Time:  20190531 03:02:25
+Temp:  8.75
+Moisture:  28.2319
+Time:  20190531 03:03:26
+Temp:  8.875
+Moisture:  28.2392
+Time:  20190531 03:04:26
+Temp:  8.78125
+Moisture:  28.2337
+Time:  20190531 03:05:27
+Temp:  8.8125
+Moisture:  28.5949
+Time:  20190531 03:06:28
+Temp:  8.84375
+Moisture:  28.2374
+Time:  20190531 03:07:29
+Temp:  8.84375
+Moisture:  27.9883
+Time:  20190531 03:08:30
+Temp:  8.78125
+Moisture:  27.9301
+Time:  20190531 03:09:31
+Temp:  8.8125
+Moisture:  28.2356
+Time:  20190531 03:10:32
+Temp:  8.875
+Moisture:  28.5429
+Time:  20190531 03:11:33
+Temp:  8.78125
+Moisture:  28.2337
+Time:  20190531 03:12:33
+Temp:  8.71875
+Moisture:  28.2852
+Time:  20190531 03:13:34
+Temp:  8.75
+Moisture:  28.287
+Time:  20190531 03:14:35
+Temp:  8.75
+Moisture:  28.287
+Time:  20190531 03:15:36
+Temp:  8.75
+Moisture:  28.287
+Time:  20190531 03:16:37
+Temp:  8.71875
+Moisture:  28.2852
+Time:  20190531 03:17:37
+Temp:  8.71875
+Moisture:  28.3405
+Time:  20190531 03:18:38
+Temp:  8.65625
+Moisture:  28.2815
+Time:  20190531 03:19:39
+Temp:  8.625
+Moisture:  28.2245
+Time:  20190531 03:20:40
+Temp:  8.65625
+Moisture:  28.2264
+Time:  20190531 03:21:41
+Temp:  8.5625
+Moisture:  28.2209
+Time:  20190531 03:22:42
+Temp:  8.4375
+Moisture:  27.9646
+Time:  20190531 03:23:43
+Temp:  8.53125
+Moisture:  28.219
+Time:  20190531 03:24:44
+Temp:  8.53125
+Moisture:  28.3295
+Time:  20190531 03:25:44
+Temp:  8.5
+Moisture:  28.3276
+Time:  20190531 03:26:45
+Temp:  8.40625
+Moisture:  28.2117
+Time:  20190531 03:27:46
+Temp:  8.40625
+Moisture:  28.515
+Time:  20190531 03:28:47
+Temp:  8.3125
+Moisture:  28.2612
+Time:  20190531 03:29:48
+Temp:  8.25
+Moisture:  28.6173
+Time:  20190531 03:30:49
+Temp:  8.28125
+Moisture:  28.2043
+Time:  20190531 03:31:49
+Temp:  8.21875
+Moisture:  28.2006
+Time:  20190531 03:32:50
+Temp:  8.1875
+Moisture:  28.8615
+Time:  20190531 03:33:51
+Temp:  8.21875
+Moisture:  28.311
+Time:  20190531 03:34:52
+Temp:  8.09375
+Moisture:  28.2484
+Time:  20190531 03:35:53
+Temp:  8.03125
+Moisture:  28.1896
+Time:  20190531 03:36:54
+Temp:  8.125
+Moisture:  28.554
+Time:  20190531 03:37:55
+Temp:  7.9375
+Moisture:  27.8811
+Time:  20190531 03:38:55
+Temp:  7.875
+Moisture:  28.1805
+Time:  20190531 03:39:56
+Temp:  7.9375
+Moisture:  28.2392
+Time:  20190531 03:40:57
+Temp:  7.96875
+Moisture:  28.186
+Time:  20190531 03:41:58
+Temp:  7.9375
+Moisture:  28.3499
+Time:  20190531 03:42:59
+Temp:  7.90625
+Moisture:  28.4853
+Time:  20190531 03:44:00
+Temp:  7.875
+Moisture:  28.4835
+Time:  20190531 03:45:00
+Temp:  7.875
+Moisture:  28.2355
+Time:  20190531 03:46:01
+Temp:  7.84375
+Moisture:  28.4816
+Time:  20190531 03:47:02
+Temp:  7.78125
+Moisture:  28.23
+Time:  20190531 03:48:03
+Temp:  7.8125
+Moisture:  28.4798
+Time:  20190531 03:49:04
+Temp:  7.78125
+Moisture:  27.9811
+Time:  20190531 03:50:05
+Temp:  7.90625
+Moisture:  28.2373
+Time:  20190531 03:51:06
+Temp:  7.84375
+Moisture:  28.5373
+Time:  20190531 03:52:07
+Temp:  7.90625
+Moisture:  28.1823
+Time:  20190531 03:53:07
+Temp:  7.8125
+Moisture:  28.2318
+Time:  20190531 03:54:08
+Temp:  7.8125
+Moisture:  28.1768
+Time:  20190531 03:55:09
+Temp:  7.78125
+Moisture:  28.23
+Time:  20190531 03:56:10
+Temp:  7.75
+Moisture:  28.1731
+Time:  20190531 03:57:11
+Temp:  7.78125
+Moisture:  28.175
+Time:  20190531 03:58:11
+Temp:  7.71875
+Moisture:  28.2263
+Time:  20190531 03:59:12
+Temp:  7.65625
+Moisture:  28.1676
+Time:  20190531 04:00:13
+Temp:  7.5625
+Moisture:  28.1621
+Time:  20190531 04:01:14
+Temp:  7.625
+Moisture:  28.1658
+Time:  20190531 04:02:15
+Temp:  7.53125
+Moisture:  28.2153
+Time:  20190531 04:03:16
+Temp:  7.5
+Moisture:  28.1585
+Time:  20190531 04:04:17
+Temp:  7.4375
+Moisture:  28.2098
+Time:  20190531 04:05:17
+Temp:  7.5
+Moisture:  28.2135
+Time:  20190531 04:06:18
+Temp:  7.40625
+Moisture:  28.5113
+Time:  20190531 04:07:19
+Temp:  7.5
+Moisture:  28.2135
+Time:  20190531 04:08:20
+Temp:  7.4375
+Moisture:  28.1548
+Time:  20190531 04:09:21
+Temp:  7.53125
+Moisture:  28.1603
+Time:  20190531 04:10:22
+Temp:  7.4375
+Moisture:  28.5131
+Time:  20190531 04:11:23
+Temp:  7.46875
+Moisture:  28.515
+Time:  20190531 04:12:23
+Temp:  7.40625
+Moisture:  28.153
+Time:  20190531 04:13:24
+Temp:  7.40625
+Moisture:  28.4557
+Time:  20190531 04:14:25
+Temp:  7.375
+Moisture:  28.1512
+Time:  20190531 04:15:26
+Temp:  7.28125
+Moisture:  28.2006
+Time:  20190531 04:16:27
+Temp:  7.375
+Moisture:  28.1512
+Time:  20190531 04:17:28
+Temp:  7.25
+Moisture:  28.1988
+Time:  20190531 04:18:29
+Temp:  7.28125
+Moisture:  28.1457
+Time:  20190531 04:19:30
+Temp:  7.375
+Moisture:  28.2613
+Time:  20190531 04:20:30
+Temp:  7.3125
+Moisture:  27.8448
+Time:  20190531 04:21:31
+Temp:  7.375
+Moisture:  28.1512
+Time:  20190531 04:22:32
+Temp:  7.34375
+Moisture:  27.901
+Time:  20190531 04:23:33
+Temp:  7.3125
+Moisture:  28.3131
+Time:  20190531 04:24:34
+Temp:  7.34375
+Moisture:  28.1493
+Time:  20190531 04:25:35
+Temp:  7.4375
+Moisture:  28.1548
+Time:  20190531 04:26:36
+Temp:  7.4375
+Moisture:  28.2098
+Time:  20190531 04:27:36
+Temp:  7.5
+Moisture:  28.2135
+Time:  20190531 04:28:37
+Temp:  7.5625
+Moisture:  28.2171
+Time:  20190531 04:29:38
+Temp:  7.53125
+Moisture:  28.2153
+Time:  20190531 04:30:39
+Temp:  7.625
+Moisture:  28.1658
+Time:  20190531 04:31:40
+Temp:  7.625
+Moisture:  28.2208
+Time:  20190531 04:32:41
+Temp:  7.78125
+Moisture:  27.872
+Time:  20190531 04:33:42
+Temp:  7.78125
+Moisture:  28.23
+Time:  20190531 04:34:42
+Temp:  7.71875
+Moisture:  28.2263
+Time:  20190531 04:35:43
+Temp:  7.90625
+Moisture:  28.2373
+Time:  20190531 04:36:44
+Temp:  7.84375
+Moisture:  28.2337
+Time:  20190531 04:37:45
+Temp:  7.84375
+Moisture:  28.2337
+Time:  20190531 04:38:46
+Temp:  7.90625
+Moisture:  28.4853
+Time:  20190531 04:39:47
+Temp:  8.03125
+Moisture:  28.3
+Time:  20190531 04:40:47
+Temp:  7.96875
+Moisture:  28.186
+Time:  20190531 04:41:48
+Temp:  8.09375
+Moisture:  28.1933
+Time:  20190531 04:42:49
+Temp:  8.03125
+Moisture:  28.2447
+Time:  20190531 04:43:50
+Temp:  8.15625
+Moisture:  27.9483
+Time:  20190531 04:44:51
+Temp:  8.1875
+Moisture:  28.1988
+Time:  20190531 04:45:52
+Temp:  8.375
+Moisture:  28.2649
+Time:  20190531 04:46:52
+Temp:  8.46875
+Moisture:  28.2153
+Time:  20190531 04:47:53
+Temp:  8.59375
+Moisture:  28.2227
+Time:  20190531 04:48:54
+Temp:  8.59375
+Moisture:  28.2778
+Time:  20190531 04:49:55
+Temp:  8.75
+Moisture:  28.2319
+Time:  20190531 04:50:56
+Temp:  8.8125
+Moisture:  28.2356
+Time:  20190531 04:51:57
+Temp:  8.9375
+Moisture:  28.2429
+Time:  20190531 04:52:58
+Temp:  8.875
+Moisture:  28.2944
+Time:  20190531 04:53:58
+Temp:  8.9375
+Moisture:  28.3535
+Time:  20190531 04:54:59
+Temp:  9.03125
+Moisture:  28.3036
+Time:  20190531 04:56:00
+Temp:  9.09375
+Moisture:  28.3073
+Time:  20190531 04:57:01
+Temp:  9.1875
+Moisture:  28.3129
+Time:  20190531 04:58:02
+Temp:  9.09375
+Moisture:  28.2521
+Time:  20190531 04:59:03
+Temp:  9.125
+Moisture:  28.254
+Time:  20190531 05:00:04
+Temp:  9.15625
+Moisture:  28.6154
+Time:  20190531 05:01:04
+Temp:  9.1875
+Moisture:  28.5615
+Time:  20190531 05:02:05
+Temp:  9.0625
+Moisture:  28.3055
+Time:  20190531 05:03:06
+Temp:  9.125
+Moisture:  28.3092
+Time:  20190531 05:04:07
+Temp:  9.1875
+Moisture:  28.3129
+Time:  20190531 05:05:08
+Temp:  9.1875
+Moisture:  28.3129
+Time:  20190531 05:06:09
+Temp:  9.15625
+Moisture:  28.5597
+Time:  20190531 05:07:09
+Temp:  9.1875
+Moisture:  28.3129
+Time:  20190531 05:08:10
+Temp:  9.0625
+Moisture:  28.3609
+Time:  20190531 05:09:11
+Temp:  9.1875
+Moisture:  28.8654
+Time:  20190531 05:10:12
+Temp:  9.21875
+Moisture:  28.3701
+Time:  20190531 05:11:13
+Temp:  9.1875
+Moisture:  28.2577
+Time:  20190531 05:12:14
+Temp:  9.21875
+Moisture:  28.3147
+Time:  20190531 05:13:14
+Temp:  9.28125
+Moisture:  28.3184
+Time:  20190531 05:14:15
+Temp:  9.21875
+Moisture:  28.2595
+Time:  20190531 05:15:16
+Temp:  9.28125
+Moisture:  28.2632
+Time:  20190531 05:16:17
+Temp:  9.1875
+Moisture:  28.2577
+Time:  20190531 05:17:18
+Temp:  9.1875
+Moisture:  28.8654
+Time:  20190531 05:18:19
+Temp:  9.21875
+Moisture:  28.2595
+Time:  20190531 05:19:20
+Temp:  9.1875
+Moisture:  28.2577
+Time:  20190531 05:20:20
+Temp:  9.21875
+Moisture:  28.2595
+Time:  20190531 05:21:21
+Temp:  9.1875
+Moisture:  28.8654
+Time:  20190531 05:22:22
+Temp:  9.125
+Moisture:  28.254
+Time:  20190531 05:23:23
+Temp:  9.15625
+Moisture:  28.6154
+Time:  20190531 05:24:24
+Temp:  9.09375
+Moisture:  28.0029
+Time:  20190531 05:25:25
+Temp:  9.0625
+Moisture:  28.2503
+Time:  20190531 05:26:25
+Temp:  9.15625
+Moisture:  28.311
+Time:  20190531 05:27:26
+Temp:  9.25
+Moisture:  28.3166
+Time:  20190531 05:28:27
+Temp:  9.28125
+Moisture:  28.3184
+Time:  20190531 05:29:28
+Temp:  9.25
+Moisture:  28.372
+Time:  20190531 05:30:29
+Temp:  9.21875
+Moisture:  28.3147
+Time:  20190531 05:31:30
+Temp:  9.25
+Moisture:  28.2614
+Time:  20190531 05:32:31
+Temp:  9.1875
+Moisture:  28.3129
+Time:  20190531 05:33:31
+Temp:  9.21875
+Moisture:  28.8672
+Time:  20190531 05:34:32
+Temp:  9.125
+Moisture:  28.3092
+Time:  20190531 05:35:33
+Temp:  9.125
+Moisture:  28.918
+Time:  20190531 05:36:34
+Temp:  9.1875
+Moisture:  28.6173
+Time:  20190531 05:37:35
+Temp:  9.15625
+Moisture:  28.5597
+Time:  20190531 05:38:36
+Temp:  9.125
+Moisture:  27.6464
+Time:  20190531 05:39:37
+Temp:  9.09375
+Moisture:  27.6986
+Time:  20190531 05:40:37
+Temp:  9.1875
+Moisture:  28.3683
+Time:  20190531 05:41:38
+Temp:  9.1875
+Moisture:  28.4239
+Time:  20190531 05:42:39
+Temp:  9.09375
+Moisture:  27.6446
+Time:  20190531 05:43:40
+Temp:  9.09375
+Moisture:  27.9484
+Time:  20190531 05:44:41
+Temp:  9.1875
+Moisture:  28.2577
+Time:  20190531 05:45:41
+Temp:  9.09375
+Moisture:  28.0577
+Time:  20190531 05:46:42
+Temp:  9.09375
+Moisture:  27.6986
+Time:  20190531 05:47:43
+Temp:  9.0625
+Moisture:  27.6968
+Time:  20190531 05:48:44
+Temp:  9.0625
+Moisture:  28.0011
+Time:  20190531 05:49:45
+Temp:  8.96875
+Moisture:  27.9956
+Time:  20190531 05:50:46
+Temp:  8.90625
+Moisture:  27.6877
+Time:  20190531 05:51:47
+Temp:  9.0
+Moisture:  27.6931
+Time:  20190531 05:52:48
+Temp:  8.96875
+Moisture:  27.6374
+Time:  20190531 05:53:48
+Temp:  8.875
+Moisture:  27.7401
+Time:  20190531 05:54:49
+Temp:  8.71875
+Moisture:  27.6769
+Time:  20190531 05:55:50
+Temp:  8.75
+Moisture:  27.9283
+Time:  20190531 05:56:51
+Temp:  8.8125
+Moisture:  27.9865
+Time:  20190531 05:57:52
+Temp:  8.78125
+Moisture:  28.0395
+Time:  20190531 05:58:53
+Temp:  8.71875
+Moisture:  27.623
+Time:  20190531 05:59:54
+Temp:  8.75
+Moisture:  27.9283
+Time:  20190531 06:00:54
+Temp:  8.8125
+Moisture:  27.6284
+Time:  20190531 06:01:55
+Temp:  8.75
+Moisture:  27.6248
+Time:  20190531 06:02:56
+Temp:  8.65625
+Moisture:  27.6194
+Time:  20190531 06:03:57
+Temp:  8.625
+Moisture:  27.3141
+Time:  20190531 06:04:58
+Temp:  8.53125
+Moisture:  27.6661
+Time:  20190531 06:05:59
+Temp:  8.6875
+Moisture:  27.7836
+Time:  20190531 06:06:59
+Temp:  8.5625
+Moisture:  27.614
+Time:  20190531 06:08:00
+Temp:  8.53125
+Moisture:  27.6661
+Time:  20190531 06:09:01
+Temp:  8.5625
+Moisture:  27.9174
+Time:  20190531 06:10:02
+Temp:  8.5
+Moisture:  27.6104
+Time:  20190531 06:11:03
+Temp:  8.46875
+Moisture:  27.6086
+Time:  20190531 06:12:04
+Temp:  8.46875
+Moisture:  27.6086
+Time:  20190531 06:13:05
+Temp:  8.5625
+Moisture:  27.7764
+Time:  20190531 06:14:05
+Temp:  8.53125
+Moisture:  27.7202
+Time:  20190531 06:15:06
+Temp:  8.53125
+Moisture:  27.6122
+Time:  20190531 06:16:07
+Temp:  8.5625
+Moisture:  28.3313
+Time:  20190531 06:17:08
+Temp:  8.53125
+Moisture:  27.6661
+Time:  20190531 06:18:09
+Temp:  8.53125
+Moisture:  27.3087
+Time:  20190531 06:19:10
+Temp:  8.53125
+Moisture:  28.219
+Time:  20190531 06:20:11
+Temp:  8.5625
+Moisture:  27.722
+Time:  20190531 06:21:11
+Temp:  8.59375
+Moisture:  27.6158
+Time:  20190531 06:22:12
+Temp:  8.59375
+Moisture:  27.6697
+Time:  20190531 06:23:13
+Temp:  8.5625
+Moisture:  27.722
+Time:  20190531 06:24:14
+Temp:  8.59375
+Moisture:  27.6697
+Time:  20190531 06:25:15
+Temp:  8.6875
+Moisture:  27.6211
+Time:  20190531 06:26:16
+Temp:  8.625
+Moisture:  27.6715
+Time:  20190531 06:27:16
+Temp:  8.6875
+Moisture:  27.6751
+Time:  20190531 06:28:17
+Temp:  8.78125
+Moisture:  27.6805
+Time:  20190531 06:29:18
+Temp:  8.78125
+Moisture:  27.6266
+Time:  20190531 06:30:19
+Temp:  8.78125
+Moisture:  27.6805
+Time:  20190531 06:31:20
+Temp:  8.71875
+Moisture:  27.6769
+Time:  20190531 06:32:20
+Temp:  8.6875
+Moisture:  27.9792
+Time:  20190531 06:33:21
+Temp:  8.6875
+Moisture:  27.7293
+Time:  20190531 06:34:22
+Temp:  8.65625
+Moisture:  27.6194
+Time:  20190531 06:35:23
+Temp:  8.625
+Moisture:  27.7256
+Time:  20190531 06:36:24
+Temp:  8.46875
+Moisture:  27.6086
+Time:  20190531 06:37:25
+Temp:  8.46875
+Moisture:  27.6625
+Time:  20190531 06:38:26
+Temp:  8.34375
+Moisture:  27.9047
+Time:  20190531 06:39:26
+Temp:  8.3125
+Moisture:  27.5996
+Time:  20190531 06:40:27
+Temp:  8.1875
+Moisture:  27.9501
+Time:  20190531 06:41:28
+Temp:  8.25
+Moisture:  27.596
+Time:  20190531 06:42:29
+Temp:  8.25
+Moisture:  27.9537
+Time:  20190531 06:43:30
+Temp:  8.1875
+Moisture:  27.5924
+Time:  20190531 06:44:31
+Temp:  8.1875
+Moisture:  27.2892
+Time:  20190531 06:45:32
+Temp:  8.125
+Moisture:  27.3389
+Time:  20190531 06:46:32
+Temp:  8.0625
+Moisture:  27.5852
+Time:  20190531 06:47:33
+Temp:  7.96875
+Moisture:  27.6337
+Time:  20190531 06:48:34
+Temp:  8.03125
+Moisture:  27.7457
+Time:  20190531 06:49:35
+Temp:  7.90625
+Moisture:  27.5762
+Time:  20190531 06:50:36
+Temp:  7.96875
+Moisture:  27.5798
+Time:  20190531 06:51:37
+Temp:  7.90625
+Moisture:  27.6842
+Time:  20190531 06:52:37
+Temp:  7.90625
+Moisture:  27.5762
+Time:  20190531 06:53:38
+Temp:  7.9375
+Moisture:  27.578
+Time:  20190531 06:54:39
+Temp:  7.96875
+Moisture:  27.8829
+Time:  20190531 06:55:40
+Temp:  8.0625
+Moisture:  27.6391
+Time:  20190531 06:56:41
+Temp:  8.03125
+Moisture:  27.6373
+Time:  20190531 06:57:42
+Temp:  8.0625
+Moisture:  27.8883
+Time:  20190531 06:58:43
+Temp:  8.09375
+Moisture:  27.6409
+Time:  20190531 06:59:44
+Temp:  8.125
+Moisture:  27.6427
+Time:  20190531 07:00:44
+Temp:  8.09375
+Moisture:  27.6409
+Time:  20190531 07:01:45
+Temp:  8.15625
+Moisture:  27.3407
+Time:  20190531 07:02:46
+Temp:  8.09375
+Moisture:  27.6409
+Time:  20190531 07:03:47
+Temp:  8.21875
+Moisture:  27.7022
+Time:  20190531 07:04:48
+Temp:  8.375
+Moisture:  27.6032
+Time:  20190531 07:05:48
+Temp:  8.375
+Moisture:  27.9065
+Time:  20190531 07:06:49
+Temp:  8.625
+Moisture:  27.6176
+Time:  20190531 07:07:50
+Temp:  8.6875
+Moisture:  27.6211
+Time:  20190531 07:08:51
+Temp:  8.71875
+Moisture:  27.6769
+Time:  20190531 07:09:52
+Temp:  9.0
+Moisture:  28.0523
+Time:  20190531 07:10:53
+Temp:  9.09375
+Moisture:  27.6986
+Time:  20190531 07:11:54
+Temp:  9.09375
+Moisture:  28.3627
+Time:  20190531 07:12:55
+Temp:  9.40625
+Moisture:  27.9666
+Time:  20190531 07:13:55
+Temp:  9.46875
+Moisture:  27.7203
+Time:  20190531 07:14:56
+Temp:  9.5
+Moisture:  28.0267
+Time:  20190531 07:15:57
+Temp:  9.5625
+Moisture:  27.7799
+Time:  20190531 07:16:58
+Temp:  9.625
+Moisture:  27.7293
+Time:  20190531 07:17:59
+Temp:  9.75
+Moisture:  27.7366
+Time:  20190531 07:18:59
+Temp:  9.84375
+Moisture:  27.6879
+Time:  20190531 07:20:01
+Temp:  9.875
+Moisture:  27.7438
+Time:  20190531 07:21:01
+Temp:  10.0312
+Moisture:  28.0578
+Time:  20190531 07:22:02
+Temp:  10.0625
+Moisture:  28.3094
+Time:  20190531 07:23:03
+Temp:  10.1562
+Moisture:  28.0105
+Time:  20190531 07:24:04
+Temp:  10.3125
+Moisture:  28.3795
+Time:  20190531 07:25:05
+Temp:  10.3125
+Moisture:  28.3795
+Time:  20190531 07:26:06
+Temp:  10.5
+Moisture:  28.0854
+Time:  20190531 07:27:06
+Temp:  10.5312
+Moisture:  27.7278
+Time:  20190531 07:28:07
+Temp:  10.625
+Moisture:  28.0927
+Time:  20190531 07:29:08
+Temp:  10.625
+Moisture:  28.0927
+Time:  20190531 07:30:09
+Temp:  10.6875
+Moisture:  27.7368
+Time:  20190531 07:31:10
+Temp:  10.8125
+Moisture:  28.1038
+Time:  20190531 07:32:11
+Temp:  10.6875
+Moisture:  27.791
+Time:  20190531 07:33:11
+Temp:  10.6875
+Moisture:  28.0416
+Time:  20190531 07:34:12
+Temp:  10.875
+Moisture:  27.7477
+Time:  20190531 07:35:13
+Temp:  10.75
+Moisture:  27.849
+Time:  20190531 07:36:14
+Temp:  10.875
+Moisture:  27.7477
+Time:  20190531 07:37:15
+Temp:  10.7812
+Moisture:  27.8509
+Time:  20190531 07:38:16
+Temp:  10.875
+Moisture:  28.0526
+Time:  20190531 07:39:17
+Temp:  10.8438
+Moisture:  27.7459
+Time:  20190531 07:40:17
+Temp:  10.8125
+Moisture:  28.049
+Time:  20190531 07:41:18
+Temp:  10.875
+Moisture:  28.4129
+Time:  20190531 07:42:19
+Temp:  10.875
+Moisture:  28.1074
+Time:  20190531 07:43:20
+Temp:  10.875
+Moisture:  28.3576
+Time:  20190531 07:44:21
+Temp:  10.9375
+Moisture:  27.7514
+Time:  20190531 07:45:22
+Temp:  11.0
+Moisture:  28.1698
+Time:  20190531 07:46:23
+Temp:  11.0312
+Moisture:  27.811
+Time:  20190531 07:47:23
+Temp:  11.0938
+Moisture:  27.8691
+Time:  20190531 07:48:24
+Temp:  11.25
+Moisture:  27.8238
+Time:  20190531 07:49:25
+Temp:  11.1875
+Moisture:  28.4316
+Time:  20190531 07:50:26
+Temp:  11.25
+Moisture:  28.3799
+Time:  20190531 07:51:27
+Temp:  11.3438
+Moisture:  27.8292
+Time:  20190531 07:52:27
+Temp:  11.4688
+Moisture:  28.4483
+Time:  20190531 07:53:28
+Temp:  11.4688
+Moisture:  28.1975
+Time:  20190531 07:54:29
+Temp:  11.5312
+Moisture:  28.1461
+Time:  20190531 07:55:30
+Temp:  11.5
+Moisture:  28.3947
+Time:  20190531 07:56:31
+Temp:  11.5625
+Moisture:  28.0931
+Time:  20190531 07:57:32
+Temp:  11.5938
+Moisture:  28.1498
+Time:  20190531 07:58:32
+Temp:  11.5938
+Moisture:  27.7896
+Time:  20190531 07:59:33
+Temp:  11.75
+Moisture:  28.4096
+Time:  20190531 08:00:34
+Temp:  11.75
+Moisture:  28.159
+Time:  20190531 08:01:35
+Temp:  11.75
+Moisture:  27.853
+Time:  20190531 08:02:36
+Temp:  11.7812
+Moisture:  28.106
+Time:  20190531 08:03:37
+Temp:  11.7188
+Moisture:  27.7969
+Time:  20190531 08:04:37
+Temp:  11.7812
+Moisture:  27.8005
+Time:  20190531 08:05:38
+Temp:  11.8125
+Moisture:  28.1078
+Time:  20190531 08:06:39
+Temp:  11.8438
+Moisture:  28.4152
+Time:  20190531 08:07:40
+Temp:  11.8438
+Moisture:  28.4152
+Time:  20190531 08:08:41
+Temp:  11.9062
+Moisture:  28.4745
+Time:  20190531 08:09:42
+Temp:  11.8438
+Moisture:  28.2197
+Time:  20190531 08:10:43
+Temp:  11.875
+Moisture:  28.1664
+Time:  20190531 08:11:43
+Temp:  11.8438
+Moisture:  27.8041
+Time:  20190531 08:12:44
+Temp:  11.875
+Moisture:  28.1664
+Time:  20190531 08:13:45
+Temp:  11.7812
+Moisture:  28.216
+Time:  20190531 08:14:46
+Temp:  11.7812
+Moisture:  28.106
+Time:  20190531 08:15:47
+Temp:  11.7188
+Moisture:  27.7969
+Time:  20190531 08:16:47
+Temp:  11.8125
+Moisture:  28.1078
+Time:  20190531 08:17:48
+Temp:  11.7812
+Moisture:  27.964
+Time:  20190531 08:18:49
+Temp:  11.9062
+Moisture:  28.1683
+Time:  20190531 08:19:50
+Temp:  11.8438
+Moisture:  28.4152
+Time:  20190531 08:20:51
+Temp:  11.8125
+Moisture:  28.4689
+Time:  20190531 08:21:52
+Temp:  11.875
+Moisture:  28.4726
+Time:  20190531 08:22:52
+Temp:  11.875
+Moisture:  28.4726
+Time:  20190531 08:23:53
+Temp:  11.875
+Moisture:  28.4171
+Time:  20190531 08:24:54
+Temp:  11.9062
+Moisture:  28.1683
+Time:  20190531 08:25:55
+Temp:  11.9375
+Moisture:  27.9185
+Time:  20190531 08:26:56
+Temp:  12.0
+Moisture:  28.4801
+Time:  20190531 08:27:56
+Temp:  12.0625
+Moisture:  28.1775
+Time:  20190531 08:28:57
+Temp:  12.0625
+Moisture:  28.1775
+Time:  20190531 08:29:58
+Temp:  12.125
+Moisture:  28.1263
+Time:  20190531 08:30:59
+Temp:  12.1875
+Moisture:  28.2401
+Time:  20190531 08:32:00
+Temp:  12.3125
+Moisture:  27.8859
+Time:  20190531 08:33:01
+Temp:  12.2188
+Moisture:  27.8804
+Time:  20190531 08:34:02
+Temp:  12.25
+Moisture:  28.1886
+Time:  20190531 08:35:03
+Temp:  12.3438
+Moisture:  28.5006
+Time:  20190531 08:36:03
+Temp:  12.2188
+Moisture:  27.8804
+Time:  20190531 08:37:04
+Temp:  12.3125
+Moisture:  28.4988
+Time:  20190531 08:38:05
+Temp:  12.375
+Moisture:  28.196
+Time:  20190531 08:39:06
+Temp:  12.25
+Moisture:  28.4395
+Time:  20190531 08:40:07
+Temp:  12.25
+Moisture:  27.8822
+Time:  20190531 08:41:08
+Temp:  12.1875
+Moisture:  28.1849
+Time:  20190531 08:42:09
+Temp:  12.1562
+Moisture:  27.8224
+Time:  20190531 08:43:09
+Temp:  12.25
+Moisture:  28.1337
+Time:  20190531 08:44:10
+Temp:  12.2812
+Moisture:  28.4413
+Time:  20190531 08:45:11
+Temp:  12.3125
+Moisture:  28.1374
+Time:  20190531 08:46:12
+Temp:  12.2188
+Moisture:  28.4932
+Time:  20190531 08:47:13
+Temp:  12.0938
+Moisture:  28.1794
+Time:  20190531 08:48:14
+Temp:  12.0625
+Moisture:  28.1226
+Time:  20190531 08:49:15
+Temp:  12.0625
+Moisture:  28.1226
+Time:  20190531 08:50:15
+Temp:  11.9062
+Moisture:  28.4745
+Time:  20190531 08:51:16
+Temp:  11.9688
+Moisture:  28.1171
+Time:  20190531 08:52:17
+Temp:  11.7812
+Moisture:  27.8548
+Time:  20190531 08:53:18
+Temp:  11.8438
+Moisture:  28.4707
+Time:  20190531 08:54:19
+Temp:  11.7188
+Moisture:  28.1023
+Time:  20190531 08:55:20
+Temp:  11.7812
+Moisture:  28.1609
+Time:  20190531 08:56:20
+Temp:  11.8125
+Moisture:  28.2179
+Time:  20190531 08:57:21
+Temp:  11.875
+Moisture:  28.4726
+Time:  20190531 08:58:22
+Temp:  11.7812
+Moisture:  27.8005
+Time:  20190531 08:59:23
+Temp:  11.9062
+Moisture:  28.419
+Time:  20190531 09:00:24
+Temp:  11.8438
+Moisture:  28.4707
+Time:  20190531 09:01:24
+Temp:  11.9375
+Moisture:  28.1701
+Time:  20190531 09:02:25
+Temp:  12.0312
+Moisture:  27.8694
+Time:  20190531 09:03:26
+Temp:  11.9375
+Moisture:  28.1152
+Time:  20190531 09:04:27
+Temp:  12.0625
+Moisture:  27.8169
+Time:  20190531 09:05:28
+Temp:  11.9062
+Moisture:  27.8078
+Time:  20190531 09:06:29
+Temp:  12.0
+Moisture:  27.8676
+Time:  20190531 09:07:29
+Temp:  12.0
+Moisture:  27.9221
+Time:  20190531 09:08:30
+Temp:  12.0
+Moisture:  27.8133
+Time:  20190531 09:09:31
+Temp:  12.125
+Moisture:  28.1812
+Time:  20190531 09:10:32
+Temp:  12.1875
+Moisture:  28.4357
+Time:  20190531 09:11:33
+Temp:  12.4062
+Moisture:  28.5044
+Time:  20190531 09:12:34
+Temp:  12.3438
+Moisture:  28.1942
+Time:  20190531 09:13:34
+Temp:  12.5625
+Moisture:  27.9005
+Time:  20190531 09:14:35
+Temp:  12.5938
+Moisture:  27.957
+Time:  20190531 09:15:36
+Temp:  12.75
+Moisture:  28.2183
+Time:  20190531 09:16:37
+Temp:  12.8125
+Moisture:  27.8608
+Time:  20190531 09:17:38
+Temp:  12.8438
+Moisture:  28.1688
+Time:  20190531 09:18:39
+Temp:  12.8125
+Moisture:  28.5287
+Time:  20190531 09:19:39
+Temp:  13.0
+Moisture:  28.5958
+Time:  20190531 09:20:40
+Temp:  13.0625
+Moisture:  28.2368
+Time:  20190531 09:21:41
+Temp:  13.125
+Moisture:  28.2405
+Time:  20190531 09:22:42
+Temp:  13.3125
+Moisture:  28.1966
+Time:  20190531 09:23:43
+Temp:  13.375
+Moisture:  27.9483
+Time:  20190531 09:24:44
+Temp:  13.5938
+Moisture:  27.9067
+Time:  20190531 09:25:45
+Temp:  13.5938
+Moisture:  28.2684
+Time:  20190531 09:26:45
+Temp:  13.625
+Moisture:  27.963
+Time:  20190531 09:27:46
+Temp:  13.5625
+Moisture:  28.6297
+Time:  20190531 09:28:47
+Temp:  13.5312
+Moisture:  28.2647
+Time:  20190531 09:29:48
+Temp:  13.5938
+Moisture:  28.2684
+Time:  20190531 09:30:49
+Temp:  13.5938
+Moisture:  28.2684
+Time:  20190531 09:31:50
+Temp:  13.5312
+Moisture:  28.2647
+Time:  20190531 09:32:51
+Temp:  13.5625
+Moisture:  28.2666
+Time:  20190531 09:33:51
+Temp:  13.75
+Moisture:  28.2226
+Time:  20190531 09:34:52
+Temp:  13.7812
+Moisture:  28.2245
+Time:  20190531 09:35:53
+Temp:  13.875
+Moisture:  28.5369
+Time:  20190531 09:36:54
+Temp:  14.0
+Moisture:  28.5444
+Time:  20190531 09:37:55
+Temp:  14.0625
+Moisture:  27.9342
+Time:  20190531 09:38:56
+Temp:  14.125
+Moisture:  28.3001
+Time:  20190531 09:39:56
+Temp:  14.375
+Moisture:  28.1171
+Time:  20190531 09:40:57
+Temp:  14.3438
+Moisture:  28.258
+Time:  20190531 09:41:58
+Temp:  14.4375
+Moisture:  28.2636
+Time:  20190531 09:42:59
+Temp:  14.4688
+Moisture:  27.9582
+Time:  20190531 09:44:00
+Temp:  14.5938
+Moisture:  28.6921
+Time:  20190531 09:45:01
+Temp:  14.5
+Moisture:  28.3225
+Time:  20190531 09:46:01
+Temp:  14.5625
+Moisture:  28.271
+Time:  20190531 09:47:02
+Temp:  14.7188
+Moisture:  28.5878
+Time:  20190531 09:48:03
+Temp:  14.7812
+Moisture:  28.7034
+Time:  20190531 09:49:04
+Temp:  14.6875
+Moisture:  28.0257
+Time:  20190531 09:50:05
+Temp:  14.6875
+Moisture:  28.3337
+Time:  20190531 09:51:06
+Temp:  14.625
+Moisture:  28.6379
+Time:  20190531 09:52:06
+Temp:  14.75
+Moisture:  28.2822
+Time:  20190531 09:53:07
+Temp:  14.9375
+Moisture:  28.601
+Time:  20190531 09:54:08
+Temp:  14.9688
+Moisture:  28.6587
+Time:  20190531 09:55:09
+Temp:  15.0625
+Moisture:  28.7205
+Time:  20190531 09:56:10
+Temp:  15.1562
+Moisture:  28.6142
+Time:  20190531 09:57:11
+Temp:  15.1562
+Moisture:  28.3618
+Time:  20190531 09:58:11
+Temp:  15.375
+Moisture:  28.6833
+Time:  20190531 09:59:12
+Temp:  15.4062
+Moisture:  28.3215
+Time:  20190531 10:00:13
+Temp:  15.5312
+Moisture:  28.749
+Time:  20190531 10:01:14
+Temp:  15.5625
+Moisture:  28.3862
+Time:  20190531 10:02:15
+Temp:  15.6875
+Moisture:  28.7023
+Time:  20190531 10:03:16
+Temp:  15.7812
+Moisture:  28.708
+Time:  20190531 10:04:17
+Temp:  15.9375
+Moisture:  28.7737
+Time:  20190531 10:05:18
+Temp:  15.875
+Moisture:  28.405
+Time:  20190531 10:06:18
+Temp:  15.9375
+Moisture:  28.4087
+Time:  20190531 10:07:19
+Temp:  15.75
+Moisture:  28.7061
+Time:  20190531 10:08:20
+Temp:  15.7188
+Moisture:  28.5069
+Time:  20190531 10:09:21
+Temp:  15.7188
+Moisture:  28.7042
+Time:  20190531 10:10:22
+Temp:  15.5
+Moisture:  28.635
+Time:  20190531 10:11:23
+Temp:  15.6562
+Moisture:  28.3365
+Time:  20190531 10:12:24
+Temp:  15.6562
+Moisture:  28.3918
+Time:  20190531 10:13:24
+Temp:  15.5938
+Moisture:  28.6407
+Time:  20190531 10:14:25
+Temp:  15.6562
+Moisture:  28.3918
+Time:  20190531 10:15:26
+Temp:  15.75
+Moisture:  28.7061
+Time:  20190531 10:16:27
+Temp:  15.7812
+Moisture:  28.708
+Time:  20190531 10:17:28
+Temp:  15.8125
+Moisture:  28.7099
+Time:  20190531 10:18:28
+Temp:  15.875
+Moisture:  28.0414
+Time:  20190531 10:19:29
+Temp:  15.9062
+Moisture:  28.7156
+Time:  20190531 10:20:30
+Temp:  15.875
+Moisture:  28.7137
+Time:  20190531 10:21:31
+Temp:  16.0
+Moisture:  28.7213
+Time:  20190531 10:22:32
+Temp:  16.1562
+Moisture:  28.3665
+Time:  20190531 10:23:33
+Temp:  16.4062
+Moisture:  28.1278
+Time:  20190531 10:24:34
+Temp:  16.375
+Moisture:  28.5466
+Time:  20190531 10:25:35
+Temp:  16.5938
+Moisture:  28.5039
+Time:  20190531 10:26:35
+Temp:  16.6562
+Moisture:  28.452
+Time:  20190531 10:27:36
+Temp:  16.6875
+Moisture:  28.4539
+Time:  20190531 10:28:37
+Temp:  16.75
+Moisture:  28.4022
+Time:  20190531 10:29:38
+Temp:  17.0312
+Moisture:  28.4747
+Time:  20190531 10:30:39
+Temp:  17.0
+Moisture:  28.5285
+Time:  20190531 10:31:40
+Temp:  17.0938
+Moisture:  28.7319
+Time:  20190531 10:32:41
+Temp:  17.3438
+Moisture:  28.7471
+Time:  20190531 10:33:41
+Temp:  17.5
+Moisture:  28.503
+Time:  20190531 10:34:42
+Temp:  17.7188
+Moisture:  28.5163
+Time:  20190531 10:35:43
+Temp:  17.8438
+Moisture:  28.4682
+Time:  20190531 10:36:44
+Temp:  17.8125
+Moisture:  28.8884
+Time:  20190531 10:37:45
+Temp:  17.75
+Moisture:  28.9412
+Time:  20190531 10:38:45
+Temp:  17.9688
+Moisture:  28.8415
+Time:  20190531 10:39:46
+Temp:  17.9062
+Moisture:  28.8377
+Time:  20190531 10:40:47
+Temp:  17.9375
+Moisture:  28.5295
+Time:  20190531 10:41:48
+Temp:  17.9375
+Moisture:  28.8396
+Time:  20190531 10:42:49
+Temp:  17.875
+Moisture:  28.7796
+Time:  20190531 10:43:50
+Temp:  17.9375
+Moisture:  28.8396
+Time:  20190531 10:44:51
+Temp:  17.9062
+Moisture:  28.472
+Time:  20190531 10:45:51
+Temp:  17.6562
+Moisture:  28.5125
+Time:  20190531 10:46:52
+Temp:  17.4688
+Moisture:  28.4456
+Time:  20190531 10:47:53
+Temp:  17.4375
+Moisture:  28.4437
+Time:  20190531 10:48:54
+Temp:  17.4062
+Moisture:  28.8071
+Time:  20190531 10:49:55
+Temp:  17.1562
+Moisture:  28.8481
+Time:  20190531 10:50:56
+Temp:  17.1875
+Moisture:  28.4841
+Time:  20190531 10:51:57
+Temp:  17.0625
+Moisture:  28.7861
+Time:  20190531 10:52:57
+Temp:  17.25
+Moisture:  28.4879
+Time:  20190531 10:53:58
+Temp:  17.4688
+Moisture:  28.5011
+Time:  20190531 10:54:59
+Temp:  17.7188
+Moisture:  28.8262
+Time:  20190531 10:56:00
+Temp:  18.0312
+Moisture:  28.591
+Time:  20190531 10:57:01
+Temp:  18.3125
+Moisture:  28.5523
+Time:  20190531 10:58:02
+Temp:  18.5938
+Moisture:  28.5694
+Time:  20190531 10:59:02
+Temp:  18.8125
+Moisture:  28.527
+Time:  20190531 11:00:03
+Temp:  18.9688
+Moisture:  28.8467
+Time:  20190531 11:01:04
+Temp:  19.25
+Moisture:  28.864
+Time:  20190531 11:02:05
+Temp:  19.5625
+Moisture:  28.9962
+Time:  20190531 11:03:06
+Temp:  19.8125
+Moisture:  28.9551
+Time:  20190531 11:04:07
+Temp:  19.875
+Moisture:  28.9025
+Time:  20190531 11:05:08
+Temp:  19.9688
+Moisture:  29.2762
+Time:  20190531 11:06:09
+Temp:  20.0
+Moisture:  28.7676
+Time:  20190531 11:07:09
+Temp:  20.0938
+Moisture:  28.916
+Time:  20190531 11:08:10
+Temp:  20.0312
+Moisture:  28.9121
+Time:  20190531 11:09:11
+Temp:  20.0625
+Moisture:  28.659
+Time:  20190531 11:10:12
+Temp:  20.2188
+Moisture:  28.9802
+Time:  20190531 11:11:13
+Temp:  20.4375
+Moisture:  28.9372
+Time:  20190531 11:12:14
+Temp:  20.5
+Moisture:  28.9411
+Time:  20190531 11:13:15
+Temp:  20.5938
+Moisture:  28.6916
+Time:  20190531 11:14:15
+Temp:  20.3438
+Moisture:  28.9879
+Time:  20190531 11:15:16
+Temp:  20.25
+Moisture:  28.9256
+Time:  20190531 11:16:17
+Temp:  20.0938
+Moisture:  29.2269
+Time:  20190531 11:17:18
+Temp:  20.2812
+Moisture:  28.9276
+Time:  20190531 11:18:19
+Temp:  20.2812
+Moisture:  29.0408
+Time:  20190531 11:19:19
+Temp:  20.1562
+Moisture:  28.9763
+Time:  20190531 11:20:20
+Temp:  20.3438
+Moisture:  29.2738
+Time:  20190531 11:21:21
+Temp:  20.125
+Moisture:  28.9744
+Time:  20190531 11:22:22
+Temp:  20.3125
+Moisture:  28.9295
+Time:  20190531 11:23:23
+Temp:  20.1875
+Moisture:  28.9218
+Time:  20190531 11:24:24
+Temp:  20.3125
+Moisture:  29.2977
+Time:  20190531 11:25:24
+Temp:  20.2812
+Moisture:  29.2957
+Time:  20190531 11:26:25
+Temp:  20.2812
+Moisture:  28.9276
+Time:  20190531 11:27:26
+Temp:  20.4688
+Moisture:  28.9957
+Time:  20190531 11:28:27
+Temp:  20.6562
+Moisture:  29.0073
+Time:  20190531 11:29:28
+Temp:  20.8438
+Moisture:  29.0189
+Time:  20190531 11:30:29
+Temp:  21.0312
+Moisture:  29.3427
+Time:  20190531 11:31:30
+Temp:  21.2812
+Moisture:  29.6129
+Time:  20190531 11:32:30
+Temp:  21.25
+Moisture:  28.9876
+Time:  20190531 11:33:31
+Temp:  21.3125
+Moisture:  29.0481
+Time:  20190531 11:34:32
+Temp:  21.3438
+Moisture:  29.3624
+Time:  20190531 11:35:33
+Temp:  21.5
+Moisture:  29.4297
+Time:  20190531 11:36:34
+Temp:  21.6875
+Moisture:  29.0714
+Time:  20190531 11:37:35
+Temp:  21.875
+Moisture:  29.0264
+Time:  20190531 11:38:35
+Temp:  21.9688
+Moisture:  29.0323
+Time:  20190531 11:39:36
+Temp:  22.3125
+Moisture:  29.1104
+Time:  20190531 11:40:37
+Temp:  22.7812
+Moisture:  29.0829
+Time:  20190531 11:41:38
+Temp:  23.0312
+Moisture:  29.7243
+Time:  20190531 11:42:39
+Temp:  23.1875
+Moisture:  29.1083
+Time:  20190531 11:43:40
+Temp:  23.6562
+Moisture:  29.2518
+Time:  20190531 11:44:41
+Temp:  24.0
+Moisture:  29.1593
+Time:  20190531 11:45:41
+Temp:  24.2812
+Moisture:  29.2339
+Time:  20190531 11:46:42
+Temp:  24.4688
+Moisture:  29.5026
+Time:  20190531 11:47:43
+Temp:  24.8125
+Moisture:  29.9554
+Time:  20190531 11:48:44
+Temp:  24.8125
+Moisture:  29.2104
+Time:  20190531 11:49:45
+Temp:  25.0312
+Moisture:  29.2242
+Time:  20190531 11:50:46
+Temp:  24.9375
+Moisture:  29.5901
+Time:  20190531 11:51:46
+Temp:  25.25
+Moisture:  29.238
+Time:  20190531 11:52:47
+Temp:  25.4375
+Moisture:  29.2499
+Time:  20190531 11:53:48
+Temp:  25.5
+Moisture:  29.2538
+Time:  20190531 11:54:49
+Temp:  25.25
+Moisture:  29.238
+Time:  20190531 11:55:50
+Temp:  24.7812
+Moisture:  29.2655
+Time:  20190531 11:56:51
+Temp:  24.3125
+Moisture:  29.4927
+Time:  20190531 11:57:51
+Temp:  24.0938
+Moisture:  29.1652
+Time:  20190531 11:58:52
+Temp:  23.9062
+Moisture:  29.8385
+Time:  20190531 11:59:53
+Temp:  23.75
+Moisture:  29.1436
+Time:  20190531 12:00:54
+Temp:  23.875
+Moisture:  29.2084
+Time:  20190531 12:01:55
+Temp:  24.2188
+Moisture:  29.8586
+Time:  20190531 12:02:56
+Temp:  24.5938
+Moisture:  29.5106
+Time:  20190531 12:03:57
+Temp:  25.5625
+Moisture:  29.6301
+Time:  20190531 12:04:58
+Temp:  26.3125
+Moisture:  29.994
+Time:  20190531 12:05:59
+Temp:  26.9375
+Moisture:  29.4023
+Time:  20190531 12:06:59
+Temp:  27.4375
+Moisture:  29.3768
+Time:  20190531 12:08:00
+Temp:  27.75
+Moisture:  30.1465
+Time:  20190531 12:09:01
+Temp:  27.8438
+Moisture:  29.7769
+Time:  20190531 12:10:02
+Temp:  28.0312
+Moisture:  30.0473
+Time:  20190531 12:11:03
+Temp:  27.8438
+Moisture:  29.7769
+Time:  20190531 12:12:04
+Temp:  27.4688
+Moisture:  29.8109
+Time:  20190531 12:13:04
+Temp:  27.25
+Moisture:  29.3649
+Time:  20190531 12:14:05
+Temp:  27.0625
+Moisture:  29.7265
+Time:  20190531 12:15:06
+Temp:  26.875
+Moisture:  29.7726
+Time:  20190531 12:16:07
+Temp:  26.75
+Moisture:  29.7064
+Time:  20190531 12:17:08
+Temp:  26.625
+Moisture:  29.3251
+Time:  20190531 12:18:09
+Temp:  27.0
+Moisture:  29.7225
+Time:  20190531 12:19:09
+Temp:  27.4375
+Moisture:  29.6927
+Time:  20190531 12:20:10
+Temp:  27.6875
+Moisture:  29.3928
+Time:  20190531 12:21:11
+Temp:  27.5938
+Moisture:  29.3868
+Time:  20190531 12:22:12
+Temp:  27.4062
+Moisture:  29.6907
+Time:  20190531 12:23:13
+Temp:  27.3438
+Moisture:  29.4282
+Time:  20190531 12:24:14
+Temp:  27.4062
+Moisture:  29.7487
+Time:  20190531 12:25:15
+Temp:  27.6562
+Moisture:  30.0228
+Time:  20190531 12:26:16
+Temp:  27.875
+Moisture:  30.0958
+Time:  20190531 12:27:16
+Temp:  28.0938
+Moisture:  29.735
+Time:  20190531 12:28:17
+Temp:  28.0625
+Moisture:  30.108
+Time:  20190531 12:29:18
+Temp:  27.9375
+Moisture:  29.7249
+Time:  20190531 12:30:19
+Temp:  28.0938
