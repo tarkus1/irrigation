@@ -91,7 +91,7 @@ while True:
     therow=(dateS,float(temp),float(humid))
     # print(therow)
     
-    f = open('test.csv', 'a', newline='')
+    f = open('/home/pi/irrigation/test.csv', 'a', newline='')
     writer = csv.writer(f)
     writer.writerow(therow)
 #     close(f)
