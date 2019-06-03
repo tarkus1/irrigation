@@ -72,11 +72,11 @@ hourly['2019-06':].Temp.plot(secondary_y=True,legend=True)
 # In[10]:
 
 
-hourly = moist.resample('1H').mean()
-hourly.dropna()
-print(hourly['2019-05-30':])
-hourly['2019-05-30':].Humidity.plot(legend=True)
-hourly['2019-05-30':].Temp.plot(secondary_y=True,legend=True)
+##hourly = moist.resample('1H').mean()
+##hourly.dropna()
+##print(hourly['2019-05-30':])
+##hourly['2019-05-30':].Humidity.plot(legend=True)
+##hourly['2019-05-30':].Temp.plot(secondary_y=True,legend=True)
 
 
 # In[11]:
@@ -119,6 +119,8 @@ print('\t',newmt,'\n',z)
 
 
 import matplotlib.pyplot as plt
+from matplotlib import interactive
+interactive(True)
 plt.plot(mt,m)
 plt.plot(mt,regr.predict(mt))
-
+plt.show()
