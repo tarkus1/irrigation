@@ -1,10 +1,8 @@
 #!/usr/bin/python3
 # coding: utf-8
 
-# In[1]:
-
-
 import pandas as pd
+import datetime
 
 moist = pd.read_csv('/home/pi/irrigation/test.csv')
 # moist = pd.read_csv('test.csv')
@@ -16,61 +14,25 @@ moist = pd.read_csv('/home/pi/irrigation/test.csv')
 moist.columns = ["Timetemp", "Temp", "Humidity"]
 # moist
 
-
-# In[3]:
-
-
 moist['Time'] = pd.to_datetime(moist["Timetemp"])
 moist = moist.drop(columns='Timetemp')
 moist.dtypes
 
-
-# In[4]:
-
-
-# moist['Time'].head()
-
-
-# In[5]:
-
-
 moist = moist.set_index('Time')
-# moist.head()
-
-
-# In[6]:
-
 
 moist['Week']=moist.index.weekofyear
-# moist['freq']=moist.index.freq
+
 moist.tail()
 
+startDate = datetime.datetime.now()-datetime.timedelta(5)
+print (startDate.strftime('%Y-%m-%d'),'\n\n')
 
-# In[7]:
-
-
-# import matplotlib.pyplot as plt
-
-# moist['Humidity'].plot()
-
-
-# In[8]:
-
-
-# moist['2019-06-01 14:00':].Humidity.plot(legend=True)
-# moist['2019-06-01 14:00':].Temp.plot(secondary_y=True,label='Temp',legend=True)
-
-
-# In[9]:
+strtDate =startDate.strftime('%Y-%m-%d')
 
 
 ##hourly = moist.resample('15Min').mean()
 ##hourly['2019-06':].Humidity.plot(legend=True)
 ##hourly['2019-06':].Temp.plot(secondary_y=True,legend=True)
-
-
-# In[10]:
-
 
 ##hourly = moist.resample('1H').mean()
 ##hourly.dropna()
@@ -78,28 +40,26 @@ moist.tail()
 ##hourly['2019-05-30':].Humidity.plot(legend=True)
 ##hourly['2019-05-30':].Temp.plot(secondary_y=True,legend=True)
 
-
-# In[11]:
-
-
-submoist=moist['2019-06-06':]
+submoist=moist[strtDate:]
 m=submoist[1:].Humidity.values
 tt=submoist.index-submoist.index[0]
 tt=tt[1:]
 tf=tt.to_frame()
-# tf
-# tf.Time.values.astype('float64')
-# mt=tt.astype('timedelta64[m]')
+
+daysfcst = 3
+
 tt1=tf.Time.values.astype('float64')
 # tt1
 mt=tt1.reshape(-1,1)
 # print(mt, mt.max())
-mtmro=mt.max()+(24*3600)
+mtmro=mt.max()+(24*3600*daysfcst)
 # print(mtmro.reshape(-1,1))
 # mt=tt.to_pytimedelta
 # print(mt.dtype,mt)
 # print( m.dtype,m)
 
+
+fdate=submoist.index.max() + datetime.timedelta(daysfcst)
 
 # In[19]:
 
@@ -112,7 +72,13 @@ mtmro=mt.max()+(24*3600*10)
 print(mt.max(), '\n',np.array(mtmro))
 newmt=np.array(mtmro).reshape(-1,1)
 z=regr.predict(newmt)
-print('New future time\t',newmt,'\npredicted\t',z,'\nslope\t',regr.coef_)
+print('New future time\t',fdate,'\npredicted\t',z,'\nslope\t',regr.coef_)
+
+
+##target_date_time_ms = 200000 # or whatever
+##base_datetime = datetime.datetime( 1970, 1, 1 )
+##delta = datetime.timedelta( 0, 0, 0, target_date_time_ms )
+##target_date = base_datetime + delta
 
 
 # In[13]:
