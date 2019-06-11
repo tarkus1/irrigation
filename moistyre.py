@@ -57,16 +57,16 @@ moist.tail()
 # In[8]:
 
 
-moist['2019-06-01 14:00':].Humidity.plot(legend=True)
-moist['2019-06-01 14:00':].Temp.plot(secondary_y=True,label='Temp',legend=True)
+#moist['2019-06-01 14:00':].Humidity.plot(legend=True)
+#moist['2019-06-01 14:00':].Temp.plot(secondary_y=True,label='Temp',legend=True)
 
 
 # In[9]:
 
 
 hourly = moist.resample('15Min').mean()
-hourly['2019-06':].Humidity.plot(legend=True)
-hourly['2019-06':].Temp.plot(secondary_y=True,legend=True)
+#hourly['2019-06':].Humidity.plot(legend=True)
+#hourly['2019-06':].Temp.plot(secondary_y=True,legend=True)
 
 
 # In[10]:
@@ -82,7 +82,7 @@ hourly['2019-06':].Temp.plot(secondary_y=True,legend=True)
 # In[11]:
 
 
-submoist=moist['2019-06-01':]
+submoist=moist['2019-06-03':]
 m=submoist[1:].Humidity.values
 tt=submoist.index-submoist.index[0]
 tt=tt[1:]
