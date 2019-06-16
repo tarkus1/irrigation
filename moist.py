@@ -24,7 +24,7 @@ moist['Week']=moist.index.weekofyear
 
 moist.tail()
 
-startDate = datetime.datetime.now()-datetime.timedelta(5)
+startDate = datetime.datetime.now()-datetime.timedelta(3)
 print (startDate.strftime('%Y-%m-%d'),'\n\n')
 
 strtDate =startDate.strftime('%Y-%m-%d')
