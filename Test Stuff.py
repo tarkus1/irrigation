@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/python3
 # coding: utf-8
 
 # In[1]:
@@ -98,10 +98,3 @@ while True:
     sleep(60)
 
 close(f)
-
-
-# In[ ]:
-
-
-
-
