@@ -5,6 +5,7 @@
 
 import pandas as pd
 import numpy as np
+import moistFunc
 
 def trendline(data, order=1):
     coeffs = np.polyfit(data.index.values, list(data), order)
@@ -14,25 +15,15 @@ def trendline(data, order=1):
 moist = pd.read_csv('~/irrigation/test.csv')
 
 
-# In[2]:
-
-
 moist.columns = ["Timetemp", "Temp", "Humidity"]
 moist
-
-
-# In[4]:
-
 
 moist['Time'] = pd.to_datetime(moist["Timetemp"])
 moist = moist.drop(columns='Timetemp')
 
-
-# In[5]:
-
+##print('trendline slope results ',trendline(moist,1))
 
 moist = moist.set_index('Time')
 print(moist.tail())
 
-
-#print(trendline(moist['Humidity']))
+print('\nWhat the sprinkler module sees\n', moistFunc.humid())
