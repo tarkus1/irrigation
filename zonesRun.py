@@ -7,6 +7,7 @@ import os, csv, re
 import sys
 import RPi.GPIO as GPIO
 from datetime import datetime, timedelta
+import moistFunc
 
 print ("The arguments are: " , str(sys.argv))
 
@@ -17,6 +18,12 @@ if len(sys.argv) != 4:
 elif int(sys.argv[1])>30 or int(sys.argv[2])>30 or int(sys.argv[3])>30:
     print("too long")
     exit()
+
+# hardcoded moisture cut off for now
+elif moistFunc.humid() < 30:
+    print('Too wet')
+    exit()
+
 else:
     zt1 = int(sys.argv[1]) *60
     zt2 = int(sys.argv[2]) *60
