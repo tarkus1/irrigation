@@ -74,6 +74,11 @@ newmt=np.array(mtmro).reshape(-1,1)
 z=regr.predict(newmt)
 print('New future time\t',fdate,'\npredicted\t',z,'\nslope\t',regr.coef_)
 
+hours=[4,5,6]
+sprinkHr = moist[moist.index.hour.isin(hours)]
+print('\n\nMean humidity between 4 and 7am\t',sprinkHr.Humidity.mean())
+
+print('\nLatest values\n',sprinkHr.tail())
 
 ##target_date_time_ms = 200000 # or whatever
 ##base_datetime = datetime.datetime( 1970, 1, 1 )
@@ -81,12 +86,12 @@ print('New future time\t',fdate,'\npredicted\t',z,'\nslope\t',regr.coef_)
 ##target_date = base_datetime + delta
 
 
-# In[13]:
-
-
 ##import matplotlib.pyplot as plt
 ##from matplotlib import interactive
 ##interactive(True)
+##sprinkHr.Humidity.plot(legend=True)
+##sprinkHr.Temp.plot(secondary_y=True,legend=True)
+
 ##plt.plot(mt,m)
 ##plt.plot(mt,regr.predict(mt))
 
