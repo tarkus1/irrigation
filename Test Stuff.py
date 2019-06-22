@@ -38,20 +38,15 @@ else:
 import subprocess
 import csv
 import re
-
-
-from gpiozero import LED
+import mysql.connector
 from time import sleep
 from datetime import datetime
-
-# gr=LED(4)
-# red=LED(14)
 
 theAddress = add1
 
 
 while True:
-# if True:
+
 
 
 
@@ -61,7 +56,7 @@ while True:
 
     (date,errcode) = p.communicate()
     dateObj = datetime.strptime(date.decode(),'%a %b %d %H:%M:%S %Y')
-    dateS = datetime.strftime(dateObj,'%Y%m%d %X')
+    dateS = datetime.strftime(dateObj,'%Y-%m-%d %X')
     # print(datetime.strftime(dateObj,'%Y%m%d %X'))
 
     print("Time: ",dateS)
@@ -79,22 +74,30 @@ while True:
     humid = float(output)
     print("Moisture: ", humid)
 
-#     if humid < 200 and humid > 10:
-#         print('okay')
-#         red.off()
-#         gr.on()
-#     else :
-#         print('dry');
-#         gr.off();
-#         red.on()
-
     therow=(dateS,float(temp),float(humid))
     # print(therow)
     
     f = open('/home/pi/irrigation/test.csv', 'a', newline='')
     writer = csv.writer(f)
     writer.writerow(therow)
-#     close(f)
+
+
+
+    cnx = mysql.connector.connect(user='pi', password='Skram1Skram1',
+                                  host='127.0.0.1',
+                                  database='irrigation')
+
+    curs=cnx.cursor()
+
+    sql="INSERT INTO moisture values(" + "'" + dateS + "'" + "," + str(float(temp)) + "," + str(humid) +")"
+
+    print(sql)
+    
+    curs.execute(sql)
+
+    cnx.commit()
+    cnx.close()
+
     sleep(60)
 
 close(f)

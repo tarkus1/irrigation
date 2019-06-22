@@ -3,24 +3,15 @@
 
 import pandas as pd
 import datetime
+import sqlalchemy
 
-moist = pd.read_csv('/home/pi/irrigation/test.csv')
-# moist = pd.read_csv('test.csv')
+engine = sqlalchemy.create_engine('mysql+pymysql://pi:Skram1Skram1@localhost:3306/irrigation')
 
-
-# In[2]:
-
-
-moist.columns = ["Timetemp", "Temp", "Humidity"]
-# moist
-
-moist['Time'] = pd.to_datetime(moist["Timetemp"])
-moist = moist.drop(columns='Timetemp')
-moist.dtypes
+moist = pd.read_sql_table("moisture",engine)
 
 moist = moist.set_index('Time')
 
-moist['Week']=moist.index.weekofyear
+##moist['Week']=moist.index.weekofyear
 
 ##moist.tail()
 

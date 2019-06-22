@@ -12,18 +12,14 @@ def trendline(data, order=1):
     slope = coeffs[-2]
     return float(slope)
 
-moist = pd.read_csv('~/irrigation/test.csv')
+import sqlalchemy
 
+engine = sqlalchemy.create_engine('mysql+pymysql://pi:Skram1Skram1@localhost:3306/irrigation')
 
-moist.columns = ["Timetemp", "Temp", "Humidity"]
-moist
-
-moist['Time'] = pd.to_datetime(moist["Timetemp"])
-moist = moist.drop(columns='Timetemp')
-
-##print('trendline slope results ',trendline(moist,1))
+moist = pd.read_sql_table("moisture",engine)
 
 moist = moist.set_index('Time')
+
 print(moist.tail())
 
 print('\nWhat the sprinkler module sees\n', moistFunc.humid())
