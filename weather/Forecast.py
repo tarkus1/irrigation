@@ -1,525 +1,115 @@
-{
- "cells": [
-  {
-   "cell_type": "code",
-   "execution_count": 1,
-   "metadata": {},
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "Calgary - Weather - Environment Canada\n"
-     ]
-    },
-    {
-     "data": {
-      "text/plain": [
-       "14"
-      ]
-     },
-     "execution_count": 1,
-     "metadata": {},
-     "output_type": "execute_result"
-    }
-   ],
-   "source": [
-    "import pandas as pd\n",
-    "import feedparser\n",
-    "\n",
-    "d = feedparser.parse('https://weather.gc.ca/rss/city/ab-52_e.xml')\n",
-    "print(d.feed.title)\n",
-    "len(d['items'])"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 82,
-   "metadata": {
-    "collapsed": true
-   },
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "\n",
-      "New Day  No watches or warnings in effect, Calgary \n",
-      "\n",
-      "1 \n",
-      "\n",
-      "7\n",
-      "\n",
-      "New Day  Current Conditions: Partly Cloudy, 20.4°C \n",
-      "\n",
-      "2 \n",
-      "\n",
-      "2\n",
-      "second part   Partly Cloudy, 20.4°C\n",
-      "\n",
-      "New Day  Saturday night: A few clouds. Low 8. \n",
-      "\n",
-      "2 \n",
-      "\n",
-      "2\n",
-      "second part   A few clouds. Low 8.\n",
-      "\n",
-      "New Day  Sunday: Chance of showers. High 21. POP 30% \n",
-      "\n",
-      "2 \n",
-      "\n",
-      "1\n",
-      "second part   Chance of showers. High 21. POP 30%\n",
-      "\n",
-      "POP   30%\n",
-      "\n",
-      "New Day  Sunday night: Chance of showers. Low 11. POP 30% \n",
-      "\n",
-      "2 \n",
-      "\n",
-      "2\n",
-      "second part   Chance of showers. Low 11. POP 30%\n",
-      "\n",
-      "POP   30%\n",
-      "\n",
-      "New Day  Monday: Sunny. High 24. \n",
-      "\n",
-      "2 \n",
-      "\n",
-      "1\n",
-      "second part   Sunny. High 24.\n",
-      "\n",
-      "New Day  Monday night: Chance of showers. Low 9. POP 60% \n",
-      "\n",
-      "2 \n",
-      "\n",
-      "2\n",
-      "second part   Chance of showers. Low 9. POP 60%\n",
-      "\n",
-      "POP   60%\n",
-      "\n",
-      "New Day  Tuesday: Chance of showers. High 17. POP 60% \n",
-      "\n",
-      "2 \n",
-      "\n",
-      "1\n",
-      "second part   Chance of showers. High 17. POP 60%\n",
-      "\n",
-      "POP   60%\n",
-      "\n",
-      "New Day  Tuesday night: Clear. Low 8. \n",
-      "\n",
-      "2 \n",
-      "\n",
-      "2\n",
-      "second part   Clear. Low 8.\n",
-      "\n",
-      "New Day  Wednesday: Sunny. High 19. \n",
-      "\n",
-      "2 \n",
-      "\n",
-      "1\n",
-      "second part   Sunny. High 19.\n",
-      "\n",
-      "New Day  Wednesday night: Chance of showers. Low 9. POP 60% \n",
-      "\n",
-      "2 \n",
-      "\n",
-      "2\n",
-      "second part   Chance of showers. Low 9. POP 60%\n",
-      "\n",
-      "POP   60%\n",
-      "\n",
-      "New Day  Thursday: Chance of showers. High 16. POP 60% \n",
-      "\n",
-      "2 \n",
-      "\n",
-      "1\n",
-      "second part   Chance of showers. High 16. POP 60%\n",
-      "\n",
-      "POP   60%\n",
-      "\n",
-      "New Day  Thursday night: Chance of showers. Low 9. POP 60% \n",
-      "\n",
-      "2 \n",
-      "\n",
-      "2\n",
-      "second part   Chance of showers. Low 9. POP 60%\n",
-      "\n",
-      "POP   60%\n",
-      "\n",
-      "New Day  Friday: Chance of showers. High 16. POP 60% \n",
-      "\n",
-      "2 \n",
-      "\n",
-      "1\n",
-      "second part   Chance of showers. High 16. POP 60%\n",
-      "\n",
-      "POP   60%\n",
-      "\n",
-      "POP days\n",
-      "          Day DayNight   POP Date\n",
-      "0     Sunday      day   30%  NaN\n",
-      "1     Sunday    night   30%  NaN\n",
-      "2     Monday    night   60%  NaN\n",
-      "3    Tuesday      day   60%  NaN\n",
-      "4  Wednesday    night   60%  NaN\n",
-      "5   Thursday      day   60%  NaN\n",
-      "6   Thursday    night   60%  NaN\n",
-      "7     Friday      day   60%  NaN\n"
-     ]
-    }
-   ],
-   "source": [
-    "popDF =  pd.DataFrame(columns=['Day', 'DayNight', 'POP','Date'])\n",
-    "\n",
-    "for i in range(0,14):\n",
-    "    e = d['items'][i]\n",
-    "    print(\"\\nNew Day \", e['title'],\"\\n\")\n",
-    "    fcst=e['title'].split(':')\n",
-    "    print(len(fcst),'\\n')\n",
-    "            \n",
-    "    \n",
-    "    dayNight = fcst[0].split(' ')\n",
-    "    \n",
-    "    print(len(dayNight))\n",
-    "    \n",
-    "    theDay = dayNight[0]\n",
-    "    if len(dayNight)>1:\n",
-    "        if (dayNight[1] == 'night'):\n",
-    "            timeofDay = 'night'\n",
-    "    else:\n",
-    "        timeofDay = 'day'\n",
-    "    \n",
-    "#     print(theDay, timeofDay)\n",
-    "    \n",
-    "    if len(fcst)>1:\n",
-    "        print('second part ',fcst[1])\n",
-    "        if fcst[1].find('POP') > 0:\n",
-    "            pop = fcst[1].split('POP')\n",
-    "            print('\\nPOP ',pop[1])\n",
-    "            popDF = popDF.append({'Day': theDay, 'DayNight': timeofDay, 'POP': pop[1]}, ignore_index=True)\n",
-    "\n",
-    "        \n",
-    "print('\\nPOP days\\n',popDF)\n",
-    "\n",
-    "#     print(e['link'])\n",
-    "#     print(e['description'],\"\\n\")"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 13,
-   "metadata": {},
-   "outputs": [
-    {
-     "data": {
-      "text/plain": [
-       "[datetime.datetime(2019, 7, 2, 18, 54, 21, 932900)]"
-      ]
-     },
-     "execution_count": 13,
-     "metadata": {},
-     "output_type": "execute_result"
-    }
-   ],
-   "source": [
-    "\n",
-    "from datetime import *\n",
-    "[datetime.today()+timedelta(days=x) for x in range(0,7) if (datetime.today()+timedelta(days=x)).weekday() % 7 == 1]\n",
-    "\n",
-    "# (0 at the end is for next monday, returns current date when run on monday)"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 14,
-   "metadata": {},
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "2019-07-01 18:54:25.223090\n"
-     ]
-    }
-   ],
-   "source": [
-    "from datetime import timedelta\n",
-    "def get_next_monday():\n",
-    "    date0 = datetime.now()\n",
-    "#     date0 = datetime.date(year, month, day)\n",
-    "    next_monday = date0 + timedelta(7 - date0.weekday() or 7)\n",
-    "    return next_monday\n",
-    "\n",
-    "print (get_next_monday())"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 84,
-   "metadata": {},
-   "outputs": [
-    {
-     "data": {
-      "text/html": [
-       "<div>\n",
-       "<style scoped>\n",
-       "    .dataframe tbody tr th:only-of-type {\n",
-       "        vertical-align: middle;\n",
-       "    }\n",
-       "\n",
-       "    .dataframe tbody tr th {\n",
-       "        vertical-align: top;\n",
-       "    }\n",
-       "\n",
-       "    .dataframe thead th {\n",
-       "        text-align: right;\n",
-       "    }\n",
-       "</style>\n",
-       "<table border=\"1\" class=\"dataframe\">\n",
-       "  <thead>\n",
-       "    <tr style=\"text-align: right;\">\n",
-       "      <th></th>\n",
-       "      <th>Day</th>\n",
-       "      <th>Date</th>\n",
-       "    </tr>\n",
-       "  </thead>\n",
-       "  <tbody>\n",
-       "    <tr>\n",
-       "      <th>0</th>\n",
-       "      <td>Saturday</td>\n",
-       "      <td>2019-06-29</td>\n",
-       "    </tr>\n",
-       "    <tr>\n",
-       "      <th>1</th>\n",
-       "      <td>Sunday</td>\n",
-       "      <td>2019-06-30</td>\n",
-       "    </tr>\n",
-       "    <tr>\n",
-       "      <th>2</th>\n",
-       "      <td>Monday</td>\n",
-       "      <td>2019-07-01</td>\n",
-       "    </tr>\n",
-       "    <tr>\n",
-       "      <th>3</th>\n",
-       "      <td>Tuesday</td>\n",
-       "      <td>2019-07-02</td>\n",
-       "    </tr>\n",
-       "    <tr>\n",
-       "      <th>4</th>\n",
-       "      <td>Wednesday</td>\n",
-       "      <td>2019-07-03</td>\n",
-       "    </tr>\n",
-       "    <tr>\n",
-       "      <th>5</th>\n",
-       "      <td>Thursday</td>\n",
-       "      <td>2019-07-04</td>\n",
-       "    </tr>\n",
-       "    <tr>\n",
-       "      <th>6</th>\n",
-       "      <td>Friday</td>\n",
-       "      <td>2019-07-05</td>\n",
-       "    </tr>\n",
-       "  </tbody>\n",
-       "</table>\n",
-       "</div>"
-      ],
-      "text/plain": [
-       "         Day        Date\n",
-       "0   Saturday  2019-06-29\n",
-       "1     Sunday  2019-06-30\n",
-       "2     Monday  2019-07-01\n",
-       "3    Tuesday  2019-07-02\n",
-       "4  Wednesday  2019-07-03\n",
-       "5   Thursday  2019-07-04\n",
-       "6     Friday  2019-07-05"
-      ]
-     },
-     "execution_count": 84,
-     "metadata": {},
-     "output_type": "execute_result"
-    }
-   ],
-   "source": [
-    "import calendar\n",
-    "import pandas as pd\n",
-    "\n",
-    "fcstDays = pd.DataFrame(columns=['Day', 'Date'])\n",
-    "\n",
-    "for dd in range(0,7):\n",
-    "    \n",
-    "    dayN = datetime.now() + timedelta(days=dd)\n",
-    "    dayName = calendar.day_name[dayN.weekday()]\n",
-    "    dayDt = dayN.date()\n",
-    "    \n",
-    "    fcstDays = fcstDays.append({'Day': dayName, 'Date': dayDt}, ignore_index=True)\n",
-    "\n",
-    "fcstDays"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 87,
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "fcstwk = pd.merge(popDF, fcstDays, on='Day')"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 90,
-   "metadata": {},
-   "outputs": [
-    {
-     "data": {
-      "text/html": [
-       "<div>\n",
-       "<style scoped>\n",
-       "    .dataframe tbody tr th:only-of-type {\n",
-       "        vertical-align: middle;\n",
-       "    }\n",
-       "\n",
-       "    .dataframe tbody tr th {\n",
-       "        vertical-align: top;\n",
-       "    }\n",
-       "\n",
-       "    .dataframe thead th {\n",
-       "        text-align: right;\n",
-       "    }\n",
-       "</style>\n",
-       "<table border=\"1\" class=\"dataframe\">\n",
-       "  <thead>\n",
-       "    <tr style=\"text-align: right;\">\n",
-       "      <th></th>\n",
-       "      <th>Day</th>\n",
-       "      <th>DayNight</th>\n",
-       "      <th>POP</th>\n",
-       "      <th>Date_x</th>\n",
-       "      <th>Date_y</th>\n",
-       "    </tr>\n",
-       "  </thead>\n",
-       "  <tbody>\n",
-       "    <tr>\n",
-       "      <th>0</th>\n",
-       "      <td>Sunday</td>\n",
-       "      <td>day</td>\n",
-       "      <td>30%</td>\n",
-       "      <td>2019-06-29 21:09:30.168515</td>\n",
-       "      <td>2019-06-30</td>\n",
-       "    </tr>\n",
-       "    <tr>\n",
-       "      <th>1</th>\n",
-       "      <td>Sunday</td>\n",
-       "      <td>night</td>\n",
-       "      <td>30%</td>\n",
-       "      <td>2019-06-29 21:09:30.168515</td>\n",
-       "      <td>2019-06-30</td>\n",
-       "    </tr>\n",
-       "    <tr>\n",
-       "      <th>2</th>\n",
-       "      <td>Monday</td>\n",
-       "      <td>night</td>\n",
-       "      <td>60%</td>\n",
-       "      <td>2019-06-29 21:09:30.168515</td>\n",
-       "      <td>2019-07-01</td>\n",
-       "    </tr>\n",
-       "    <tr>\n",
-       "      <th>3</th>\n",
-       "      <td>Tuesday</td>\n",
-       "      <td>day</td>\n",
-       "      <td>60%</td>\n",
-       "      <td>2019-06-29 21:09:30.168515</td>\n",
-       "      <td>2019-07-02</td>\n",
-       "    </tr>\n",
-       "    <tr>\n",
-       "      <th>4</th>\n",
-       "      <td>Wednesday</td>\n",
-       "      <td>night</td>\n",
-       "      <td>60%</td>\n",
-       "      <td>2019-06-29 21:09:30.168515</td>\n",
-       "      <td>2019-07-03</td>\n",
-       "    </tr>\n",
-       "    <tr>\n",
-       "      <th>5</th>\n",
-       "      <td>Thursday</td>\n",
-       "      <td>day</td>\n",
-       "      <td>60%</td>\n",
-       "      <td>2019-06-29 21:09:30.168515</td>\n",
-       "      <td>2019-07-04</td>\n",
-       "    </tr>\n",
-       "    <tr>\n",
-       "      <th>6</th>\n",
-       "      <td>Thursday</td>\n",
-       "      <td>night</td>\n",
-       "      <td>60%</td>\n",
-       "      <td>2019-06-29 21:09:30.168515</td>\n",
-       "      <td>2019-07-04</td>\n",
-       "    </tr>\n",
-       "    <tr>\n",
-       "      <th>7</th>\n",
-       "      <td>Friday</td>\n",
-       "      <td>day</td>\n",
-       "      <td>60%</td>\n",
-       "      <td>2019-06-29 21:09:30.168515</td>\n",
-       "      <td>2019-07-05</td>\n",
-       "    </tr>\n",
-       "  </tbody>\n",
-       "</table>\n",
-       "</div>"
-      ],
-      "text/plain": [
-       "         Day DayNight   POP                     Date_x      Date_y\n",
-       "0     Sunday      day   30% 2019-06-29 21:09:30.168515  2019-06-30\n",
-       "1     Sunday    night   30% 2019-06-29 21:09:30.168515  2019-06-30\n",
-       "2     Monday    night   60% 2019-06-29 21:09:30.168515  2019-07-01\n",
-       "3    Tuesday      day   60% 2019-06-29 21:09:30.168515  2019-07-02\n",
-       "4  Wednesday    night   60% 2019-06-29 21:09:30.168515  2019-07-03\n",
-       "5   Thursday      day   60% 2019-06-29 21:09:30.168515  2019-07-04\n",
-       "6   Thursday    night   60% 2019-06-29 21:09:30.168515  2019-07-04\n",
-       "7     Friday      day   60% 2019-06-29 21:09:30.168515  2019-07-05"
-      ]
-     },
-     "execution_count": 90,
-     "metadata": {},
-     "output_type": "execute_result"
-    }
-   ],
-   "source": [
-    "fcstwk.sort_values('Date_y')\n",
-    "fcstwk.Date_x=datetime.now()\n",
-    "fcstwk.rename(columns={'Date_x':'Forecasted Date','Date_y':'')\n",
-    "fcstwk"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {},
-   "outputs": [],
-   "source": []
-  }
- ],
- "metadata": {
-  "kernelspec": {
-   "display_name": "Python 3",
-   "language": "python",
-   "name": "python3"
-  },
-  "language_info": {
-   "codemirror_mode": {
-    "name": "ipython",
-    "version": 3
-   },
-   "file_extension": ".py",
-   "mimetype": "text/x-python",
-   "name": "python",
-   "nbconvert_exporter": "python",
-   "pygments_lexer": "ipython3",
-   "version": "3.6.8"
-  }
- },
- "nbformat": 4,
- "nbformat_minor": 2
-}
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[1]:
+
+
+import pandas as pd
+import feedparser
+
+d = feedparser.parse('https://weather.gc.ca/rss/city/ab-52_e.xml')
+print(d.feed.title)
+len(d['items'])
+
+
+# In[82]:
+
+
+popDF =  pd.DataFrame(columns=['Day', 'DayNight', 'POP','Date'])
+
+for i in range(0,14):
+    e = d['items'][i]
+    print("\nNew Day ", e['title'],"\n")
+    fcst=e['title'].split(':')
+    print(len(fcst),'\n')
+            
+    
+    dayNight = fcst[0].split(' ')
+    
+    print(len(dayNight))
+    
+    theDay = dayNight[0]
+    if len(dayNight)>1:
+        if (dayNight[1] == 'night'):
+            timeofDay = 'night'
+    else:
+        timeofDay = 'day'
+    
+#     print(theDay, timeofDay)
+    
+    if len(fcst)>1:
+        print('second part ',fcst[1])
+        if fcst[1].find('POP') > 0:
+            pop = fcst[1].split('POP')
+            print('\nPOP ',pop[1])
+            popDF = popDF.append({'Day': theDay, 'DayNight': timeofDay, 'POP': pop[1]}, ignore_index=True)
+
+        
+print('\nPOP days\n',popDF)
+
+#     print(e['link'])
+#     print(e['description'],"\n")
+
+
+# In[13]:
+
+
+
+from datetime import *
+[datetime.today()+timedelta(days=x) for x in range(0,7) if (datetime.today()+timedelta(days=x)).weekday() % 7 == 1]
+
+# (0 at the end is for next monday, returns current date when run on monday)
+
+
+# In[14]:
+
+
+from datetime import timedelta
+def get_next_monday():
+    date0 = datetime.now()
+#     date0 = datetime.date(year, month, day)
+    next_monday = date0 + timedelta(7 - date0.weekday() or 7)
+    return next_monday
+
+print (get_next_monday())
+
+
+# In[84]:
+
+
+import calendar
+import pandas as pd
+
+fcstDays = pd.DataFrame(columns=['Day', 'Date'])
+
+for dd in range(0,7):
+    
+    dayN = datetime.now() + timedelta(days=dd)
+    dayName = calendar.day_name[dayN.weekday()]
+    dayDt = dayN.date()
+    
+    fcstDays = fcstDays.append({'Day': dayName, 'Date': dayDt}, ignore_index=True)
+
+fcstDays
+
+
+# In[87]:
+
+
+fcstwk = pd.merge(popDF, fcstDays, on='Day')
+
+
+# In[90]:
+
+
+fcstwk.sort_values('Date_y')
+fcstwk.Date_x=datetime.now()
+fcstwk.rename(columns={'Date_x':'Forecasted Date','Date_y':'')
+fcstwk
+
+
+# In[ ]:
+
+
+
+
