@@ -64,8 +64,11 @@ newmt=np.array(mtmro).reshape(-1,1)
 z=regr.predict(newmt)
 print('New future time\t',fdate,'\npredicted\t',z,'\nslope\t',regr.coef_)
 
-hours=[4,5,6]
-sprinkHr = moist[moist.index.hour.isin(hours)]
+##hours=[4,5,6]
+##sprinkHr = moist[moist.index.hour.isin(hours)]
+
+sprinkHr = moist
+
 print('\n\nMean humidity between 4 and 7am\t',sprinkHr.Humidity.mean())
 
 print('\nLatest values\n',sprinkHr.tail())

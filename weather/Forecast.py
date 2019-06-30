@@ -1,32 +1,35 @@
-#!/usr/bin/env python
+#!/usr/bin/python3
 # coding: utf-8
 
-# In[1]:
 
-
+import logging
 import pandas as pd
 import feedparser
+from datetime import datetime
+import dateutil
+from pytz import timezone
 
 d = feedparser.parse('https://weather.gc.ca/rss/city/ab-52_e.xml')
-print(d.feed.title)
+##print(d.feed.title)
 len(d['items'])
 
+fcstutc = dateutil.parser.parse(d['items'][2]['published'])
+##print(fcstutc)
 
-# In[82]:
-
+fcstupd = fcstutc.astimezone(timezone('America/Edmonton'))
 
 popDF =  pd.DataFrame(columns=['Day', 'DayNight', 'POP','Date'])
 
 for i in range(0,14):
     e = d['items'][i]
-    print("\nNew Day ", e['title'],"\n")
+##    print("\nNew Day ", e['title'],"\n")
     fcst=e['title'].split(':')
-    print(len(fcst),'\n')
+##    print(len(fcst),'\n')
             
     
     dayNight = fcst[0].split(' ')
     
-    print(len(dayNight))
+##    print(len(dayNight))
     
     theDay = dayNight[0]
     if len(dayNight)>1:
@@ -38,30 +41,15 @@ for i in range(0,14):
 #     print(theDay, timeofDay)
     
     if len(fcst)>1:
-        print('second part ',fcst[1])
+##        print('second part ',fcst[1])
         if fcst[1].find('POP') > 0:
             pop = fcst[1].split('POP')
-            print('\nPOP ',pop[1])
+##            print('\nPOP ',pop[1])
             popDF = popDF.append({'Day': theDay, 'DayNight': timeofDay, 'POP': pop[1]}, ignore_index=True)
 
         
-print('\nPOP days\n',popDF)
+##print('\nPOP days\n',popDF)
 
-#     print(e['link'])
-#     print(e['description'],"\n")
-
-
-# In[13]:
-
-
-
-from datetime import *
-[datetime.today()+timedelta(days=x) for x in range(0,7) if (datetime.today()+timedelta(days=x)).weekday() % 7 == 1]
-
-# (0 at the end is for next monday, returns current date when run on monday)
-
-
-# In[14]:
 
 
 from datetime import timedelta
@@ -71,11 +59,7 @@ def get_next_monday():
     next_monday = date0 + timedelta(7 - date0.weekday() or 7)
     return next_monday
 
-print (get_next_monday())
-
-
-# In[84]:
-
+##print (get_next_monday())
 
 import calendar
 import pandas as pd
@@ -90,26 +74,25 @@ for dd in range(0,7):
     
     fcstDays = fcstDays.append({'Day': dayName, 'Date': dayDt}, ignore_index=True)
 
-fcstDays
-
-
-# In[87]:
-
+##fcstDays
 
 fcstwk = pd.merge(popDF, fcstDays, on='Day')
 
-
-# In[90]:
-
-
 fcstwk.sort_values('Date_y')
-fcstwk.Date_x=datetime.now()
-fcstwk.rename(columns={'Date_x':'Forecasted Date','Date_y':'')
-fcstwk
+fcstwk.Date_x=fcstupd
+
+fcstwk = fcstwk.rename(columns={'Date_x':'Forecast Date','Date_y':'Date Forecasted'})
+
+##print(fcstwk)
+
+fcstHist = pd.read_pickle('./FcstHistory.pkl')
+
+fcstHist = fcstHist.append(fcstwk, ignore_index=True)
+
+fcstHist = fcstHist.drop_duplicates()
 
 
-# In[ ]:
+fcstHist.to_pickle('./FcstHistory.pkl')
 
-
-
+print(fcstHist)
 
