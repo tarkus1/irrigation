@@ -4,6 +4,7 @@
 
 import logging
 import pandas as pd
+
 import feedparser
 from datetime import datetime
 import dateutil
@@ -85,14 +86,14 @@ fcstwk = fcstwk.rename(columns={'Date_x':'Forecast Date','Date_y':'Date Forecast
 
 ##print(fcstwk)
 
-fcstHist = pd.read_pickle('./FcstHistory.pkl')
+fcstHist = pd.read_pickle('/home/pi/irrigation/weather/FcstHistory.pkl')
 
 fcstHist = fcstHist.append(fcstwk, ignore_index=True)
 
 fcstHist = fcstHist.drop_duplicates()
 
 
-fcstHist.to_pickle('./FcstHistory.pkl')
+fcstHist.to_pickle('/home/pi/irrigation/weather/FcstHistory.pkl')
 
 print(fcstHist)
 
