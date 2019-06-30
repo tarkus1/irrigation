@@ -35,7 +35,9 @@
   {
    "cell_type": "code",
    "execution_count": 82,
-   "metadata": {},
+   "metadata": {
+    "collapsed": true
+   },
    "outputs": [
     {
      "name": "stdout",
