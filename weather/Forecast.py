@@ -82,11 +82,27 @@ fcstwk = pd.merge(popDF, fcstDays, on='Day')
 fcstwk.sort_values('Date_y')
 fcstwk.Date_x=fcstupd
 
-fcstwk = fcstwk.rename(columns={'Date_x':'Forecast Date','Date_y':'Date Forecasted'})
+fcstwk = fcstwk.rename(columns={'Date_x':'Forecast Published','Date_y':'Date Forecasted'})
+
+for Index, row in fcstwk.iterrows():
+    if row.DayNight == 'day':
+        zoink = pd.to_datetime(row['Date Forecasted'])+ pd.Timedelta(11, unit='h')
+#         print(zoink, 'index ',row.index, Index)
+    else:
+        zoink = pd.to_datetime(row['Date Forecasted'])+ pd.Timedelta(18, unit='h')
+#         print(zoink, 'index ',Index)
+        
+    fcstwk.at[Index, 'Date Forecasted'] = zoink
 
 ##print(fcstwk)
 
+fcstwk.POP = pd.to_numeric(fcstwk.POP.str.strip('%'))/100
+
+
 fcstHist = pd.read_pickle('/home/pi/irrigation/weather/FcstHistory.pkl')
+
+##fcstHist = fcstwk
+
 
 fcstHist = fcstHist.append(fcstwk, ignore_index=True)
 
@@ -95,7 +111,7 @@ fcstHist = fcstHist.drop_duplicates()
 
 fcstHist.to_pickle('/home/pi/irrigation/weather/FcstHistory.pkl')
 
-pfcst = fcstHist.sort_values(by=['Date Forecasted','DayNight','Forecast Date'],ascending=[True,True,False])
+pfcst = fcstHist.sort_values(by=['Date Forecasted','Forecast Published'],ascending=[True,False])
 
-print(pfcst[['Day','DayNight','Date Forecasted','POP']])
+print(pfcst[['Date Forecasted','POP','Forecast Published']].to_string(index=False))
 
