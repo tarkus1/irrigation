@@ -85,6 +85,7 @@ while True:
         
     except IOerror:
         logging.warning(" this read didn't work")
+        continue
     else:
         sleep(60)
 
