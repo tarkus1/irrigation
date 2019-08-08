@@ -11,7 +11,7 @@ import moistFunc
 
 print ("The arguments are: " , str(sys.argv))
 
-if len(sys.argv) != 4:
+if len(sys.argv) != 5:
     print("not correct info to start. need 3 times in minutes")
     exit()
     
@@ -20,7 +20,7 @@ elif int(sys.argv[1])>30 or int(sys.argv[2])>30 or int(sys.argv[3])>30:
     exit()
 
 # hardcoded moisture cut off for now
-elif moistFunc.humid() < 30:
+elif moistFunc.humid() < int(sys.argv[4]):
     print('Too wet')
     exit()
 

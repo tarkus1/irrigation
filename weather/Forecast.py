@@ -113,5 +113,9 @@ fcstHist.to_pickle('/home/pi/irrigation/weather/FcstHistory.pkl')
 
 pfcst = fcstHist.sort_values(by=['Date Forecasted','Forecast Published'],ascending=[True,False])
 
-print(pfcst[['Date Forecasted','POP','Forecast Published']].to_string(index=False))
+# pfcst.tail(14)
+
+
+
+print(pfcst[['Date Forecasted','POP','Forecast Published']].tail(14).to_string(index=False))
 

@@ -9,6 +9,8 @@ import feedparser
 from datetime import datetime
 import dateutil
 from pytz import timezone
+import mysql.connector
+import sqlalchemy
 
 d = feedparser.parse('https://weather.gc.ca/rss/city/ab-52_e.xml')
 ##print(d.feed.title)
@@ -93,9 +95,39 @@ fcstHist = fcstHist.append(fcstwk, ignore_index=True)
 fcstHist = fcstHist.drop_duplicates()
 
 
-fcstHist.to_pickle('/home/pi/irrigation/weather/FcstHistory.pkl')
+#fcstHist.to_pickle('/home/pi/irrigation/weather/FcstHistory.pkl')
 
 pfcst = fcstHist.sort_values(by=['Date Forecasted','DayNight','Forecast Date'],ascending=[True,True,False])
 
 print(pfcst[['Day','DayNight','Date Forecasted','POP']])
 
+
+engine = sqlalchemy.create_engine('mysql+pymysql://pi:Skram1Skram1@localhost:3306/irrigation')
+
+##moist = pd.read_sql_table("moisture",engine)
+
+fcstHist.to_sql("Forecast",engine,if_exists='replace')
+
+
+
+
+
+
+
+
+
+##cnx = mysql.connector.connect(user='pi', password='Skram1Skram1',
+##                              host='127.0.0.1',
+##                              database='irrigation')
+##
+##curs=cnx.cursor()
+##
+##sql="INSERT INTO Forecast values(" + Day"'" + dateS + "'" + "," + str(float(temp)) + "," + str(humid) +")"
+##
+####logging.info(sql)
+##
+##curs.execute(sql)
+##
+##cnx.commit()
+##cnx.close()
+  
