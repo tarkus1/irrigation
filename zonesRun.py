@@ -7,7 +7,10 @@ import os, csv, re
 import sys
 import RPi.GPIO as GPIO
 from datetime import datetime, timedelta
-import moistFunc
+
+
+# new sensor is oposite. water is 134
+
 
 print ("The arguments are: " , str(sys.argv))
 
@@ -20,16 +23,21 @@ elif int(sys.argv[1])>30 or int(sys.argv[2])>30 or int(sys.argv[3])>30:
     exit()
 
 # hardcoded moisture cut off for now
-elif moistFunc.humid() < int(sys.argv[4]):
-    print('Too wet')
-    exit()
+elif int(sys.argv[4]) > 0:
+    import moistFunc
+    if moistFunc.humid() < int(sys.argv[4]):
+        print('Too wet')
+        exit()
+# does this continue?
 
 else:
-    zt1 = int(sys.argv[1]) *60
-    zt2 = int(sys.argv[2]) *60
-    zt3 = int(sys.argv[3]) *60
-    print('Started running', datetime.now().strftime('%H:%M:%S'),"\n")
-    print("Zone 1 for " ,zt1, "\nZone 2 for " ,zt2, "\nZone 3 for " ,zt3)
+    print("starting to sprinkle\n")
+
+zt1 = int(sys.argv[1]) *60
+zt2 = int(sys.argv[2]) *60
+zt3 = int(sys.argv[3]) *60
+print('Started running', datetime.now().strftime('%H:%M:%S'),"\n")
+print("Zone 1 for " ,zt1, "\nZone 2 for " ,zt2, "\nZone 3 for " ,zt3)
 
 zone1 = OutputDevice(16, active_high=False, initial_value=False)
 zone2 = OutputDevice(20,active_high=False, initial_value=False)
