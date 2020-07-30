@@ -87,6 +87,6 @@ while True:
         logging.warning(" this read didn't work")
         continue
     else:
-        sleep(60)
+        sleep(300)
 
 #close(f)
