@@ -1,7 +1,7 @@
-#!/usr/bin/python3
+#!/usr/bin/env python
 # coding: utf-8
 
-# In[14]:
+# In[9]:
 
 
 import logging
@@ -11,19 +11,25 @@ import feedparser
 from datetime import datetime
 import dateutil
 from pytz import timezone
-import mysql.connector
-import sqlalchemy
+# import mysql.connector
+# import sqlalchemy
 
 d = feedparser.parse('https://weather.gc.ca/rss/city/ab-52_e.xml')
 print("title ",d.feed.title)
 len(d['items'])
+
+
+# In[10]:
+
+
+
 
 fcstutc = dateutil.parser.parse(d['items'][2]['published'])
 print("time ",fcstutc)
 
 fcstupd = fcstutc.astimezone(timezone('America/Edmonton'))
 
-popDF =  pd.DataFrame(columns=['Day', 'DayNight', 'POP','Date'])
+popDF =  pd.DataFrame(columns=['Day', 'DayNight', 'POP','Date','Temp'])
 
 timeofDay ="undef"
 
@@ -48,8 +54,33 @@ for i in range(0,14):
     
     if len(fcst)>1:
         print('second part ',fcst[1])
+        
         theDirt = fcst[1].split(' ')
-        print("the dirt ", theDirt)
+        dirtLen = len(theDirt)
+        print("the dirt ", theDirt, "length ", dirtLen)
+        
+        try:
+            index = theDirt.index('Low')
+            theTemp = theDirt[index+1].split('.')[0]
+            
+        except ValueError: 
+            index = 'no low'
+            theTemp = ''
+            
+        print('low', index, 'temp ', theTemp)
+        
+        if theTemp == '':
+            try:
+                index = theDirt.index('High')
+                theTemp = theDirt[index+1].split('.')[0]
+                
+
+            except ValueError: 
+                index = 'no high'
+                theTemp = ''
+            print('high', index, 'temp ', theTemp)
+
+        
         
         if fcst[1].find('Rain') > 0:
             #pop = fcst[1].split('POP')
@@ -62,16 +93,20 @@ for i in range(0,14):
         else:
             pop = 0
         
-        popDF = popDF.append({'Day': theDay, 'DayNight': timeofDay, 'POP': pop}, ignore_index=True)
+       
+        
+        popDF = popDF.append({'Day': theDay, 'DayNight': timeofDay, 'POP': pop, 'Temp': theTemp}, ignore_index=True)
 
         
 print('\nPOP days\n',popDF)
 
 
-# In[15]:
+# In[11]:
 
 
-from datetime import timedelta
+from datetime import datetime, timedelta
+import dateutil
+
 def get_next_monday():
     date0 = datetime.now()
 #     date0 = datetime.date(year, month, day)
@@ -81,7 +116,6 @@ def get_next_monday():
 print ("next monday ", get_next_monday())
 
 import calendar
-import pandas as pd
 import pandas as pd
 
 fcstDays = pd.DataFrame(columns=['Day', 'Date'])
@@ -106,21 +140,23 @@ fcstwk = fcstwk.rename(columns={'Date_x':'Forecast Date','Date_y':'Date Forecast
 print(fcstwk)
 
 
-# In[29]:
+# In[12]:
 
 
-fcstHist = pd.read_pickle('/home/pi/irrigation/weather/FcstHistoryNew.pkl')
+# fcstHist = pd.read_pickle('/home/pi/irrigation/weather/FcstHistoryNew.pkl')
+fcstHist = pd.read_pickle('/home/perrinms/irrigation/weather/FcstHistoryNew.pkl')
 
-fcstHist = fcstHist.append(fcstwk, ignore_index=True)
+# fcstHist = fcstHist.append(fcstwk, ignore_index=True)
 
-fcstHist = fcstHist.drop_duplicates()
+# fcstHist = fcstHist.drop_duplicates()
 
 
-fcstHist.to_pickle('/home/pi/irrigation/weather/FcstHistoryNew.pkl')
+# fcstHist.to_pickle('/home/pi/irrigation/weather/FcstHistoryNew.pkl')
+fcstHist.to_pickle('/home/perrinms/irrigation/weather/FcstHistoryNew.pkl')
 
 pfcst = fcstHist.sort_values(by=['Forecast Date','Date Forecasted','DayNight'],ascending=[True, True,True])
 
-print(pfcst[['Forecast Date','Day','DayNight','Date Forecasted','POP']].tail(50))
+print(pfcst[['Forecast Date','Day','DayNight','Date Forecasted','POP','Temp']].tail(50))
 
 #wfcst = fcstwk.sort_values(by=['Forecast Date','Date Forecasted','DayNight'],ascending=[True, False,True])
 
@@ -128,8 +164,33 @@ print(pfcst[['Forecast Date','Day','DayNight','Date Forecasted','POP']].tail(50)
 
 
 
-engine = sqlalchemy.create_engine('mysql+pymysql://pi:Skram1Skram1@localhost:3306/irrigation')
+# In[13]:
 
-##moist = pd.read_sql_table("moisture",engine)
 
-fcstHist.to_sql("Forecast",engine,if_exists='replace')
+fcstHist.dtypes
+
+
+# In[14]:
+
+
+# fctest = fcstHist[['Date Forecasted','Day','POP']].copy()
+# fctest
+
+
+# In[15]:
+
+
+# import sqlalchemy
+
+# engine = sqlalchemy.create_engine('mysql+pymysql://pi:Skram1Skram1@localhost:3306/irrigation')
+
+# ##moist = pd.read_sql_table("moisture",engine)
+
+# fcstHist.to_sql("Forecast",engine,if_exists='replace')
+
+
+# In[ ]:
+
+
+
+
