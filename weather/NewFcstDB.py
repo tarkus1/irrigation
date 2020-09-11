@@ -62,6 +62,8 @@ for i in range(0,14):
         try:
             index = theDirt.index('Low')
             theTemp = theDirt[index+1].split('.')[0]
+            if theTemp == 'plus' or theTemp == 'minus':
+                theTemp = theDirt[index+2].split('.')[0]
             
         except ValueError: 
             index = 'no low'
@@ -73,7 +75,9 @@ for i in range(0,14):
             try:
                 index = theDirt.index('High')
                 theTemp = theDirt[index+1].split('.')[0]
-                
+                if theTemp == 'plus' or theTemp == 'minus':
+                    theTemp = theDirt[index+2].split('.')[0]
+               
 
             except ValueError: 
                 index = 'no high'
@@ -142,17 +146,17 @@ print(fcstwk)
 
 # In[12]:
 
-
+fcstHist = fcstwk
 # fcstHist = pd.read_pickle('/home/pi/irrigation/weather/FcstHistoryNew.pkl')
-fcstHist = pd.read_pickle('/home/perrinms/irrigation/weather/FcstHistoryNew.pkl')
+# fcstHist = pd.read_pickle('/home/perrinms/irrigation/weather/FcstHistoryNew.pkl')
 
 # fcstHist = fcstHist.append(fcstwk, ignore_index=True)
 
 # fcstHist = fcstHist.drop_duplicates()
 
 
-# fcstHist.to_pickle('/home/pi/irrigation/weather/FcstHistoryNew.pkl')
-fcstHist.to_pickle('/home/perrinms/irrigation/weather/FcstHistoryNew.pkl')
+fcstHist.to_pickle('/home/pi/irrigation/weather/FcstHistoryNew.pkl')
+# fcstHist.to_pickle('/home/perrinms/irrigation/weather/FcstHistoryNew.pkl')
 
 pfcst = fcstHist.sort_values(by=['Forecast Date','Date Forecasted','DayNight'],ascending=[True, True,True])
 
@@ -167,7 +171,7 @@ print(pfcst[['Forecast Date','Day','DayNight','Date Forecasted','POP','Temp']].t
 # In[13]:
 
 
-fcstHist.dtypes
+# fcstHist.dtypes
 
 
 # In[14]:
@@ -180,13 +184,13 @@ fcstHist.dtypes
 # In[15]:
 
 
-# import sqlalchemy
+import sqlalchemy
 
-# engine = sqlalchemy.create_engine('mysql+pymysql://pi:Skram1Skram1@localhost:3306/irrigation')
+engine = sqlalchemy.create_engine('mysql+pymysql://pi:Skram1Skram1@localhost:3306/irrigation')
 
-# ##moist = pd.read_sql_table("moisture",engine)
 
-# fcstHist.to_sql("Forecast",engine,if_exists='replace')
+
+fcstHist.to_sql("Forecast",engine,if_exists='replace')
 
 
 # In[ ]:
