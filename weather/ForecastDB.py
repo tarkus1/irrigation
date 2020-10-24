@@ -63,9 +63,14 @@ for i in range(0,14):
             index = theDirt.index('Low')
             theTemp = theDirt[index+1].split('.')[0]
             if theTemp == 'plus':
-                theTemp = theDirt[index+2].split('.')[0]
+                theTemp = float(theDirt[index+2].split('.')[0])
             elif theTemp == 'minus':
                 theTemp = float(theDirt[index+2].split('.')[0])*-1
+            elif theTemp == 'zero':
+                theTemp = 0
+            else:
+                theTemp = float(theTemp)
+                    
             
         except ValueError: 
             index = 'no low'
@@ -81,7 +86,11 @@ for i in range(0,14):
                     theTemp = theDirt[index+2].split('.')[0]
                 elif theTemp == 'minus':
                     theTemp = float(theDirt[index+2].split('.')[0])*-1
-               
+                elif theTemp == 'zero':
+                    theTemp = 0
+                else:
+                    theTemp = float(theTemp)
+                
 
             except ValueError: 
                 index = 'no high'
